@@ -44,11 +44,14 @@ from the allowlist — unlisted mail is never searched or read.
 
 **3. Connect their calendar.** Their own calendar account.
 
-**4. Learn their calendar system — do not skip this.** Before writing
+**4. Learn their calendar system — and show your work.** Before writing
 anything, read their calendar list and a few weeks of events. Infer how they
-organize: per-kid calendars? per-domain? one big calendar? Note their title
-formats, busy-vs-free conventions, and who gets invited to what. Then follow
-that system exactly. Extend it; never reorganize, rename, or "clean up."
+organize: per-kid calendars? per-domain? one big calendar? Note title
+formats, busy-vs-free conventions, and who gets invited to what. Then **tell
+the parent what you found**, briefly: "Here's how I see your system —
+[2–3 lines]. I'll follow it exactly — anything I got wrong?" This is a wow
+moment: the agent demonstrating it understands their life before touching
+anything. Extend the system; never reorganize, rename, or "clean up."
 
 **5. Two questions, then value.** Ask: (a) "Who are your kids? Name, grade,
 teacher — like 'Maya, K, Stremel'." (b) "What should go on your calendar?
