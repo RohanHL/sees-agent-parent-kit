@@ -7,13 +7,20 @@ never in this repo, never in a commit, never pasted anywhere public.
 
 ## What to load first
 
-1. `school-facts.md` — verified school facts (office numbers, enrollment,
-   policies). Every fact you state from here must be traceable to its source.
-2. `school-dates.md` — approved school-wide dated items for 2026–27.
-3. `senders.json` — the Gmail allowlist preset for SEES.
-4. `TRIAGE.md` — the full spec for the weekly triage job (extraction schema,
+Fetch these directly — they are plain web pages, no GitHub account needed:
+
+1. `SETUP.md` (this file) — the onboarding script.
+2. `TRIAGE.md` — the full spec for the weekly triage job (extraction schema,
    checks, calendar rules, digest format). Read it before the first triage.
-5. The public calendar: subscribe the parent to
+   https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/TRIAGE.md
+3. `school-facts.md` — verified school facts (office numbers, enrollment,
+   policies). Every fact you state from here must be traceable to its source.
+   https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-facts.md
+4. `school-dates.md` — approved school-wide dated items for 2026–27.
+   https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-dates.md
+5. `senders.json` — the Gmail allowlist preset for SEES.
+   https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/senders.json
+6. The public calendar: subscribe the parent to
    `b81a1bb5fc3bceaea7f44c2e5ee3dccb4b28489cd20f172772b19d8c90a26c2e@group.calendar.google.com`
    ("SEES 2026-2027 (parent-run)") if they want the shared school calendar
    alongside their own.
@@ -140,9 +147,14 @@ the conflict, never silently resolve); never store an unproven time.
 A question the knowledge store can't answer is a triage miss: feed it back
 into the extraction behavior (e.g. "what time is the winter festival?" →
 always extract event times from the PTO newsletter). Time-sensitive facts
-decay — don't store them as durable memory.
+decay — don't store them as durable memory. If you spot a school-wide item
+missing from or contradicting the publisher package, tell the parent and
+offer to report it to Rohan (they can forward it) — you are the sensor
+network for the shared school layer.
 
 ## Refresh
 
-Re-read this repo's files weekly (`generated-at` headers). When the publisher
-updates facts, dates, or senders, pick them up without being asked.
+Re-fetch this repo's files weekly via the raw URLs above (no login needed).
+Check the `generated-at` headers: pick up updated facts, dates, and senders
+without being asked. If a file looks older than expected, flag it — don't
+trust stale data blindly.

@@ -9,13 +9,14 @@ and answering school questions with sources.
 - **Gmail** — your school email needs to arrive here (most SEES families get
   it via ParentSquare digests).
 - **Google Calendar** — where the assistant proposes events for your approval.
-- An AI assistant that can read this repo and connect to both (Muse, ChatGPT,
-  or Claude all work). If yours can't open the link below, paste the contents
-  of `SETUP.md` into it instead.
+- An AI assistant that can open web links and connect to both (Muse, ChatGPT,
+  or Claude all work). No GitHub account needed — the links below are plain
+  web pages. If yours can't open the link, paste the contents of `SETUP.md`
+  into it instead.
 
 ## For parents: one line
 
-> **Set me up as a SEES parent: https://github.com/RohanHL/sees-agent-parent-kit**
+> **Set me up as a SEES parent — read https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/SETUP.md and follow it.**
 
 Your assistant will:
 
