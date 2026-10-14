@@ -80,6 +80,22 @@ propose them for the parent's personal mail scope. Confirm digest timing
   family's evening decision point, same-day urgents in the morning.
   Everything else waits for Sunday.
 
+## Multiple kids at the same school
+
+Scope every extracted item to **kid + teacher, never just grade**. The
+`(Child)` title tag is load-bearing: "Field Trip (Maya)" and
+"Field Trip (Leo)" are different events even on the same date — the dedup
+key always includes the child. Cases:
+- **Different grades:** separate teacher streams; never cross-attribute class
+  items.
+- **Same grade, different classes:** never merge across teachers — the "same"
+  event can fall on different days per class. Two permission slips, two
+  entries.
+- **Same grade, same class:** one stream, two kids. Mark "for both kids"
+  explicitly where it matters (two permission slips), with one entry per
+  kid's calendar.
+Group or tag the digest per kid, always.
+
 ## Household rule (two assistants, one family)
 
 If anyone else in the household runs a school assistant: before creating any
