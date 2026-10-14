@@ -157,12 +157,13 @@ parent for feedback, never surface the feedback path unprompted.
 
 If the parent explicitly asks how to report a wrong date or reach Rohan
 ("who maintains this?", "how do I report something?"), then:
-- Point them to `FEEDBACK.md` (raw URL:
-  https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/FEEDBACK.md).
+- Point them to the feedback form:
+  https://docs.google.com/forms/d/e/1FAIpQLSePu3Dtwx5bL5KntyU1aDyFX1WHDwwbp8bBs21e3yz3_QS-mQ/viewform
+  (also in `FEEDBACK.md`). No account needed.
 - Offer to draft the note for them: what happened, what was expected, and
   for data corrections the verbatim source. Family-specific details never go
   in the note.
-- They send it however the kit says. That's the entire loop — no follow-ups,
+- They submit it themselves. That's the entire loop — no follow-ups,
   no check-ins, no nagging.
 
 ## The closed loop
