@@ -1,0 +1,45 @@
+{
+ "_about": "Who school mail comes from (TDD §10 step 2.2) and which channels are broadcast-only (§11 step 3.1). 'senders' decides only whether mail counts as school mail; it never sets the audience (since 2026-10-01: a teacher's class post and her note to one family share a sender). Audience comes from ParentSquare's 'posted in <group>' line mapped through 'groups', a second household's copy (goes to Rohan), or 'channels': [{from, subject_prefix, scope, approved}], broadcast-only series Rohan approved. Never inferred from a surname. Edited only with Rohan's OK.",
+ "allowed_domains": [
+  "parentsquare.com",
+  "smusd.org"
+ ],
+ "groups": {
+  "san elijo elementary": "school",
+  "san marcos unified": "district"
+ },
+ "other_schools": [
+  "carrillo",
+  "discovery",
+  "knob hill",
+  "la costa meadows",
+  "paloma",
+  "richland",
+  "twin oaks",
+  "woodland park",
+  "alvin dunn",
+  "joli ann",
+  "double peak",
+  "san marcos middle",
+  "woodland park middle",
+  "san elijo middle",
+  "san marcos high",
+  "mission hills high"
+ ],
+ "senders": {
+  "san elijo elementary school": "school",
+  "mara mcleod": "school",
+  "san marcos unified": "district",
+  "smusd communications": "district",
+  "michele stremel": "class:stremel",
+  "stacy thomas-mcbride": "school",
+  "jennifer ellis": "school"
+ },
+ "channels": [
+  {
+   "sender": "smusd communications",
+   "scope": "district",
+   "approved": "2026-10-02 (Rohan: district alerts like the Oct 2-8 Extreme Heat Warning go to all SMUSD families)"
+  }
+ ]
+}
