@@ -109,11 +109,25 @@ Group or tag the digest per kid, always.
 
 ## Household rule (two assistants, one family)
 
-If anyone else in the household runs a school assistant: before creating any
-event, check for existing events **including ones marked "Added by…" from the
-other assistant** — same date + same child + same event means skip, no matter
-who created it. Consider designating one writer per household to avoid
-duplicates entirely.
+The shared calendar is the family's operating picture — not a shared chat.
+Both parents work off the same calendars; the agents' job is to keep those
+calendars (and both parents' awareness) current. Roles:
+
+- **One writer per household.** Designate whose assistant creates calendar
+  events (ask during onboarding). The writer's assistant is the only one
+  that writes to the shared family calendars.
+- **The other assistant is a reader.** It does full triage for Q&A, but
+  never creates calendar events. Before creating anything, the writer checks
+  for existing events **including ones marked "Added by…" from the other
+  assistant** — same date + same child + same event means skip, no matter
+  who created it.
+- **Push awareness for both.** The reader's digest and daily sweep include
+  "what's new on the shared calendars" — so the non-writing parent sees
+  what got added even if they didn't check the calendar itself. Neither
+  parent has to rely on the other for the briefing.
+- **Owners stay human.** When a logistics change needs someone to own it
+  ("pickup moved to 12:30 Wednesday — who's got it?"), flag it in the
+  digest; don't assign it. Remember who they pick for next time.
 
 ## Extraction schema (every dated item)
 
