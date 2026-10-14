@@ -132,6 +132,12 @@ calendars (and both parents' awareness) current. Roles:
   "what's new on the shared calendars" — so the non-writing parent sees
   what got added even if they didn't check the calendar itself. Neither
   parent has to rely on the other for the briefing.
+- **Or skip the second setup entirely (notify model).** The writer's
+  assistant drafts a short notification for the other parent whenever
+  something they need to know lands — pickup changes, new events, owner
+  needed. The writing parent approves the exact text and sends it (one tap;
+  no second agent, no second onboarding). Best when one parent is the
+  household's school operator and the other just wants the headlines.
 - **Owners stay human.** When a logistics change needs someone to own it
   ("pickup moved to 12:30 Wednesday — who's got it?"), flag it in the
   digest; don't assign it. Remember who they pick for next time.
