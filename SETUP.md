@@ -27,10 +27,14 @@ Fetch these directly — they are plain web pages, no GitHub account needed:
 
 ## Setup flow
 
-**1. Create the home for this.** Create a dedicated side chat / new
-conversation titled "SEES Assistant" and continue there. Everything
-school-related lives in that chat from now on: onboarding, Q&A, the digest,
-calendar proposals. Do not run this in the parent's main chat.
+**1. Create the home for this — one thread only.** The school assistant lives
+in exactly one conversation. If the parent primarily uses WhatsApp, this
+WhatsApp thread *is* the home — skip creating anything else. Otherwise,
+create a dedicated side chat / new conversation titled "SEES Assistant" and
+continue there. Everything school-related lives in that one thread from now
+on: onboarding, Q&A, the digest, calendar proposals. Never run the school
+assistant in two threads — two threads means two agents triaging the same
+mail.
 
 **2. Connect Gmail — explain before the tap.** Tell the parent, in plain
 words: "I'll only ever search school senders — here is the exact list:"
