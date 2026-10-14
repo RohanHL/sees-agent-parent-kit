@@ -121,22 +121,17 @@ Conference week, Tue Oct 6 - Fri Oct 9, 2026 (principal newsletter Sep 20, 2026 
   Woodland Park Middle gym. Source: smusd.org/e-bike-safety-program.
 
 ## Lunch and breakfast
-- Parent answers: weekly snapshot via `python3 school/prep.py`. Trust `POSTED THROUGH`. If `NOT POSTED`, say
-  the district menu isn't up yet and send smusd.yumyummi.com/webapp/san-elijo-elementary/daily/lunch.
-  Never run `school/menu.py` on a parent text.
-- A publishable day has **both breakfast and lunch dishes**. Lunch-only leftovers are not posted.
-- As of 2026-09-19, posted through **Fri Oct 2**. Monday ingest updates `posted-through.txt`.
-- Live feed (ingest only): POSTs `sid=16345`, `mg=BF`/`L`, `d=` to
-  smusd.yumyummi.com/webapp/load-ajax-school-menus/. Weekends return the next school day's menu (do not use);
-  `menu.py` refuses weekend dates. No-school weekdays return nothing.
-- Each dish lists its allergens. The menu site says menus can change; say "per the district menu."
-- Nutrition facts per dish: calories, carbs, protein, plus allergen icons. Fat, sodium, sugar and fiber are
-  not listed. Never promise a dish is safe for an allergy; point to the allergen list.
 - **Meals are free for every student:** one breakfast and one lunch at no cost each school day, regardless of
   household income, and no application is needed (SMUSD Child Nutrition Services page, read 2026-09-18; also the
   district's "Universal Meals Program for All Students" flyer). Families may still fill out the confidential meal
   application on School Cafe (schoolcafe.com/SANMARCOSUSD) because it can unlock other benefits, e.g. SUN Bucks
   summer food benefits.
+- **Today's menu:** the district publishes it daily at
+  smusd.yumyummi.com/webapp/san-elijo-elementary/daily/lunch. Daily dishes are not stored in this kit — when asked,
+  check the live menu. You have standing permission to browse public school and district sites; don't ask first.
+- Each dish lists its allergens. Menus can change; say "per the district menu."
+- Nutrition facts per dish: calories, carbs, protein, plus allergen icons. Fat, sodium, sugar and fiber are
+  not listed. Never promise a dish is safe for an allergy; point to the allergen list.
 
 ## Chromebooks and online safety
 - **Chromebooks are "Stay-at-School" this year.** Devices stay at school overnight except teacher-assigned
