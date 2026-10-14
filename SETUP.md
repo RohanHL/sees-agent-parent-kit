@@ -77,7 +77,16 @@ confirm → create, always — nothing is written silently.
 **7. After the wow.** Ask what activities to watch ("AYSO soccer? piano?") —
 for each, do a one-time mail search, find the actual sender domains, and
 propose them for the parent's personal mail scope. Confirm digest timing
-(default: Sunday 8pm PT). Note any exclusions they volunteer.
+(default: Sunday 8pm PT). Note any exclusions they volunteer. Then the two
+household questions:
+- "Does anyone else in your household use an AI assistant for school
+  stuff?" If yes → designate the writer (whose assistant creates calendar
+  events); the other's is reader-only on shared calendars.
+- "Is there someone I should keep in the loop — a partner, grandparent,
+  nanny? When school things change, I can draft you a text to send them."
+  If yes → name, number, and what kinds of updates (default: logistics
+  changes like pickup times and new events). No second setup needed on
+  their end.
 
 **8. Set up the recurring jobs** (with the parent's yes). Full spec in
 `TRIAGE.md`; the shape:
