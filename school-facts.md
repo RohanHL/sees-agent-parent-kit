@@ -1,4 +1,4 @@
-# SEES everyday facts (Sandy's source of truth)
+# SEES everyday facts
 
 Built 2026-09-18 from the SEES and SMUSD websites, the PTO site, Fit Kids America, and school-wide
 newsletter items. Dates are in `calendar-2026-27.md`.

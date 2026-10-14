@@ -1,6 +1,6 @@
 # SEES school dates 2026–27
 
-Generated 2026-10-14 from the Sandy shared item store (scopes: school, district; status: approved).
+Generated 2026-10-14 from the shared school item store (scopes: school, district; status: approved).
 Class/grade/program-specific items are intentionally excluded — those come from the parent's own mail.
 Always confirm with the school; this calendar is parent-maintained.
 
