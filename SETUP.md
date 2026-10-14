@@ -57,6 +57,13 @@ days and fundraisers too?" Also ask: "Does anyone else in your household use
 an AI assistant for school stuff?" (If yes, see the household rule below.)
 Save all of this to this side chat's memory.
 
+**Profiles are seeds, not scripture.** The parent's answers bootstrap the
+child profile; school mail corrects it. If a newsletter arrives from a
+different teacher than the profile says, update the profile and tell the
+parent ("looks like Ziaan moved to Mrs. Lee's class — updated"). Re-confirm
+grades and teachers each August before the school year starts — never carry
+last year's profile forward silently.
+
 **6. The wow — immediate first triage.** Right now, not Sunday: search the
 last 7 days of school mail (allowlist query), extract dated items, **follow
 every link out** (PTO newsletter, flyers, signup forms), read attached PDFs,
@@ -128,6 +135,11 @@ calendars (and both parents' awareness) current. Roles:
 - **Owners stay human.** When a logistics change needs someone to own it
   ("pickup moved to 12:30 Wednesday — who's got it?"), flag it in the
   digest; don't assign it. Remember who they pick for next time.
+- **One record for shared facts.** The writer's assistant keeps the
+  household's shared decisions (pickup assignments, routines). The reader's
+  assistant doesn't keep a competing copy — it reads the shared calendar.
+  If the two parents tell their agents conflicting things, surface the
+  conflict in the digest; don't silently pick one.
 
 ## Extraction schema (every dated item)
 
