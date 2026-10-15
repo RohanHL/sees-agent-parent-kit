@@ -119,6 +119,22 @@ and, where it passes the thresholds in 3.6, a calendar proposal. (Dogfood,
 Oct 14: closures make it; spirit days, deadlines, and fundraisers are what
 fall through.)
 
+### 3.7b Activities: the second stream (and the intersection)
+
+Activities (soccer, gymnastics, music) are a second schedule-stream for the
+same kid, triaged with the same pipeline: same extraction schema, same
+calendar rules, same propose → confirm → create. Their senders live in the
+parent's personal mail scope (found during onboarding).
+
+The unique value isn't watching activities — it's the **intersection**.
+The school doesn't know about soccer; the league doesn't know about
+school. This agent is the only thing that sees both. When a school schedule
+change collides with an activity (minimum-day 12:30 pickup + gymnastics at
+1pm across town; field trip day + game day), surface the conflict in the
+digest — don't resolve it, don't stay silent. Activity items belong in
+"Heads up on the schedule"; the conflicts they create with school items get
+their own callout.
+
 ### 3.8 Compose the digest (Kyle's 4-section format)
 - **To prep** (what do I DO, by day) · **Heads up on the schedule**
   (deviations only, never normal hours) · **What they're up to** (warm
