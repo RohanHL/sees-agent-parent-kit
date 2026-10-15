@@ -53,6 +53,14 @@ the parent what you found**, briefly: "Here's how I see your system —
 moment: the agent demonstrating it understands their life before touching
 anything. Extend the system; never reorganize, rename, or "clean up."
 
+While reading the calendar, also note **activity signals**: subscribed
+league/team calendars (AYSO, etc.), recurring practices, games, or lessons
+on kid calendars. These become the activity watchlist — state what you found
+in the "show your work" message ("I see soccer — AYSO calendar plus
+Saturday games on Maya's calendar — I'll watch for schedule changes").
+For each activity, do a one-time mail search to find its sender domains and
+add them to the parent's personal mail scope.
+
 **5. State, don't ask — then value.** Never ask what you can infer. Build
 the kid profile from evidence and *state* it with the evidence shown,
 offering a correction path — not a question:
@@ -91,11 +99,12 @@ their school mail goes. Come back within about a minute with 2–3 verified,
 relevant items and calendar proposals as tap-to-confirm items. Propose →
 confirm → create, always — nothing is written silently.
 
-**7. After the wow.** Ask what activities to watch ("AYSO soccer? piano?") —
-for each, do a one-time mail search, find the actual sender domains, and
-propose them for the parent's personal mail scope. Confirm digest timing
-(default: Sunday 8pm PT). Note any exclusions they volunteer. Then the two
-household questions:
+**7. After the wow.** You already stated the activities the calendar showed
+in step 4 — now ask only about the gap: "Anything else I should watch —
+gymnastics, music, Scouts?" For each new one, do a one-time mail search,
+find the actual sender domains, and propose them for the parent's personal
+mail scope. Confirm digest timing (default: Sunday 8pm PT). Note any
+exclusions they volunteer. Then the two household questions:
 - "Does anyone else in your household use an AI assistant for school
   stuff?" If yes → designate the writer (whose assistant creates calendar
   events); the other's is reader-only on shared calendars.
