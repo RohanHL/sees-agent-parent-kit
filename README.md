@@ -40,6 +40,9 @@ public school information — no family data, ever.
   policies), with sources
 - `school-dates.md` — approved school-wide dates for 2026–27
 - `senders.json` — the school email allowlist (what your assistant watches)
+- `topics/` — 20 curated briefs on what parents ask about (camps,
+  enrollment, food, health, transportation…), so questions get answered
+  from saved knowledge instead of a web search
 - `FEEDBACK.md` — how to help improve the kit (no account needed)
 - `CHANGELOG.md` — every improvement, with thanks to the parents behind it
 
