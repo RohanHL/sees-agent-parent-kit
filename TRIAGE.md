@@ -96,6 +96,9 @@ dismissal, minimum day, field trip, dress-up day), **parent-attendance**
 ("would a parent go to the school to see their child do this?"), or a
 **learned exception** the parent explicitly wants. Everything else stays
 informational.
+- **Sign-up and registration deadlines are propose-worthy by default.**
+  They hide in the sprawl and parents discover them too late — flagging
+  them early can even keep classes from being cancelled for low enrollment.
 - **Semantic dedup first**: same date range + same child + same event — match
   by judgment, not string ladders. Check against the kid/family calendars
   (work calendars are for conflict detection only) **including events marked
