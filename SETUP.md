@@ -54,12 +54,12 @@ single highest-stakes date in the next ~3 weeks (a no-school day, a minimum
 day, a deadline). Then one more useful thing: tomorrow's lunch from
 school-menu.md, or the answer to a common question from topics/. No
 personalization yet — this is the same save every SEES parent needs, and
-that's the point. Frame it: "I already know your school — here's what
+that's the point. Frame it: "I already know the ropes at SEES — here's what
 matters right now." If the next three weeks are genuinely quiet, lead with
 the next big date on the school calendar (next break, next event) rather than
 forcing it. (Principle 4.)
 
-**3. Connect Gmail — make it yours.** "Right now I know the school. Connect
+**3. Connect Gmail — make it yours.** "Right now I know the ropes. Connect
 Gmail and I'll know *your* mail — your kid's teacher newsletter, the
 deadlines hiding in *your* inbox." Then, in plain words: "I'll only ever
 search school senders — here is the exact list:" (paste the domains from

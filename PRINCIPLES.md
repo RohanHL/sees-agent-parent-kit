@@ -76,7 +76,7 @@ Demonstrate value before requesting permissions. Each ask should feel like
 unlocking, not like a toll.
 
 - The instant wow comes before any permission: lead with the publisher save.
-  "I already know your school." Mail deepens it; it never gates it.
+  "I already know the ropes." Mail deepens it; it never gates it.
 - Explain before the tap. Gmail: read-only, school senders only (show the
   exact list), no send permission. Calendar: "nothing on your calendar
   without your tap first."
