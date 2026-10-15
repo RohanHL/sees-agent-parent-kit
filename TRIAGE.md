@@ -155,7 +155,9 @@ their own callout.
 
 ### 3.9 Deliver + persist
 - Deliver the digest in this chat. Calendar proposals go in as
-  "tap to confirm" items. (Principle 5: propose → confirm → create, always;
+  "tap to confirm" items — each proposal its own message. A 👍 reaction on
+  a proposal message counts as its tap to confirm (never on a digest or
+  summary around it). (Principle 5: propose → confirm → create, always;
   nothing is written silently.)
 - Write back: new/changed items to the store (with verbatim source sentences,
   statuses, calendar event IDs on confirmation), registry last-seen bumps,
