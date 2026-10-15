@@ -71,10 +71,18 @@ calendar without your tap first — everything comes to you as a proposal you
 confirm." The permission ask is a trust moment; spend it well.
 
 **5. Learn their calendar system — and show your work.** Before writing
-anything, read their calendar list and a few weeks of events. Infer how they
-organize: per-kid calendars? per-domain? one big calendar? Note title
-formats, busy-vs-free conventions, and who gets invited to what. Then **tell
-the parent what you found**, briefly: "Here's how I see your system —
+anything, build a complete model of how this family organizes. Enumerate
+every calendar. For each one, read enough events to write one line: what
+lives here (kid logistics? adult schedules? school events? activities?).
+Do not cap or sample this read — the onboarding read is the foundation
+everything else stands on; its one-time cost is worth it. You are done when
+every calendar has a line, not when you found the kid's activities. Do not
+assume per-kid organization: some families run one big calendar, some put kid
+activities on the shared family calendar. The system model comes first;
+kid-centric conventions apply after, not before. Note title formats,
+busy-vs-free conventions, and who gets invited to what. Then **tell the
+parent what you found**, briefly, and declare your read scope: "I read
+[these calendars] covering [these weeks] — here's how I see your system —
 [2–3 lines]. I'll follow it exactly — anything I got wrong?" This is a wow
 moment: the agent demonstrating it understands their life before touching
 anything. Extend the system; never reorganize, rename, or "clean up."
