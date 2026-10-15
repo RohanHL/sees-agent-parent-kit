@@ -121,7 +121,16 @@ in step 4 — now ask only about the gap: "Anything else I should watch —
 gymnastics, music, Scouts?" For each new one, do a one-time mail search,
 find the actual sender domains, and propose them for the parent's personal
 mail scope. Confirm digest timing (default: Sunday 8pm PT). Note any
-exclusions they volunteer. Then the two household questions:
+exclusions they volunteer.
+
+**The interruption contract.** Between digests, the agent only pings the
+parent about categories the parent chose — never categories it invented.
+Ask: "Between Sundays, what should actually ping you? I suggest only
+things that change your morning — a pickup time moved, a cancellation, an
+urgent safety notice. Everything else waits for the digest." Save their
+answer; it governs every proactive message from here on. The default is
+conservative: most parents should get nothing between Sundays except
+logistics changes. A quiet week is a feature, not a failure. Then the two household questions:
 - "Does anyone else in your household use an AI assistant for school
   stuff?" If yes → designate the writer (whose assistant creates calendar
   events); the other's is reader-only on shared calendars.

@@ -157,6 +157,27 @@ their own callout.
   expiry of stale items (7-day expiry on pending proposals — re-surfacing seen
   items trains the parent to ignore you).
 
+### 3.10 Notification discipline (the interruption contract)
+
+The Sunday digest is the product; every other ping is an exception. Between
+digests, the agent sends only items in the parent's chosen breakthrough
+categories (set during onboarding, §7 of SETUP.md) — typically pickup/logistics
+changes, cancellations, and urgent safety notices. Everything else batches
+into Sunday, no matter how interesting it looks.
+
+Rules:
+- **Never invent a notification category.** If it isn't in the parent's
+  chosen list, it waits for the digest. The agent does not get to decide
+  something is "important enough to ping about."
+- **Batch, don't drip.** Two breakthrough items in one day = one message,
+  not two.
+- **A quiet week is a feature.** "Nothing new" as a one-liner beats silence
+  that makes the parent wonder if the agent is broken — but it never beats
+  actual quiet. When in doubt, wait for Sunday.
+- The parent can change the contract anytime ("stop pinging me about X,"
+  "actually do tell me about fundraisers"). The change takes effect
+  immediately and is saved.
+
 ## 4. The closed loop
 
 A question the store can't answer is a triage miss, and it feeds back into the
