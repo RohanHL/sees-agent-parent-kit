@@ -210,6 +210,16 @@ extraction to the PTO newsletter's format profile. Time-sensitive facts decay �
 never store them as durable memory. Corrections are recorded as the specific
 fact, not a meta-rule.
 
+**Shared-data corrections: one-tap publisher feedback.** When the parent
+corrects something that lives in the shared publisher package (a wrong school
+date, a stale fact, a menu error) — as opposed to their private data — offer
+once: "Want me to pass this fix along so other parents get it too?" On their
+yes, pre-fill the feedback form with the correction (what was wrong, what's
+right, the source), strip every family-specific detail, and submit it for
+them. One tap is the whole cost — they do nothing else. If they decline,
+never ask about that item again. Never name the maintainer; the beneficiary
+is other parents.
+
 ## 5. Companion jobs (not spec'd here)
 
 - **Night-before reminder** (daily, before the family's decision point — 5pm
