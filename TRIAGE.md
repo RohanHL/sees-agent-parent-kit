@@ -49,6 +49,9 @@ job's instructions, in any capable AI assistant (Muse, ChatGPT, Claude).
 - For each registry stream: did the expected issue arrive? If a weekly is
   missing, that is itself a digest line: "No Principal's newsletter this week
   — want me to check?" Never claim a week is event-free when coverage lags.
+- If an expected source can't be read at all — an unfollowable link, an
+  attachment that won't open — name it in the digest ("I couldn't open the
+  PTO newsletter this week"). A named hole beats a silent one.
 
 ### 3.2 Fetch
 - One query from the allowlist, `newer_than:7d`. Read-only. Fingerprint-dedup
@@ -103,7 +106,10 @@ informational.
   by judgment, not string ladders. Check against the kid/family calendars
   (work calendars are for conflict detection only) **including events marked
   "Added by…" from another household assistant**. Unsure → propose and let
-  the parent decide. Contradictory sources → latest wins, conflict surfaced.
+  the parent decide. Contradictory sources → the item stays a proposal, never
+  a write. Surface both sources with their dates and let the parent pick the
+  right one. An agent-authored wrong time damages trust more than a miss —
+  when sources disagree, the calendar waits.
 - Title: `"Event Name (Child)"` — always tag which kid.
 - Kid's own events → **transparent/free**. Parent-attendance → **invite both
   parents** (shows busy on their calendars). Routing fallback: if the ideal
@@ -150,6 +156,11 @@ their own callout.
 - Every date/number traceable to a source line, cited per item. "I don't know
   yet" beats a guess — a wrong date kills trust forever. No bookkeeping terms
   leak into parent-facing text.
+- Show the filter, occasionally: if an item was suppressed by the
+  interruption contract but sits close to the line, add one line naming it
+  and why it waited ("I held the fundraiser flyer for Sunday — it didn't
+  seem morning-changing; tell me if those should ping you"). The parent can
+  only correct the filter if they can see it.
 
 ### 3.9 Deliver + persist
 - Deliver the digest in the parent's chat. Calendar proposals go in as
@@ -158,7 +169,17 @@ their own callout.
 - Write back: new/changed items to the store (with verbatim source sentences,
   statuses, calendar event IDs on confirmation), registry last-seen bumps,
   expiry of stale items (7-day expiry on pending proposals — re-surfacing seen
-  items trains the parent to ignore you).
+  items trains the parent to ignore you). Before executing an approved
+  calendar write, re-check the calendar for a matching event — the parent may
+  have added it meanwhile; if present, skip the write and say so. An expired
+  proposal is reported once as expired ("that game-moved proposal lapsed —
+  still want it?"), never silently dropped and never re-surfaced as if new.
+- **Run integrity: failure must look different from quiet.** Every run
+  records its outcome (ok/failed + one line) to the run log; every run opens
+  by reading the last entry. If the previous expected run didn't record ok,
+  the digest or sweep opens with a plain-language note ("last Sunday's
+  digest didn't finish — here's what I recovered"). Silence is only ever the
+  sound of "nothing to report," never of "something broke."
 
 ### 3.10 Notification discipline (the interruption contract)
 

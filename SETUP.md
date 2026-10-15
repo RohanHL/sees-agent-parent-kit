@@ -308,6 +308,9 @@ network for the shared school layer.
 ## Refresh
 
 Re-fetch this repo's files weekly via the raw URLs above (no login needed).
-Check the `generated-at` headers: pick up updated facts, dates, and senders
-without being asked. If a file looks older than expected, flag it — don't
-trust stale data blindly.
+Check the `generated-at` header on every publisher file **before answering
+from it** — this is a hard gate, not a suggestion. If school-menu.md is older
+than 8 days, treat it as stale: check the live menu site instead and tell the
+parent the snapshot was old. If school-dates.md is older than 30 days, flag
+it before relying on it. Never answer confidently from stale data — a stale
+answer presented as fresh is worse than no answer.
