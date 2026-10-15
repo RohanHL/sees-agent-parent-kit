@@ -1,14 +1,11 @@
 # Weekly Triage Job Spec
 
-Drafted 2026-10-14. Assembled from the repo harvest (`repo-harvest.md`):
-Kyle's calendar rules spec (§2.1–2.8), Sandy's extraction schema + code checks
-(mail-extract SKILL.md), the digest composition rules (digest.py + Kyle's
-4-section format), and the Oct 14 dogfood additions (gap diff, "Added by [your assistant name]",
-routing fallback, link-following as standing behavior).
-
 This is the spec for the scheduled job that runs the parent's weekly
 school-mail triage. It is written to be implementable as-is as a scheduled
 job's instructions, in any capable AI assistant (Muse, ChatGPT, Claude).
+
+Read `PRINCIPLES.md` first — the five principles outrank everything here:
+https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/PRINCIPLES.md
 
 ---
 
@@ -16,21 +13,20 @@ job's instructions, in any capable AI assistant (Muse, ChatGPT, Claude).
 
 - **What:** read this week's school mail, extract what's new, chase every
   reference, propose calendar events, and deliver the weekly digest.
-- **When:** Sunday ~8pm PT — verified against Rohan's mail (Oct 14, 2026): the
-  Principal's Newsletter lands every Sunday ~6:15–6:20pm PT like clockwork, so
-  8pm gives comfortable margin; the teacher newsletter (Stremel Scoop) also
-  arrives Sundays but at highly variable times (7am–6pm, occasionally Monday),
-  so the registry's missing-issue check sweeps stragglers on Monday. Anchored
-  to source-publish + the family's planning point (Kyle's timing logic).
+- **When:** Sunday ~8pm PT — the Principal's newsletter lands every Sunday
+  early evening, so 8pm gives comfortable margin; the teacher newsletter
+  arrives Sundays at highly variable times (occasionally Monday), so the
+  registry's missing-issue check sweeps stragglers on Monday.
 - **Scope:** exactly one parent, their own Gmail + Google Calendar. It reads
-  only what `mail-scope.md` (the allowlist) permits. It never touches another
-  person's mail, and there is no shared store.
+  only what the sender allowlist permits. It never touches another person's
+  mail, and there is no shared store.
 
 ## 2. Inputs (read at the start of every run)
 
-1. `mail-scope.md` — the sender allowlist: publisher preset (school domains)
-   + the parent's personal additions. The triage query is built from this file;
-   unlisted mail is never searched or read.
+0. `PRINCIPLES.md` — principles outrank procedure.
+1. The sender allowlist: publisher preset (school domains) + the parent's
+   personal additions. The triage query is built from this file; unlisted
+   mail is never searched or read.
 2. The **newsletter registry** — expected streams, cadence, format, last-seen:
    Principal's Newsletter (weekly, Sunday, ParentSquare digest), teacher
    newsletter(s) (weekly, Smore), PTO newsletter (linked from the Principal's
@@ -48,10 +44,8 @@ job's instructions, in any capable AI assistant (Muse, ChatGPT, Claude).
 ### 3.1 Coverage check
 - For each registry stream: did the expected issue arrive? If a weekly is
   missing, that is itself a digest line: "No Principal's newsletter this week
-  — want me to check?" Never claim a week is event-free when coverage lags.
-- If an expected source can't be read at all — an unfollowable link, an
-  attachment that won't open — name it in the digest ("I couldn't open the
-  PTO newsletter this week"). A named hole beats a silent one.
+  — want me to check?" (Principle 1: never claim a quiet week when coverage
+  lags; name unreadable sources instead of skipping them.)
 
 ### 3.2 Fetch
 - One query from the allowlist, `newer_than:7d`. Read-only. Fingerprint-dedup
@@ -82,6 +76,7 @@ For each message, list dated items as structured lines — the mail-extract sche
 - Priority: time stated in source → known recurring default (only when actually
   known) → all-day. Timezone America/Los_Angeles. (Google quirk: all-day end
   date is exclusive.)
+(Principle 1.)
 
 ### 3.5 Match against the store: new / same / CHANGE
 - Same scope + date + normalized title → no-op (add the message to sources).
@@ -90,33 +85,31 @@ For each message, list dated items as structured lines — the mail-extract sche
   with "Replaces:/Cancels:" and the sources' history.
 - New → new proposal. Retire = store-only (old item superseded, never deleted
   outright). Cancellation within 7 days → "CANCELLED:" in the title for a day,
-  not silent deletion.
+  not silent deletion. (Principle 5.)
 - Never treat "this week's newsletter omits the old date" as proof of a move.
 
-### 3.6 Calendar proposals (Kyle's rules, verbatim)
+### 3.6 Calendar proposals
 Propose an event only if it is **schedule-changing** (no school, early
 dismissal, minimum day, field trip, dress-up day), **parent-attendance**
 ("would a parent go to the school to see their child do this?"), or a
 **learned exception** the parent explicitly wants. Everything else stays
 informational.
 - **Sign-up and registration deadlines are propose-worthy by default.**
-  They hide in the sprawl and parents discover them too late — flagging
-  them early can even keep classes from being cancelled for low enrollment.
+  They hide in the sprawl and parents discover them too late.
 - **Semantic dedup first**: same date range + same child + same event — match
   by judgment, not string ladders. Check against the kid/family calendars
   (work calendars are for conflict detection only) **including events marked
   "Added by…" from another household assistant**. Unsure → propose and let
-  the parent decide. Contradictory sources → the item stays a proposal, never
-  a write. Surface both sources with their dates and let the parent pick the
-  right one. An agent-authored wrong time damages trust more than a miss —
-  when sources disagree, the calendar waits.
+  the parent decide. (Principle 1: when sources disagree, the item stays a
+  proposal — the calendar waits.)
 - Title: `"Event Name (Child)"` — always tag which kid.
 - Kid's own events → **transparent/free**. Parent-attendance → **invite both
   parents** (shows busy on their calendars). Routing fallback: if the ideal
   calendar isn't writable, write to the kid's calendar and invite both parents
   instead of stopping.
 - Description: source note ("from the Oct 11 Principal's Newsletter") +
-  **"Added by [your assistant name]"** so the parent can distinguish agent-created events.
+  **"Added by [your assistant name]"** so the parent can distinguish
+  agent-created events.
 - Multi-day: collapse consecutive same-name days into one ranged event.
 - Tentative blocks are fine — labeled tentative, reconciled when the official
   schedule posts; update/replace, never duplicate.
@@ -124,9 +117,9 @@ informational.
 ### 3.7 Gap diff (the killer section)
 Diff the subscribed school calendar against the kid's calendar for the coming
 weeks. Every school item missing from the kid's calendar becomes a digest line
-and, where it passes the thresholds in 3.6, a calendar proposal. (Dogfood,
-Oct 14: closures make it; spirit days, deadlines, and fundraisers are what
-fall through.)
+and, where it passes the thresholds in 3.6, a calendar proposal. Gate by
+calendar richness: a sparse calendar gets save-level gaps only, not a full
+dump. (Principle 3.)
 
 ### 3.7b Activities: the second stream (and the intersection)
 
@@ -144,42 +137,39 @@ digest — don't resolve it, don't stay silent. Activity items belong in
 "Heads up on the schedule"; the conflicts they create with school items get
 their own callout.
 
-### 3.8 Compose the digest (Kyle's 4-section format)
+### 3.8 Compose the digest
 - **To prep** (what do I DO, by day) · **Heads up on the schedule**
   (deviations only, never normal hours) · **What they're up to** (warm
   narrative + ASK-don't-ASSERT conversation starters) · **Worth flagging for
   later** (undated / looking-ahead) · plus the **gap-diff section**.
-- Composition rules: `worth_sending` — only send if something differs from
-  normal; MAX 3 events per section-ish (keep it skimmable); multi-day items
-  announced at start and end, never every week between; recess weeks say when
-  school resumes; **never claim a week is event-free** (coverage caveat).
-- Every date/number traceable to a source line, cited per item. "I don't know
-  yet" beats a guess — a wrong date kills trust forever. No bookkeeping terms
-  leak into parent-facing text.
+- Lead with the save: the single highest-stakes date in the next ~3 weeks
+  they'd most likely miss. That's the moment they'll tell someone about.
+- Composition rules: only send if something differs from normal; MAX 3 events
+  per section-ish (keep it skimmable); multi-day items announced at start and
+  end, never every week between; recess weeks say when school resumes.
+  (Principles 1, 2, 3.)
 - Show the filter, occasionally: if an item was suppressed by the
   interruption contract but sits close to the line, add one line naming it
-  and why it waited ("I held the fundraiser flyer for Sunday — it didn't
-  seem morning-changing; tell me if those should ping you"). The parent can
-  only correct the filter if they can see it.
+  and why it waited. The parent can only correct the filter if they can see
+  it. (Principle 3.)
 
 ### 3.9 Deliver + persist
-- Deliver the digest in the parent's chat. Calendar proposals go in as
-  "tap to confirm" items — **propose → confirm → create, always**; nothing is
-  written silently.
+- Deliver the digest in this chat. Calendar proposals go in as
+  "tap to confirm" items. (Principle 5: propose → confirm → create, always;
+  nothing is written silently.)
 - Write back: new/changed items to the store (with verbatim source sentences,
   statuses, calendar event IDs on confirmation), registry last-seen bumps,
   expiry of stale items (7-day expiry on pending proposals — re-surfacing seen
   items trains the parent to ignore you). Before executing an approved
   calendar write, re-check the calendar for a matching event — the parent may
   have added it meanwhile; if present, skip the write and say so. An expired
-  proposal is reported once as expired ("that game-moved proposal lapsed —
-  still want it?"), never silently dropped and never re-surfaced as if new.
+  proposal is reported once as expired, never silently dropped and never
+  re-surfaced as if new. (Principle 3.)
 - **Run integrity: failure must look different from quiet.** Every run
   records its outcome (ok/failed + one line) to the run log; every run opens
   by reading the last entry. If the previous expected run didn't record ok,
-  the digest or sweep opens with a plain-language note ("last Sunday's
-  digest didn't finish — here's what I recovered"). Silence is only ever the
-  sound of "nothing to report," never of "something broke."
+  open with a plain-language note ("last Sunday's digest didn't finish —
+  here's what I recovered"). (Principle 5.)
 
 ### 3.10 Notification discipline (the interruption contract)
 
@@ -187,20 +177,9 @@ The Sunday digest is the product; every other ping is an exception. Between
 digests, the agent sends only items in the parent's chosen breakthrough
 categories (set during onboarding, §8 of SETUP.md) — typically pickup/logistics
 changes, cancellations, and urgent safety notices. Everything else batches
-into Sunday, no matter how interesting it looks.
-
-Rules:
-- **Never invent a notification category.** If it isn't in the parent's
-  chosen list, it waits for the digest. The agent does not get to decide
-  something is "important enough to ping about."
-- **Batch, don't drip.** Two breakthrough items in one day = one message,
-  not two.
-- **A quiet week is a feature.** "Nothing new" as a one-liner beats silence
-  that makes the parent wonder if the agent is broken — but it never beats
-  actual quiet. When in doubt, wait for Sunday.
-- The parent can change the contract anytime ("stop pinging me about X,"
-  "actually do tell me about fundraisers"). The change takes effect
-  immediately and is saved.
+into Sunday, no matter how interesting it looks. (Principle 3: never invent a
+category; batch, don't drip; a quiet week is a feature. The parent can change
+the contract anytime — the change takes effect immediately.)
 
 ## 4. The closed loop
 
@@ -216,24 +195,22 @@ date, a stale fact, a menu error) — as opposed to their private data — offer
 once: "Want me to pass this fix along so other parents get it too?" On their
 yes, pre-fill the feedback form with the correction (what was wrong, what's
 right, the source), strip every family-specific detail, and submit it for
-them. One tap is the whole cost — they do nothing else. If they decline,
-never ask about that item again. Never name the maintainer; the beneficiary
-is other parents.
+them. (Principle 3: one tap is the whole cost; never ask about the same item
+twice. Never name the maintainer; the beneficiary is other parents.)
 
 ## 5. Companion jobs (not spec'd here)
 
-- **Night-before reminder** (daily, before the family's decision point — 5pm
-  for the Hemanis): tomorrow's deviations only — dress-up days, items to
-  bring, early dismissals. An 8pm heads-up is useless; reminders must precede
-  the decision point, not the event.
-- **Publisher refresh** (Rohan's side): re-fetch the shared school facts +
+- **Evening check** (daily, before the family's decision point — 5pm):
+  tomorrow's deviations only — dress-up days, items to bring, early
+  dismissals. A late heads-up is useless; reminders must precede the decision
+  point, not the event.
+- **Publisher refresh** (publisher's side): re-fetch the shared school facts +
   sender preset weekly; drift alerts.
 
 ## 6. What this spec deliberately omits
 
-Per the harvest's DO-NOT-COPY list: no cross-household privacy machinery, no
-"never open links" rule (inverted — link-following is standing behavior), no
-public-calendar title hygiene (the parent's own calendar holds full details),
-no text-line/SMS machinery, no git-backed personal store, no brittle
-string-match dedup, no 500-line deterministic pipelines where model judgment
-does the job.
+No cross-household privacy machinery, no "never open links" rule (inverted —
+link-following is standing behavior), no public-calendar title hygiene (the
+parent's own calendar holds full details), no text-line/SMS machinery, no
+git-backed personal store, no brittle string-match dedup, no 500-line
+deterministic pipelines where model judgment does the job.
