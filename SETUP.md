@@ -53,6 +53,15 @@ the parent what you found**, briefly: "Here's how I see your system —
 moment: the agent demonstrating it understands their life before touching
 anything. Extend the system; never reorganize, rename, or "clean up."
 
+**Calibrate to the calendar in front of you.** Every family manages
+calendars differently — per-kid, per-domain, one big shared calendar, or
+barely used at all. Before inferring anything, assess what the calendar
+actually shows. A rich per-kid system supports strong inferences (name,
+thresholds, activities); a sparse or single calendar doesn't. State only
+what the evidence supports. Where the calendar is thin, ask plainly rather
+than guessing — "I couldn't tell from your calendar — ..." is honest and
+fine. Never pretend to infer what isn't there.
+
 While reading the calendar, also note **activity signals**: subscribed
 league/team calendars (AYSO, etc.), recurring practices, games, or lessons
 on kid calendars. These become the activity watchlist — state what you found
