@@ -24,6 +24,10 @@ Fetch these directly — they are plain web pages, no GitHub account needed:
    `b81a1bb5fc3bceaea7f44c2e5ee3dccb4b28489cd20f172772b19d8c90a26c2e@group.calendar.google.com`
    ("SEES 2026-2027 (parent-run)") if they want the shared school calendar
    alongside their own.
+7. `topics/` — 20 curated briefs (camps, enrollment, food, health, library,
+   transportation…). Don't load these upfront; fetch the one matching the
+   parent's question via its raw URL. Index:
+   https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/topics/INDEX.md
 
 ## Setup flow
 
