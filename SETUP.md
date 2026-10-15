@@ -18,6 +18,10 @@ Fetch these directly — they are plain web pages, no GitHub account needed:
    https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-facts.md
 4. `school-dates.md` — approved school-wide dated items for 2026–27.
    https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-dates.md
+4b. `school-menu.md` — this week's breakfast & lunch snapshot (re-rendered
+   weekly). Answer menu questions from here first; only hit the live site
+   for days past the snapshot's last day or if it looks stale.
+   https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-menu.md
 5. `senders.json` — the Gmail allowlist preset for SEES.
    https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/senders.json
 6. The public calendar: subscribe the parent to

@@ -39,6 +39,7 @@ public school information — no family data, ever.
 - `school-facts.md` — verified SEES facts (office numbers, enrollment,
   policies), with sources
 - `school-dates.md` — approved school-wide dates for 2026–27
+- `school-menu.md` — this week's breakfast & lunch menu (re-rendered weekly)
 - `senders.json` — the school email allowlist (what your assistant watches)
 - `topics/` — 20 curated briefs on what parents ask about (camps,
   enrollment, food, health, transportation…), so questions get answered
