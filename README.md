@@ -1,8 +1,10 @@
 # SEES Agent Parent Kit
 
 Give your own AI assistant this repo and it becomes your San Elijo Elementary
-school assistant — triaging your school email, keeping your calendar current,
-and answering school questions with sources.
+school assistant. Two things no general assistant has: **it already knows
+the school** (calendar, policies, lunch, contacts — verified, sourced), and
+**it keeps up, so you don't have to** (your school email, triaged weekly;
+your calendar, kept current; questions answered with sources).
 
 ## What you need
 
