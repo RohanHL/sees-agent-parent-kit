@@ -89,10 +89,16 @@ than guessing — "I couldn't tell from your calendar — ..." is honest and
 fine. Never pretend to infer what isn't there.
 
 While reading the calendar, also note **activity signals**: subscribed
-league/team calendars (AYSO, etc.), recurring practices, games, or lessons
-on kid calendars. These become the activity watchlist — state what you found
-in the "show your work" message ("I see soccer — AYSO calendar plus
-Saturday games on Maya's calendar — I'll watch for schedule changes").
+league/team calendars (AYSO, etc.), recurring practices, games, or lessons.
+Read events across **all** calendars before concluding anything — kid
+activities often live on the shared family calendar, not the kid's
+(swimming on Sam/Alex, piano lessons buried under pickup entries).
+These become the activity watchlist — state what you found in the "show your
+work" message ("I see soccer — AYSO calendar plus Saturday games on Maya's
+calendar — I'll watch for schedule changes"). Scope every claim to what you
+actually read: "I checked Maya's calendar and didn't see swim — is it on
+another one?" beats "swimming doesn't exist." An unstated gap in your reading
+becomes a false fact in the parent's eyes.
 For each activity, do a one-time mail search to find its sender domains and
 add them to the parent's personal mail scope.
 
