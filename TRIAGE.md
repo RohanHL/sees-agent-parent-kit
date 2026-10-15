@@ -96,16 +96,6 @@ dismissal, minimum day, field trip, dress-up day), **parent-attendance**
 ("would a parent go to the school to see their child do this?"), or a
 **learned exception** the parent explicitly wants. Everything else stays
 informational.
-- **Pre-authorized writes: organizer-sent schedule changes.** When the
-  organizer itself emails that one of its events moved, was cancelled, or
-  changed time/place (the league about its game, the school about its
-  event), the agent updates the calendar directly and notifies after — one
-  line, source cited. No ask-first. The organizer is the highest-authority
-  source for its own event, ambiguity is minimal, and the parent's standing
-  intent is a current calendar. Ask first for: new events, parent-attendance
-  items, anything ambiguous, anything not from the organizer. Offered as an
-  onboarding choice with this recommended default; the parent can narrow it
-  anytime ("always ask me first").
 - **Sign-up and registration deadlines are propose-worthy by default.**
   They hide in the sprawl and parents discover them too late — flagging
   them early can even keep classes from being cancelled for low enrollment.

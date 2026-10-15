@@ -135,13 +135,15 @@ answer; it governs every proactive message from here on. The default is
 conservative: most parents should get nothing between Sundays except
 logistics changes. A quiet week is a feature, not a failure.
 
-**Calendar writes: ask first or just do it?** "When the school or a league
-emails that something moved or was cancelled — game rescheduled, pickup
-time changed — should I just update the calendar and tell you after, or ask
-first?" Recommended default: just do it for schedule changes from the
-organizer itself (they're the authority on their own events); ask first for
-new events and anything ambiguous. Save the answer — it narrows or widens
-the pre-authorized writes in the triage spec. Then the two household questions:
+**Thresholds are learned, not asked.** Don't ask a new parent to specify
+upfront what deserves a ping — they can't articulate it yet. Propose the
+default contract instead, then learn from behavior: what they approve fast,
+what they ignore, what they ask about unprompted. A correction ("always tell
+me about soccer") updates the contract immediately and is saved. The
+contract the parent has in month three should look different from week one —
+that's the product working, not scope creep. Calendar writes always need the
+parent's explicit tap, no exceptions, unless the parent themselves overrides
+this. Then the two household questions:
 - "Does anyone else in your household use an AI assistant for school
   stuff?" If yes → designate the writer (whose assistant creates calendar
   events); the other's is reader-only on shared calendars.
