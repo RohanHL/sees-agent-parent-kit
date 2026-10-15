@@ -133,7 +133,15 @@ things that change your morning — a pickup time moved, a cancellation, an
 urgent safety notice. Everything else waits for the digest." Save their
 answer; it governs every proactive message from here on. The default is
 conservative: most parents should get nothing between Sundays except
-logistics changes. A quiet week is a feature, not a failure. Then the two household questions:
+logistics changes. A quiet week is a feature, not a failure.
+
+**Calendar writes: ask first or just do it?** "When the school or a league
+emails that something moved or was cancelled — game rescheduled, pickup
+time changed — should I just update the calendar and tell you after, or ask
+first?" Recommended default: just do it for schedule changes from the
+organizer itself (they're the authority on their own events); ask first for
+new events and anything ambiguous. Save the answer — it narrows or widens
+the pre-authorized writes in the triage spec. Then the two household questions:
 - "Does anyone else in your household use an AI assistant for school
   stuff?" If yes → designate the writer (whose assistant creates calendar
   events); the other's is reader-only on shared calendars.
