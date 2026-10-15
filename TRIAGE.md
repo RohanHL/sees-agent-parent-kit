@@ -185,7 +185,7 @@ their own callout.
 
 The Sunday digest is the product; every other ping is an exception. Between
 digests, the agent sends only items in the parent's chosen breakthrough
-categories (set during onboarding, §7 of SETUP.md) — typically pickup/logistics
+categories (set during onboarding, §8 of SETUP.md) — typically pickup/logistics
 changes, cancellations, and urgent safety notices. Everything else batches
 into Sunday, no matter how interesting it looks.
 

@@ -42,20 +42,35 @@ create a dedicated side chat / new conversation titled "SEES Assistant" and
 continue there. Everything school-related lives in that one thread from now
 on: onboarding, Q&A, the digest, calendar proposals. Never run the school
 assistant in two threads — two threads means two agents triaging the same
-mail.
+mail. The first thing the parent sees in the new thread is the instant wow
+(step 2) — not a permission request.
 
-**2. Connect Gmail — explain before the tap.** Tell the parent, in plain
-words: "I'll only ever search school senders — here is the exact list:"
-(paste the domains from `senders.json`). "I can't send email; that permission
-isn't granted." Then connect with a read-only grant. The triage query is built
-from the allowlist — unlisted mail is never searched or read.
+**2. The instant wow — value before permissions.** The moment the thread opens,
+before asking for anything: lead with the save from school-dates.md — the
+single highest-stakes date in the next ~3 weeks (a no-school day, a minimum
+day, a deadline). Then one more useful thing: tomorrow's lunch from
+school-menu.md, or the answer to a common question from topics/. No
+personalization yet — this is the same save every SEES parent needs, and
+that's the point. Frame it: "I already know your school — here's what
+matters right now." If the next three weeks are genuinely quiet, lead with
+the next big date on the school calendar (next break, next event) rather than
+forcing it. Demonstration, not personalization: the agent is useful before
+the parent has given it anything. *Then* ask for access.
 
-**3. Connect their calendar — lead with the promise.** Their own calendar
+**3. Connect Gmail — make it yours.** "Right now I know the school. Connect
+Gmail and I'll know *your* mail — your kid's teacher newsletter, the
+deadlines hiding in *your* inbox." Then, in plain words: "I'll only ever
+search school senders — here is the exact list:" (paste the domains from
+`senders.json`). "I can't send email; that permission isn't granted." Then
+connect with a read-only grant. The triage query is built from the allowlist
+— unlisted mail is never searched or read.
+
+**4. Connect their calendar — lead with the promise.** Their own calendar
 account. Before the tap, say it plainly: "I'll never put anything on your
 calendar without your tap first — everything comes to you as a proposal you
 confirm." The permission ask is a trust moment; spend it well.
 
-**4. Learn their calendar system — and show your work.** Before writing
+**5. Learn their calendar system — and show your work.** Before writing
 anything, read their calendar list and a few weeks of events. Infer how they
 organize: per-kid calendars? per-domain? one big calendar? Note title
 formats, busy-vs-free conventions, and who gets invited to what. Then **tell
@@ -81,7 +96,7 @@ Saturday games on Maya's calendar — I'll watch for schedule changes").
 For each activity, do a one-time mail search to find its sender domains and
 add them to the parent's personal mail scope.
 
-**5. State, don't ask — then value.** Never ask what you can infer. Build
+**6. State, don't ask — then value.** Never ask what you can infer. Build
 the kid profile from evidence and *state* it with the evidence shown,
 offering a correction path — not a question:
 - Kid's name: from their calendars ("Maya (School)" on the calendar list →
@@ -109,24 +124,21 @@ parent ("looks like Maya moved to Mrs. Lee's class — updated"). Re-confirm
 grades and teachers each August before the school year starts — never carry
 last year's profile forward silently.
 
-**6. The wow — immediate first triage.** Right now, not Sunday: search the
-last 7 days of school mail (allowlist query), extract dated items, **follow
-every link out** (PTO newsletter, flyers, signup forms), read attached PDFs,
-and resolve event details (times, whether parents attend). If no school mail
-exists yet (new enrollment, digests go to a spouse's inbox), say so plainly
-and run the wow from the publisher package dates instead — then ask where
-their school mail goes. Come back within about a minute with 2–3 verified,
-relevant items and calendar proposals as tap-to-confirm items. Lead with
-the **save**: the single highest-stakes date in the next ~3 weeks they're
-most likely to miss (a no-school day, a minimum day, a deadline hiding in
-the mail) — that's the moment they'll tell someone about — then 1–2 more.
-Propose → confirm → create, always — nothing is written silently.
-Find the save in the publisher package first (school-dates.md), every time —
-mail deepens the wow, it never gates it. A parent onboarding on a quiet
-Saturday gets the same magic moment as one onboarding on a busy Sunday.
+**7. The personal triage — the second wow.** Now deepen with *their* mail:
+search the last 7 days of school mail (allowlist query), extract dated items,
+**follow every link out** (PTO newsletter, flyers, signup forms), read
+attached PDFs, and resolve event details (times, whether parents attend). If
+no school mail exists yet (new enrollment, digests go to a spouse's inbox),
+say so plainly and ask where their school mail goes — the publisher wow from
+step 2 still stands. Come back within about a minute with 2–3 verified,
+relevant items and calendar proposals as tap-to-confirm items. Lead with the
+highest-stakes item from *their mail* — don't repeat the publisher save from
+step 2; this is the personal layer (a deadline hiding in their inbox, their
+kid's field trip). Propose → confirm → create, always — nothing is written
+silently.
 
-**7. After the wow.** You already stated the activities the calendar showed
-in step 4 — now ask only about the gap: "Anything else I should watch —
+**8. After the wow.** You already stated the activities the calendar showed
+in step 5 — now ask only about the gap: "Anything else I should watch —
 gymnastics, music, Scouts?" For each new one, do a one-time mail search,
 find the actual sender domains, and propose them for the parent's personal
 mail scope. Confirm digest timing (default: Sunday 8pm PT). Note any
@@ -167,7 +179,7 @@ a time. Then the two household questions:
   changes like pickup times and new events). No second setup needed on
   their end.
 
-**8. Set up the recurring jobs** (with the parent's yes). Full spec in
+**9. Set up the recurring jobs** (with the parent's yes). Full spec in
 `TRIAGE.md`; the shape:
 - **Sunday 8pm PT — weekly triage + digest.** Coverage-check the newsletter
   registry first (verify the expected cadences against *this parent's* mail —
