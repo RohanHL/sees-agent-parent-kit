@@ -1,0 +1,16 @@
+{
+  "synthetic": true,
+  "schema_version": 1,
+  "behavior_version": "4.0.0-draft.3",
+  "persistence": "session_only",
+  "capabilities": {"email_read": "unknown", "calendar_read": "unavailable", "private_persistence": "unknown", "scheduling": "unavailable", "delivery": "unknown"},
+  "read_scope": {"accounts": [], "senders": [], "permission_evidence": null},
+  "children": [{"id": "child-a", "display_name": "Jamie Example", "class": "Maple class", "source": "synthetic-parent-statement", "uncertainty": "fictional fixture only"}],
+  "occurrences": [{"id": "trip-a", "title": "Fictional garden visit", "date": "2026-10-23", "children": ["child-a"], "source": "synthetic-notice"}],
+  "obligations": [{"id": "permission-a", "occurrence_id": "trip-a", "child_id": "child-a", "status": "completed", "evidence": "synthetic-receipt-2026-09-24"}],
+  "corrections": [{"field": "children.child-a.class", "value": "Maple class", "source": "synthetic-parent-correction"}],
+  "declined": ["calendar_connection"],
+  "proposals": [],
+  "checkpoint": {"next_useful_step": "Resolve return time from supplied notice if available", "last_check": "2026-10-18T12:00:00Z"},
+  "recurring": {"readiness": "on_demand", "health": "unknown", "approval": null, "job_id": null, "first_delivery_evidence": null}
+}

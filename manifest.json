@@ -1,0 +1,13 @@
+{
+  "format_version": 1,
+  "behavior_version": "4.0.0-draft.3",
+  "modules": [
+    "core/PRINCIPLES.md",
+    "core/SETUP.md",
+    "core/TRIAGE.md",
+    "contracts/SCHOOL-PACK.md",
+    "contracts/HOST.md",
+    "contracts/HOUSEHOLD.md",
+    "contracts/VERSIONING.md"
+  ]
+}
