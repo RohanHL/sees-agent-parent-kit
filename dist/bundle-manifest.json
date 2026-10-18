@@ -1,0 +1,43 @@
+{
+  "format_version": 1,
+  "behavior_version": "4.0.0-draft.3",
+  "bundle": "PARENT-KIT.md",
+  "bundle_sha256": "3922086452d01c5ace38dabae718df49caeca1839fcf8716504c5cccdd9afb02",
+  "modules": [
+    {
+      "path": "core/PRINCIPLES.md",
+      "sha256": "3650ef069cb1d307d5388286d8370411bdf63a4e7b6beb395d16cb6fab98a6d5",
+      "bytes": 4399
+    },
+    {
+      "path": "core/SETUP.md",
+      "sha256": "1b729e88ab4f3c60ebc74aacf751c2d07a4bbaa571b29a14a866620bee002dc9",
+      "bytes": 4684
+    },
+    {
+      "path": "core/TRIAGE.md",
+      "sha256": "8d58b97183968f34b1ce929e7519e8172b069b16d6b974e01c6ad8303c3882bf",
+      "bytes": 8085
+    },
+    {
+      "path": "contracts/SCHOOL-PACK.md",
+      "sha256": "ab5c8fbd8869ffce7640370fb14a8060dab1bf4a7a1ec8db31fefee997a42171",
+      "bytes": 4727
+    },
+    {
+      "path": "contracts/HOST.md",
+      "sha256": "1b72ae48f4ad4838eb000eff7e6b5007c1f229d2a96d2a15b502c2a19f4afc02",
+      "bytes": 4759
+    },
+    {
+      "path": "contracts/HOUSEHOLD.md",
+      "sha256": "5441b0d91a6c141da681a4891da1b3a7ae9fc73506b3e314e88710a97830e094",
+      "bytes": 2866
+    },
+    {
+      "path": "contracts/VERSIONING.md",
+      "sha256": "9019a7e0e6f7b90c7efdfa932e5fe23bda667e3259536f2ab61182db04622b30",
+      "bytes": 2583
+    }
+  ]
+}
