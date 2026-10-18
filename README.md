@@ -1,67 +1,15 @@
-# SEES Agent Parent Kit
+# SEES parent kit · local draft v4
 
-Give your own AI assistant this repo and it becomes your San Elijo Elementary
-school assistant. Two things no general assistant has: **it already knows
-the school** (calendar, policies, lunch, contacts — verified, sourced), and
-**it keeps up, so you don't have to** (your school email, triaged weekly;
-your calendar, kept current; questions answered with sources).
+Less school admin, more connection with your child's day. This parent-run kit gives your existing assistant guidance; it is not a school service or a new app.
 
-## What you need
+**Start:** give your assistant the complete [Parent Kit instructions](dist/PARENT-KIT.md) and say: “Help me with school life using these instructions.” Upload that one file or paste all its text. No code or GitHub account is needed to use the file.
 
-- **Gmail** — your school email needs to arrive here (most SEES families get
-  it via ParentSquare digests).
-- **Google Calendar** — where the assistant proposes events for your approval.
-- An AI assistant that can open web links and connect to both (Muse, ChatGPT,
-  or Claude all work). No GitHub account needed — the links below are plain
-  web pages. If yours can't open the link, paste the contents of `SETUP.md`
-  into it instead.
+You can ask a question straight away. Email, calendars and automatic updates are optional and depend on your assistant. It should explain what works before you rely on it. Without connections it can help with school information you provide or public sources it can verify. Calendar changes require your approval.
 
-## For parents: one line
+Family details belong only in your chosen assistant's private conversation/storage, subject to that service's privacy settings, never in this shared kit. Public SEES source references are included automatically; changing school facts are checked when needed, not copied into this draft.
 
-> **Set me up as a SEES parent — read https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/SETUP.md and follow it.**
+This review branch proposes behavior version 4.0.0-draft.3; it is not a live service and does not upgrade an existing pilot. No host setup route, mobile start, durable memory or automatic delivery has been live-validated. If you do not already have an assistant, this draft does not yet provide a tested account/setup route.
 
-Your assistant will:
+Maintainers: [build and validation](MAINTAINING.md).
 
-1. Create a dedicated "SEES Assistant" chat for everything school-related
-2. Connect to your Gmail (read-only — it only ever searches school senders,
-   which it shows you first) and Google Calendar
-3. Learn how *you* organize your calendar, then follow your system
-4. Ask two questions (your kids + what deserves a calendar event), then
-   immediately triage this week's school mail and propose calendar events
-5. Send you a short digest every Sunday evening, plus timely heads-ups for
-   urgent items
-
-Your family details never leave your own chat. This repo holds only shared,
-public school information — no family data, ever.
-
-## What's in this repo
-
-- `SETUP.md` — the onboarding script your assistant follows
-- `TRIAGE.md` — the full spec for the weekly triage job
-- `school-facts.md` — verified SEES facts (office numbers, enrollment,
-  policies), with sources
-- `school-dates.md` — approved school-wide dates for 2026–27
-- `school-menu.md` — this week's breakfast & lunch menu (re-rendered weekly)
-- `senders.json` — the school email allowlist (what your assistant watches)
-- `topics/` — 20 curated briefs on what parents ask about (camps,
-  enrollment, food, health, transportation…), so questions get answered
-  from saved knowledge instead of a web search
-- `FEEDBACK.md` — how to help improve the kit (no account needed)
-- `CHANGELOG.md` — every improvement, with thanks to the parents behind it
-
-## Two parents, one household?
-
-If both parents set this up: before creating any event, each assistant checks
-for existing events — including ones marked "Added by…" from the other
-assistant — so nothing gets duplicated. You can also designate one parent's
-assistant as the calendar writer.
-
-## About
-
-One idea: instead of one central service holding every family's school life,
-each parent's own assistant does the work — with their own connections, their
-own thresholds, and their own memory. The schoolwide facts are published once,
-here; everything personal stays with the parent.
-
-Maintained by Rohan Hemani. School facts are re-verified regularly; each file
-carries a generated date.
+The complete bundle retains its original “LOCAL REVIEW DRAFT” label to preserve the reviewed bytes. Existing school data, topics and feedback remain unchanged and are evidence or legacy reference material, not additional behavioral instructions.

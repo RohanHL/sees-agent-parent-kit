@@ -1,0 +1,8 @@
+{
+  "synthetic": true,
+  "profile_status": "illustrative_unverified",
+  "host": "Unspecified assistant",
+  "capabilities": {"public_read": "unknown", "email_read": "unknown", "calendar_read": "unknown", "calendar_write": "unknown", "private_persistence": "unknown", "approval_verification": "unknown", "scheduling": "unknown", "delivery": "unknown", "independent_missed_run_detection": "unknown"},
+  "evidence": [],
+  "limits": ["No host route has been live-tested by this draft."]
+}
