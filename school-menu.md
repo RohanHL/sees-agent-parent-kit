@@ -1,39 +1,14 @@
 # This week's lunch & breakfast menu
 
-Snapshot rendered 2026-10-14 (evening PT), read from the live SMUSD menu
+Snapshot rendered 2026-10-19 (morning PT), read from the live SMUSD menu
 site (smusd.yumyummi.com). Covers the next 12 school days — the menu is
 published about two and a half weeks out. Meals are free for every student.
 Menus change — this is a snapshot, not the source of truth. The live menu
 is at https://smusd.yumyummi.com/webapp/san-elijo-elementary/daily/lunch
 
-## Thu Oct 15, 2026
-
-**Breakfast:** Berry Yogurt Parfait with Granola and Grahams; Bagel Cream
-Cheese. Fruit: Apple Slices, Apricots.
-
-**Lunch:** Homestyle Chili Tots; Bean & Cheese Burrito; Pulled Pork
-Barbecue Sliders. Fruit/veg: Salad, Assorted Pepper Rings, Blueberries
-(frozen), Fresh Sliced Cucumbers, Plum.
-
-## Fri Oct 16, 2026
-
-**Breakfast:** Cereal With Grahams; Pumpkin Breakfast Bread. Fruit: Apple
-Juice, Banana (small), Fresh Blueberries.
-
-**Lunch:** Cheeseburger Grass-Fed; Hamburger Grass-Fed; Soft Pretzel with
-Cheese. Fruit/veg: Salad, Carroteenies, Sugar Snap Peas, Green Leaf
-Lettuce, Frozen Mixed Berries Cups, Frozen Peach Cup, Frozen Strawberry
-Cups.
-
-## Mon Oct 19, 2026
-
-**Breakfast:** Concha Bread; Grilled Cheese Sandwich Triangle. Fruit:
-Appleberry Juice, Fresh Whole Apple.
-
-**Lunch:** Stuffed Crust Cheese Pizza; Stuffed Crust Pepperoni Pizza; French
-Toast Bites w/ Sausage Links. Fruit/veg: Fresh Broccoli, Fresh Grapes,
-Fresh Whole Apple, Dried Cranberries, Mango Swirl Vegetable Juice, Whole
-Kernel Corn, Fresh Cantaloupe, Celery Sticks.
+November menus were not yet published on the site (it still shows "SEES
+Lunch Oct."). The last three days below are marked accordingly; check the
+live menu later in the week for Nov 2–4.
 
 ## Tue Oct 20, 2026
 
@@ -124,3 +99,24 @@ Smoothie. Fruit: Apple Juice, Banana (small), Fresh Blueberries.
 & Garlic Knot. Fruit/veg: Salad, Carroteenies, Sugar Snap Peas, Green Leaf
 Lettuce, Frozen Mixed Berries Cups, Frozen Peach Cup, Frozen Strawberry
 Cups.
+
+## Mon Nov 2, 2026
+
+**Breakfast:** Not published yet — check the live menu later this week.
+
+**Lunch:** Main dishes not published yet — the site lists only the Monday
+fruit/veg rotation (Fresh Broccoli, Fresh Grapes, Fresh Whole Apple, Dried
+Cranberries, Mango Swirl Vegetable Juice, Whole Kernel Corn, Fresh
+Cantaloupe, Celery Sticks) and milks.
+
+## Tue Nov 3, 2026
+
+**Breakfast:** Not published yet — check the live menu later this week.
+
+**Lunch:** Not published yet — check the live menu later this week.
+
+## Wed Nov 4, 2026
+
+**Breakfast:** Not published yet — check the live menu later this week.
+
+**Lunch:** Not published yet — check the live menu later this week.
