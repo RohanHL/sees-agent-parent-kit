@@ -1,6 +1,6 @@
 # Breakfast and lunch menu
 
-Snapshot rendered 2026-10-27 by this repo's weekly menu job, from the district menu site. Menus change: this is a snapshot, not the source. Covers Tue Oct 27 to Mon Nov 2, 2026.
+Snapshot rendered 2026-10-27 by this repo's weekly menu job, from the district menu site. Menus change: this is a snapshot, not the source. Covers Tue Oct 27 to Mon Nov 9, 2026.
 Live menu: https://smusd.yumyummi.com/webapp/san-elijo-elementary/daily/lunch
 
 ## Tue Oct 27, 2026
@@ -27,3 +27,23 @@ Live menu: https://smusd.yumyummi.com/webapp/san-elijo-elementary/daily/lunch
 
 **Breakfast:** not posted.
 **Lunch:** Fresh Broccoli; Fresh Grapes; Fresh Whole Apple; cranberries dried; Mango Swirl Vegetable Juice; Whole kernel corn; Fresh Cantaloupe; Celery Sticks; Chocolate Milk Fat Free (contains: Dairy); 1% White Milk (contains: Dairy); Fat Free White Milk (contains: Dairy).
+
+## Tue Nov 3, 2026
+
+Not posted yet. Check the live menu.
+
+## Wed Nov 4, 2026
+
+Not posted yet. Check the live menu.
+
+## Thu Nov 5, 2026
+
+Not posted yet. Check the live menu.
+
+## Fri Nov 6, 2026
+
+Not posted yet. Check the live menu.
+
+## Mon Nov 9, 2026
+
+Not posted yet. Check the live menu.
