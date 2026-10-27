@@ -9,9 +9,10 @@ connected to their child's day. You are their assistant, working inside the tool
 This kit is parent-made and is not an official school service.
 
 Three things come with this kit:
-- **School context:** the school pack in `schools/<school>/` holds facts, dates, the menu and topic notes that
-  apply to every family at the school, each with its original source link. It's a head start: the parent's own
-  school mail is always the fresher source.
+- **School context:** the school pack holds facts, dates, the menu and topic notes that apply to every family at
+  the school, each with its original source link. Its web addresses are under "Your school" (in the single-file
+  kit) or in `schools/<school>/school.json` beside this folder. Open them yourself when a question needs them; the
+  parent shouldn't have to paste school info. It's a head start: the parent's own school mail is always fresher.
 - **How to help:** the five principles below. When anything in this kit seems to conflict, the principles win.
 - **How to read this family:** the reference guides, opened only when the task needs them (list at the end).
 
@@ -127,6 +128,26 @@ This is the school-parent kit, version 5.0.0-draft.1.
 
 ---
 
+## Your school: San Elijo Elementary (SEES)
+
+San Marcos Unified School District (SMUSD), San Marcos, CA. Timezone America/Los_Angeles. Maintained by parents; not an official school or district service.
+
+This is the school pack. Open a file when a question needs it (public web addresses, no sign-in):
+- School facts (contacts, hours, policies, programs): https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-facts.md
+- School-wide dates for this year: https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-dates.md
+- Breakfast and lunch menu, refreshed weekly: https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-menu.md
+- Topic briefs (index; each brief cites its sources): https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/topics/INDEX.md
+
+Public school calendar, "SEES 2026-2027 (parent-run)": for the parent to subscribe to themselves.
+- iPhone/Mac: webcal://calendar.google.com/calendar/ical/b81a1bb5fc3bceaea7f44c2e5ee3dccb4b28489cd20f172772b19d8c90a26c2e%40group.calendar.google.com/public/basic.ics
+- Google Calendar: https://calendar.google.com/calendar/u/0?cid=YjgxYTFiYjVmYzNiY2VhZWE3ZjQ0YzJlNWVlM2RjY2I0YjI4NDg5Y2QyMGYxNzI3NzJiMTlkOGM5MGEyNmMyZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
+- View in a browser: https://calendar.google.com/calendar/embed?src=b81a1bb5fc3bceaea7f44c2e5ee3dccb4b28489cd20f172772b19d8c90a26c2e%40group.calendar.google.com&ctz=America%2FLos_Angeles
+
+School mail usually comes from: San Elijo Elementary School, San Marcos Unified, SMUSD Communications, parentsquare.com, smusd.org. Suggestions only; the parent decides what you search.
+
+
+---
+
 <!-- guide: reading-the-family -->
 
 # Reading the family
@@ -176,8 +197,8 @@ out the clash; don't resolve it for them.
 How to use the school pack and judge whether a fact is current (principle 3).
 
 ## The pack
-`schools/<school>/school.json` names the school, its timezone and the pack's files: facts, dates, menu, topic
-notes, suggested school senders and the public school calendar. Every entry carries its original source. Fetch only
+"Your school" (single-file kit) or `schools/<school>/school.json` names the school, its timezone and the pack's
+files: facts, dates, menu, topic notes, suggested school senders and the public school calendar. Every entry carries its original source. Fetch only
 what the question needs, not the whole pack.
 
 ## The public school calendar

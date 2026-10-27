@@ -3,8 +3,8 @@
 How to use the school pack and judge whether a fact is current (principle 3).
 
 ## The pack
-`schools/<school>/school.json` names the school, its timezone and the pack's files: facts, dates, menu, topic
-notes, suggested school senders and the public school calendar. Every entry carries its original source. Fetch only
+"Your school" (single-file kit) or `schools/<school>/school.json` names the school, its timezone and the pack's
+files: facts, dates, menu, topic notes, suggested school senders and the public school calendar. Every entry carries its original source. Fetch only
 what the question needs, not the whole pack.
 
 ## The public school calendar

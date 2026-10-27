@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build/check the single-file form of skill/ for hosts that can't load a skill folder."""
 import argparse
+import json
 from pathlib import Path
 import re
 import sys
@@ -23,7 +24,34 @@ def split_frontmatter(text):
     return fields, body.lstrip('\n')
 
 
-def render(root=ROOT):
+def school_section(root, school):
+    """The school's public links, from schools/<school>/school.json, so the single file can reach the pack."""
+    pack = json.loads((root / f'schools/{school}/school.json').read_text())
+    files, cal = pack['files'], pack.get('public_calendar', {})
+    for key in ('facts', 'dates', 'menu', 'topics_index'):
+        if not files.get(key, '').startswith('https://'):
+            raise ValueError(f'school.json needs an https link for files.{key}')
+    lines = [f'## Your school: {pack["school"]}', '',
+             f'{pack["district"]}, {pack["city"]}. Timezone {pack["timezone"]}. Maintained by '
+             f'{pack["maintained_by"]}.', '',
+             'This is the school pack. Open a file when a question needs it (public web addresses, no sign-in):',
+             f'- School facts (contacts, hours, policies, programs): {files["facts"]}',
+             f'- School-wide dates for this year: {files["dates"]}',
+             f'- Breakfast and lunch menu, refreshed weekly: {files["menu"]}',
+             f'- Topic briefs (index; each brief cites its sources): {files["topics_index"]}']
+    if cal:
+        lines += ['', f'Public school calendar, "{cal["name"]}": for the parent to subscribe to themselves.',
+                  f'- iPhone/Mac: {cal["subscribe_apple"]}',
+                  f'- Google Calendar: {cal["subscribe_google"]}',
+                  f'- View in a browser: {cal["view"]}']
+    senders = pack.get('suggested_school_senders')
+    if senders:
+        lines += ['', 'School mail usually comes from: ' + ', '.join(senders['names'] + senders['domains'])
+                  + '. Suggestions only; the parent decides what you search.']
+    return '\n'.join(lines) + '\n'
+
+
+def render(root=ROOT, school='sees'):
     version = (root / 'skill/VERSION').read_text().strip()
     if not VERSION_RE.fullmatch(version):
         raise ValueError('Unsupported version')
@@ -40,7 +68,8 @@ def render(root=ROOT):
         raise ValueError('SKILL.md must list each reference guide exactly once')
     parts = [f'# School-parent kit {version}\n\n'
              'Single-file form of the skill folder: the main instructions, then each reference guide.\n',
-             REF_RE.sub(lambda m: f'the "{m.group(1)}" guide below', body).rstrip() + '\n']
+             REF_RE.sub(lambda m: f'the "{m.group(1)}" guide below', body).rstrip() + '\n',
+             '\n---\n\n' + school_section(root, school)]
     for name in listed:
         guide = (root / f'skill/references/{name}.md').read_text()
         if '\r' in guide or not guide.startswith('# '):

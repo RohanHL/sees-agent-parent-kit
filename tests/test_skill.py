@@ -36,6 +36,19 @@ class SkillTests(unittest.TestCase):
         self.assertTrue(text.endswith(f'END OF SCHOOL-PARENT KIT {version}\n'))
         self.assertNotIn('`references/', text)
 
+    def test_single_file_reaches_the_school_pack(self):
+        # An agent given only the single file must be able to open every school file and the calendar.
+        text = build.render(self.root).decode()
+        pack = __import__('json').loads((self.root / 'schools/sees/school.json').read_text())
+        for link in list(pack['files'].values()) + [pack['public_calendar']['subscribe_apple']]:
+            self.assertIn(link, text)
+        self.assertLess(text.index('## Your school'), text.index('<!-- guide:'))
+
+    def test_school_pack_without_links_fails(self):
+        self.edit('schools/sees/school.json', '"facts": "https://', '"facts": "')
+        with self.assertRaises(ValueError):
+            build.render(self.root)
+
     def test_unlisted_guide_fails(self):
         (self.root / 'skill/references/extra.md').write_text('# Extra\n')
         with self.assertRaises(ValueError):

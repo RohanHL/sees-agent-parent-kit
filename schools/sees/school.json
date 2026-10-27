@@ -14,6 +14,9 @@
   "public_calendar": {
     "name": "SEES 2026-2027 (parent-run)",
     "google_calendar_id": "b81a1bb5fc3bceaea7f44c2e5ee3dccb4b28489cd20f172772b19d8c90a26c2e@group.calendar.google.com",
+    "subscribe_apple": "webcal://calendar.google.com/calendar/ical/b81a1bb5fc3bceaea7f44c2e5ee3dccb4b28489cd20f172772b19d8c90a26c2e%40group.calendar.google.com/public/basic.ics",
+    "subscribe_google": "https://calendar.google.com/calendar/u/0?cid=YjgxYTFiYjVmYzNiY2VhZWE3ZjQ0YzJlNWVlM2RjY2I0YjI4NDg5Y2QyMGYxNzI3NzJiMTlkOGM5MGEyNmMyZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+    "view": "https://calendar.google.com/calendar/embed?src=b81a1bb5fc3bceaea7f44c2e5ee3dccb4b28489cd20f172772b19d8c90a26c2e%40group.calendar.google.com&ctz=America%2FLos_Angeles",
     "note": "The parent subscribes themselves; subscribing is never done for them without their yes."
   },
   "suggested_school_senders": {
