@@ -1,6 +1,17 @@
 # Changelog
 
-Every improvement to this kit, with thanks to the parents who made it happen.
+## 2026-10-27 — 5.0.0-draft.1
+
+- Rebuilt around five principles (fit their system; infer, don't interrogate; every claim has a source and every gap
+  a name; reading is free, changing is theirs; earn every interruption), each with worked examples from testing.
+- Skill folder format: a short core always loaded, six guides opened only when needed; `dist/school-parent-kit.md`
+  is the same content as one file. 3,698 words, down from 4,630.
+- Every rule from v1-v4 is recorded with its reason and a test scenario in `evals/RULES.md`. Restored three v3
+  behaviors that v4 dropped: lead with the one date most likely missed, a "since you asked" line, the school calendar.
+- Scenario results against v4: 43/43 vs 36/43 (`evals/RESULTS.md`).
+- School data described in `schools/sees/school.json`; no route back to a maintainer (corrections are drafted by the
+  parent's own assistant). v4 kept in `archive/v4/`.
+- History rewritten to remove family details from earlier examples.
 
 ## 2026-10-14 — Launch
 

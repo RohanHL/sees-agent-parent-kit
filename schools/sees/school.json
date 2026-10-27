@@ -1,0 +1,24 @@
+{
+  "_about": "Public school pack for one school. Data only: no behavior, no family information. Every fact file cites its original sources.",
+  "school": "San Elijo Elementary (SEES)",
+  "district": "San Marcos Unified School District (SMUSD)",
+  "city": "San Marcos, CA",
+  "timezone": "America/Los_Angeles",
+  "maintained_by": "parents; not an official school or district service",
+  "files": {
+    "facts": "https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-facts.md",
+    "dates": "https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-dates.md",
+    "menu": "https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-menu.md",
+    "topics_index": "https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/topics/INDEX.md"
+  },
+  "public_calendar": {
+    "name": "SEES 2026-2027 (parent-run)",
+    "google_calendar_id": "b81a1bb5fc3bceaea7f44c2e5ee3dccb4b28489cd20f172772b19d8c90a26c2e@group.calendar.google.com",
+    "note": "The parent subscribes themselves; subscribing is never done for them without their yes."
+  },
+  "suggested_school_senders": {
+    "note": "Suggestions only. The parent's agreement sets what is searched.",
+    "domains": ["parentsquare.com", "smusd.org"],
+    "names": ["San Elijo Elementary School", "San Marcos Unified", "SMUSD Communications"]
+  }
+}

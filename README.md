@@ -1,15 +1,32 @@
-# SEES parent kit · local draft v4
+# School parent kit
 
-Less school admin, more connection with your child's day. This parent-run kit gives your existing assistant guidance; it is not a school service or a new app.
+Less school admin, more connection with your child's day. This kit teaches the AI assistant you already use how to
+help with school life: answering school questions from sourced facts, reading your school email and calendars to
+find what matters, and proposing calendar changes only you can approve. It is parent-made, not a school service, and
+there's no app or sign-up.
 
-**Start:** give your assistant the complete [Parent Kit instructions](dist/PARENT-KIT.md) and say: “Help me with school life using these instructions.” Upload that one file or paste all its text. No code or GitHub account is needed to use the file.
+Set up for **San Elijo Elementary (SEES), San Marcos, CA**. Another school can copy `schools/sees/`.
 
-You can ask a question straight away. Email, calendars and automatic updates are optional and depend on your assistant. It should explain what works before you rely on it. Without connections it can help with school information you provide or public sources it can verify. Calendar changes require your approval.
+## Use it
 
-Family details belong only in your chosen assistant's private conversation/storage, subject to that service's privacy settings, never in this shared kit. Public SEES source references are included automatically; changing school facts are checked when needed, not copied into this draft.
+1. **If your assistant supports skills,** add the `skill/` folder.
+   **Otherwise,** give it the single file [`dist/school-parent-kit.md`](dist/school-parent-kit.md): upload it, or
+   paste all of it.
+2. Say: "Help me with school life using these instructions."
+3. Ask anything. Connecting your school email and calendar is optional; your assistant will explain what that lets
+   it do before you agree.
 
-This review branch proposes behavior version 4.0.0-draft.3; it is not a live service and does not upgrade an existing pilot. No host setup route, mobile start, durable memory or automatic delivery has been live-validated. If you do not already have an assistant, this draft does not yet provide a tested account/setup route.
+Your family's details stay in your own assistant, subject to its privacy settings. Nothing comes back to this repo.
+What works (memory, scheduled updates) depends on your assistant; see [hosts](hosts/README.md).
 
-Maintainers: [build and validation](MAINTAINING.md).
+## What's here
 
-The complete bundle retains its original “LOCAL REVIEW DRAFT” label to preserve the reviewed bytes. Existing school data, topics and feedback remain unchanged and are evidence or legacy reference material, not additional behavioral instructions.
+| Folder | What it is |
+|---|---|
+| `skill/` | The kit: five principles with worked examples (`SKILL.md`) and guides it opens when needed |
+| `schools/sees/` | Which public school files and calendar to use; the files themselves (`school-*.md`, `topics/`) are at the repo root so existing links keep working |
+| `evals/` | Why every rule exists (`RULES.md`), test scenarios, and results |
+| `hosts/` | What's been checked on which assistant |
+| `archive/v4/` | The previous version, kept for reference |
+
+Version: see `skill/VERSION`. Changes: [CHANGELOG](CHANGELOG.md). Contributing: [CONTRIBUTING](CONTRIBUTING.md).

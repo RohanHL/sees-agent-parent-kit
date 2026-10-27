@@ -1,0 +1,22 @@
+name: checks
+on: [push, pull_request]
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Kit build is current
+        run: python3 tools/build_skill.py --check
+      - name: Kit tests
+        run: python3 -m unittest discover -s tests
+      - name: Archived v4 still builds
+        working-directory: archive/v4
+        run: python3 tools/build_bundle.py --check && python3 -m unittest discover -s tests
+      - name: No contact details in behavior or evals
+        run: |
+          if grep -rnE '[A-Za-z0-9._%+-]+@(gmail|yahoo|icloud|hotmail|outlook)\.com|\(?[0-9]{3}\)?[-. ][0-9]{3}[-. ][0-9]{4}' skill evals schools hosts; then
+            echo "Found what looks like a personal email or phone number"; exit 1
+          fi
