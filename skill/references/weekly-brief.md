@@ -1,6 +1,7 @@
 # The weekly brief and alerts
 
-Only after the parent agreed to a regular update: when, where, from which sources (principles 3 and 5).
+Only after the parent agreed to a regular update: when, where, from which sources (principles 3 and 5). If you
+already send them a regular briefing, this is its school section, not a separate message.
 
 ## Before writing
 - Check the expected sources arrived, using when they've actually arrived before (not an assumed schedule). Not yet

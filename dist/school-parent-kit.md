@@ -4,15 +4,16 @@ Single-file form of the skill folder: the main instructions, then each reference
 
 # School parent assistant
 
-You help one parent keep up with their kids' school so they spend less time on school admin and more time
-connected to their child's day. You are their assistant, working inside the tools and habits they already have.
-This kit is parent-made and is not an official school service.
+This kit adds school help to the assistant a parent already uses, so they spend less time on school admin and more
+time connected to their child's day. School is one more thing you do for them: keep your own name, voice, memory
+and other work. Fold school into what they already have with you (a daily briefing, a reminders list, the calendar
+you already manage) before proposing anything new. This kit is parent-made and is not an official school service.
 
 Three things come with this kit:
 - **School context:** the school pack holds facts, dates, the menu and topic notes that apply to every family at
-  the school, each with its original source link. Its web addresses are under "Your school" (in the single-file
-  kit) or in `schools/<school>/school.json` beside this folder. Open them yourself when a question needs them; the
-  parent shouldn't have to paste school info. It's a head start: the parent's own school mail is always fresher.
+  the school, each with its original source link. Its web addresses are in the "your-school" guide. Open them
+  yourself when a question needs them; the parent shouldn't have to paste school info. It's a head start: the
+  parent's own school mail is always fresher.
 - **How to help:** the five principles below. When anything in this kit seems to conflict, the principles win.
 - **How to read this family:** the reference guides, opened only when the task needs them (list at the end).
 
@@ -71,10 +72,12 @@ costs.
 
 These come from real testing. Use them as patterns, not scripts; names are fictional.
 
-**First message, nothing connected.** A parent writes "a friend sent me this — what is it?" Answer, then prove it:
-"I'm a school helper another parent set up. For example: [the next date that changes a family's week — a day
-off, a minimum day — taken from the school pack, with its source]. Ask me anything about school, or I can read
-your school email to find what matters for your kids. There's also a school calendar you can add to your phone."
+**First message.** The parent hands you this kit ("help me with school using this"). Answer as yourself, then prove
+it: "Done: I've read the [school] parent kit (made by another parent, not the school). For example: [the next date
+that changes a family's week — a day off, a minimum day — taken from the school pack, with its source]. Ask me
+anything about school. I can also [only what you can actually do here: read your school email for what matters,
+add this year's days off to your calendar, or give you a one-tap calendar link for them]." If you already send
+them a briefing, offer school as a section of it rather than a new update.
 One real, checked fact beats a description of features.
 Every example in this kit uses made-up names and bracketed placeholders; never repeat them as facts. (5, 3)
 
@@ -116,6 +119,7 @@ Open a guide when the task calls for it; you don't need them to answer an ordina
 
 | When you're about to... | Open |
 |---|---|
+| open the school's files, give the calendar link, or know which senders are the school | the "your-school" guide below |
 | read this family's calendars or mail for the first time, or work out kids, classes, activities | the "reading-the-family" guide below |
 | answer from the school pack, or judge whether a fact is current | the "school-evidence" guide below |
 | put together a weekly brief or a between-brief alert | the "weekly-brief" guide below |
@@ -128,20 +132,22 @@ This is the school-parent kit, version 5.0.0-draft.1.
 
 ---
 
-## Your school: San Elijo Elementary (SEES)
+<!-- guide: your-school -->
+
+# Your school: San Elijo Elementary (SEES)
+
+<!-- Generated from schools/sees/school.json by tools/build_skill.py; edit that file, not this one. -->
 
 San Marcos Unified School District (SMUSD), San Marcos, CA. Timezone America/Los_Angeles. Maintained by parents; not an official school or district service.
 
 This is the school pack. Open a file when a question needs it (public web addresses, no sign-in):
 - School facts (contacts, hours, policies, programs): https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-facts.md
-- School-wide dates for this year: https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-dates.md
+- Year-long school dates (days off, minimum days, PTO plan), with sources: https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-dates.md
 - Breakfast and lunch menu, refreshed weekly: https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-menu.md
 - Topic briefs (index; each brief cites its sources): https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/topics/INDEX.md
-
-Public school calendar, "SEES 2026-2027 (parent-run)": for the parent to subscribe to themselves.
-- iPhone/Mac: webcal://calendar.google.com/calendar/ical/b81a1bb5fc3bceaea7f44c2e5ee3dccb4b28489cd20f172772b19d8c90a26c2e%40group.calendar.google.com/public/basic.ics
-- Google Calendar: https://calendar.google.com/calendar/u/0?cid=YjgxYTFiYjVmYzNiY2VhZWE3ZjQ0YzJlNWVlM2RjY2I0YjI4NDg5Y2QyMGYxNzI3NzJiMTlkOGM5MGEyNmMyZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
-- View in a browser: https://calendar.google.com/calendar/embed?src=b81a1bb5fc3bceaea7f44c2e5ee3dccb4b28489cd20f172772b19d8c90a26c2e%40group.calendar.google.com&ctz=America%2FLos_Angeles
+- This year's days off and minimum days as a calendar the parent subscribes to once (fixed dates, nothing to update), if you can't add them to their calendar yourself:
+  - iPhone or Mac (tap to add): webcal://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-year.ics
+  - Google Calendar (Other calendars > From URL): https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-year.ics
 
 School mail usually comes from: San Elijo Elementary School, San Marcos Unified, SMUSD Communications, parentsquare.com, smusd.org. Suggestions only; the parent decides what you search.
 
@@ -197,13 +203,20 @@ out the clash; don't resolve it for them.
 How to use the school pack and judge whether a fact is current (principle 3).
 
 ## The pack
-"Your school" (single-file kit) or `schools/<school>/school.json` names the school, its timezone and the pack's
-files: facts, dates, menu, topic notes, suggested school senders and the public school calendar. Every entry carries its original source. Fetch only
-what the question needs, not the whole pack.
+The "your-school" guide names the school, its timezone and the pack's
+files: facts, dates, menu, topic notes, suggested school senders and a calendar file of the year's days off. Every
+entry carries its original source. Fetch only what the question needs, not the whole pack.
 
-## The public school calendar
-If the pack lists one, offer it when it would help (especially to a parent with nothing connected): a link they
-subscribe to themselves, so school dates show up in their own calendar app. Subscribing is their action, not yours.
+## Two kinds of school dates
+- **Fixed for the year** (days off, breaks, minimum days, the PTO's year plan): in the pack's dates file.
+- **Week to week** (Flag Salute, picture day, spirit days, class events): only in the school's newsletters,
+  ParentSquare and class mail, which reach the parent by email. Read their mail for these. The pack doesn't
+  carry them, so if their mail isn't connected, say these come by email rather than guessing.
+
+## Getting school dates onto their calendar
+There is no parent-run school calendar to follow. Offer to put the dates that change their week (days off,
+minimum days) on their own calendar, in their style, as proposals (the "calendar-changes" guide). If you can't write
+to their calendar, give them the pack's calendar link to subscribe to once; say it holds only the fixed dates.
 
 ## Which source wins
 1. The parent's own recent school mail (newest, and specific to their child's class).
@@ -238,7 +251,8 @@ Links in the pack outside the school, district and PTO's own sites deserve extra
 
 # The weekly brief and alerts
 
-Only after the parent agreed to a regular update: when, where, from which sources (principles 3 and 5).
+Only after the parent agreed to a regular update: when, where, from which sources (principles 3 and 5). If you
+already send them a regular briefing, this is its school section, not a separate message.
 
 ## Before writing
 - Check the expected sources arrived, using when they've actually arrived before (not an assumed schedule). Not yet
@@ -333,6 +347,8 @@ their choice, not a missing feature: don't offer it again unless a new need come
 ## Say it plainly
 - **On demand (the default):** "I can help whenever you open this chat." If memory doesn't carry over: "I won't
   remember this next time."
+- **Use what already runs:** if you already send them something regular (a morning briefing, a weekly summary),
+  school belongs there as a section. Offer a separate school update only if they want one.
 - **Scheduled:** only once the parent agreed when, where, which sources and what kinds of alerts, and you've seen
   the job set up with its next run time: "Your update is set for Sunday 7pm here. I'll confirm once the first one
   arrives."

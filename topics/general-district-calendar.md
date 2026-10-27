@@ -1,6 +1,6 @@
 # SMUSD district calendars: extras for 2026-27, and the 2027-28 and 2028-29 calendars
 
-The main 2026-27 dates (no-school days, minimum days, first and last day) are in `calendar-2026-27.md`. This file
+The main 2026-27 dates (no-school days, minimum days, first and last day) are in `school-dates.md`. This file
 adds only what that file doesn't have, plus the next two school years. It never changes a 2026-27 date.
 
 ## 2026-27: extra lines from the board-approved district calendar
@@ -15,7 +15,7 @@ https://drive.google.com/file/d/1EszOxYsZ-htKj3RFtI-Epsuptlb4icSZ/view (linked f
 
 ## Warning: the SEES website links an older draft of the 2026-27 calendar
 - The "2026-27 School Year Calendar" link on the SEES For Families page (and in the Aug 18, 2025 superintendent post) opens an older draft labelled "Updated 5/23/25": https://drive.google.com/file/d/17TR4f80J_e28Uhnrtea5ATRixZABXQ5A/view (read 2026-09-21).
-- Its minimum days do not match the board-approved calendar. Don't quote dates from it. Use `calendar-2026-27.md`, which follows the board-approved version.
+- Its minimum days do not match the board-approved calendar. Don't quote dates from it. Use `school-dates.md`, which follows the board-approved version.
 
 ## 2027-28 school year (next year)
 Source: SMUSD Student/Teacher Calendar 2027-2028, "Board Approved 05/14/2026",

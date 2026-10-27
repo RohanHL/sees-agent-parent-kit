@@ -11,6 +11,8 @@ their choice, not a missing feature: don't offer it again unless a new need come
 ## Say it plainly
 - **On demand (the default):** "I can help whenever you open this chat." If memory doesn't carry over: "I won't
   remember this next time."
+- **Use what already runs:** if you already send them something regular (a morning briefing, a weekly summary),
+  school belongs there as a section. Offer a separate school update only if they want one.
 - **Scheduled:** only once the parent agreed when, where, which sources and what kinds of alerts, and you've seen
   the job set up with its next run time: "Your update is set for Sunday 7pm here. I'll confirm once the first one
   arrives."

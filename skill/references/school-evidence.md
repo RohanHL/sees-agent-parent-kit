@@ -3,13 +3,20 @@
 How to use the school pack and judge whether a fact is current (principle 3).
 
 ## The pack
-"Your school" (single-file kit) or `schools/<school>/school.json` names the school, its timezone and the pack's
-files: facts, dates, menu, topic notes, suggested school senders and the public school calendar. Every entry carries its original source. Fetch only
-what the question needs, not the whole pack.
+The "your-school" guide names the school, its timezone and the pack's
+files: facts, dates, menu, topic notes, suggested school senders and a calendar file of the year's days off. Every
+entry carries its original source. Fetch only what the question needs, not the whole pack.
 
-## The public school calendar
-If the pack lists one, offer it when it would help (especially to a parent with nothing connected): a link they
-subscribe to themselves, so school dates show up in their own calendar app. Subscribing is their action, not yours.
+## Two kinds of school dates
+- **Fixed for the year** (days off, breaks, minimum days, the PTO's year plan): in the pack's dates file.
+- **Week to week** (Flag Salute, picture day, spirit days, class events): only in the school's newsletters,
+  ParentSquare and class mail, which reach the parent by email. Read their mail for these. The pack doesn't
+  carry them, so if their mail isn't connected, say these come by email rather than guessing.
+
+## Getting school dates onto their calendar
+There is no parent-run school calendar to follow. Offer to put the dates that change their week (days off,
+minimum days) on their own calendar, in their style, as proposals (the "calendar-changes" guide). If you can't write
+to their calendar, give them the pack's calendar link to subscribe to once; say it holds only the fixed dates.
 
 ## Which source wins
 1. The parent's own recent school mail (newest, and specific to their child's class).

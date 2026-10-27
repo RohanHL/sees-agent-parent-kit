@@ -1,6 +1,6 @@
 # Volunteering and the SEES PTO
 
-Dates of PTO events and meetings come ONLY from calendar-2026-27.md. PTO event pages still show last year's dates.
+Dates of PTO events and meetings come ONLY from school-dates.md. PTO event pages still show last year's dates.
 
 ## Volunteer clearance: which level (district)
 Source: https://www.smusd.org/144243_3 (same page as https://sanmarcosusd8.smartsiteshost.com/200687_2; "2026-2027 Volunteer Applications Are Now Open"), read 2026-09-21.
@@ -68,7 +68,7 @@ Sources: https://seespto.org/pages/what-does-pto-fund (undated) and https://sees
 - PTO-funded instructors listed on the 2025-2026 board page (may have changed): Erica Zempko (Art), Kristin Spaete (Art), Mr Bell (STEM).
 
 ## Cash for Kids 2026-27 (the big fall drive)
-Sources: https://seespto.org/pages/cash-for-kids and flyer https://drive.google.com/file/d/145_3x2KPJyi2Mh6nMSPESdyk8hE06aia/view (2026-27), read 2026-09-21. Drive dates: calendar-2026-27.md.
+Sources: https://seespto.org/pages/cash-for-kids and flyer https://drive.google.com/file/d/145_3x2KPJyi2Mh6nMSPESdyk8hE06aia/view (2026-27), read 2026-09-21. Drive dates: school-dates.md.
 - Goal: $55,000. Donate at seespto.org/cash4kids, text "WESOAR" to 44-321, or cash/check payable to SEES PTO in the PTO Drop Box by the school office.
 - $150 is the recommended amount per student.
 - Prize levels: $10 & up, a 3" decal sticker; $150 & up, a SEES squishy dumpling; $300 & up, a 2026-27 yearbook and embroidered cap; $500 & up, a principal experience with Mrs. McLeod.
@@ -77,7 +77,7 @@ Sources: https://seespto.org/pages/cash-for-kids and flyer https://drive.google.
 
 ## PTO board and meetings
 Sources: bylaws https://drive.google.com/file/d/1shZZHq_63QT1a3cJhBCNqo1mB4cpklLw/view (dated June 9, 2026) and https://seespto.org/pages/board-members (page titled 2025-2026), read 2026-09-21.
-- Regular PTO board meetings during the school year are open to all SEES parents, teachers and staff. (Meeting dates: calendar-2026-27.md.)
+- Regular PTO board meetings during the school year are open to all SEES parents, teachers and staff. (Meeting dates: school-dates.md.)
 - The PTO has two co-Presidents, a Secretary, Treasurer and Financial Secretary. Board members must have a child enrolled at SEES; the board elects directors at its annual meeting in the last month of the school year.
 - Board emails (names on the page are from 2025-2026 and may have changed): president@seespto.org, secretary@seespto.org, treasurer@seespto.org, activities@seespto.org, annualfundraising@seespto.org, communications@seespto.org, sponsorship@seespto.org, yearbook@seespto.org.
 
@@ -87,7 +87,7 @@ Sources: bylaws https://drive.google.com/file/d/1shZZHq_63QT1a3cJhBCNqo1mB4cpklL
 - Dine-outs (https://seespto.org/pages/dine-out, last updated 2024-25): the PTO announces them in the weekly newsletter, ParentSquare alerts and backpack flyers the week before. No 2026-27 dine-outs are posted.
 
 ## Book fair how-to
-Sources: https://seespto.org/pages/book-fair (STALE, 2023-24; how-to only) and https://bookfairs.scholastic.com/content/fairs/how-ewallet-works.html?fairId=5694313, read 2026-09-21. Fair dates: calendar-2026-27.md.
+Sources: https://seespto.org/pages/book-fair (STALE, 2023-24; how-to only) and https://bookfairs.scholastic.com/content/fairs/how-ewallet-works.html?fairId=5694313, read 2026-09-21. Fair dates: school-dates.md.
 - Every class shops together; parents may come with the class or any time, checking in at the office.
 - Scholastic eWallet instead of cash: create one per student for each fair at the Scholastic site; share the link so grandparents can add money. Unspent eWallet money becomes a Scholastic eGift Card balance for the next fair.
 - You can buy a book from the teacher wish bins to donate to the classroom library.

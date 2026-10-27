@@ -1,70 +1,81 @@
-# SEES school dates 2026–27
+# SEES school dates 2026-27
 
-Generated 2026-10-14 from the shared school item store (scopes: school, district; status: approved).
-Class/grade/program-specific items are intentionally excluded — those come from the parent's own mail.
-Always confirm with the school; this calendar is parent-maintained.
+Dates fixed for the whole school year, each with its source. Built from `schools/sees/dates.csv`; updated once a year (August) or when the district changes its calendar.
 
-- **2026-08-14** — Soar and Explore (before school started) — _""_
-- **2026-08-18** — First day of school — _""_
-- **2026-08-21** 8:55am — **Flag Salute**, 8:55am — first of the year, combined with SEES's 20th anniversary celebration — _""_
-- **2026-08-21** — Cash for Kids fundraiser (PTO). Goal $55,000. Donate at seespto.org/pages/cash-for-kids or text WESOAR to 44-321 [N, Sep 13]. — _""_
-- **2026-08-26** 6:00pm — PTO meeting — _""_
-- **2026-09-07** — Labor Day — _""_
-- **2026-09-11** 9:00am — Room Parent meeting, 9:00am — _""_
-- **2026-09-23** — **Yearbook cover contest entries due.** Theme: "20 Years of Soaring" (20 years since SEES opened). White 8.5×11 paper, portrait; name, grade and teacher in pencil on the back; drop off at the front office. Optional. — _""_
-- **2026-09-24** — Cash 4 Kids Participation Challenge closes (donations in by then to count for class/grade) — _""_
-- **2026-09-24** 3:40pm — School Site Council, Library, 3:40pm — _""_
-- **2026-09-25** — **DJ PJ Day** — _""_
-- **2026-09-25** 8:55am — **Flag Salute**, 8:55am (first one with awards) — _""_
-- **2026-09-25** — Cash 4 Kids winners announced at Flag Salute — _""_
-- **2026-09-25** — Scholastic Book Fair — _""_
-- **2026-09-30** — Last day to donate for individual Cash 4 Kids prizes — _""_
-- **2026-09-30** 6:00pm — PTO meeting — _""_
-- **2026-10-01** — Additional theater show tickets on sale — _"audience tickets will be available for *$5 beginning October 1.*"_
-- **2026-10-05** — Parent-teacher conferences (elementary) — _""_
-- **2026-10-06** 8:45am-1:25pm — Conference week (minimum days). **K-5 8:45am-1:25pm** (Sep 20, 2026 principal newsletter). — _""_
-- **2026-10-06** — Family P.E. week: one adult may join their child's P.E. class. Class day and time, and the RSVP form (one per student, before Oct 5), are on the P.E. flyer: app.smore.com/n/y6f5b. Visitors check in at the office with photo ID. — _""_
-- **2026-10-07** 5-7pm — Virtual Parent Academy, Session 1 — _""_
-- **2026-10-07** — Walk & Bike to School day — _""_
-- **2026-10-08** 6:30 p.m. — SMUSD Governing Board meeting — _"The next regular SMUSD Governing Board meeting will take place on Thursday, October 8, 2026 at 6:30 p.m."_
-- **2026-10-11** 10:00am–12:00pm — SEES Community Clean Up, meet at the front of the school — _""_
-- **2026-10-12** — **Picture Day** (make-ups Mon Oct 19) — _""_
-- **2026-10-12** — Theater program registration closes — _"* Space is limited, and registration will close on October 12.*"_
-- **2026-10-17** — Monster Bash (PTO) — _""_
-- **2026-10-19** — Picture Day make-ups — _""_
-- **2026-10-20** — Perform with a Knight at SMHS theater program (grades 1-8) — _"*OCTOBER 20, 2026*"_
-- **2026-10-28** 6:00pm — PTO meeting — _""_
-- **2026-10-31** — **Chromebook insurance purchase deadline** (optional but recommended). Info and claims: sites.google.com/smusd.org/smusd11parentstudentinformatio/insurance — _""_
-- **2026-11-02** — Ability Awareness Fair — _""_
-- **2026-11-06** — Fun Run pep rally — _""_
-- **2026-11-11** — Veterans Day — _""_
-- **2026-11-13** — Lunch on the Lawn — _""_
-- **2026-11-18** 6:00pm — PTO meeting — _""_
-- **2026-11-19** — SEES Fun Run — _""_
-- **2026-11-23** — Thanksgiving recess — _""_
-- **2026-12-10** — SEES Winter Festival — _""_
-- **2026-12-16** 6:00pm — PTO meeting — _""_
-- **2026-12-18** — Minimum day — _""_
-- **2026-12-21** — Winter recess (back Mon Jan 11) — _""_
-- **2027-01-18** — Martin Luther King Jr. Day — _""_
-- **2027-01-21** — Minimum day — _""_
-- **2027-01-27** 6:00pm — PTO meeting — _""_
-- **2027-01-28** — Minimum day — _""_
-- **2027-02-01** — SEES food drive — _""_
-- **2027-02-12** — Washington's Birthday — _""_
-- **2027-02-15** — Presidents' Day — _""_
-- **2027-02-16** — Teacher Experience raffle sales — _""_
-- **2027-02-24** 6:00pm — PTO meeting — _""_
-- **2027-03-12** — Students on Stage school play — _""_
-- **2027-03-24** 6:00pm — PTO meeting — _""_
-- **2027-03-29** — Spring recess — _""_
-- **2027-04-09** — Scholastic Book Fair (spring) — _""_
-- **2027-04-24** — Parent Night Out — _""_
-- **2027-04-28** 6:00pm — PTO meeting — _""_
-- **2027-05-03** — Teacher Appreciation Week — _""_
-- **2027-05-15** — SEES spring event (TBD) — _""_
-- **2027-05-20** — Minimum day — _""_
-- **2027-05-27** — Minimum day, plus Open House — _""_
-- **2027-05-31** — Memorial Day — _""_
-- **2027-06-02** 6:00pm — Last PTO meeting — _""_
-- **2027-06-09** — **Last day of school**, minimum day — _""_
+**Not here on purpose:** week-to-week dates (Flag Salute, picture day, spirit days, class events). They come in the principal newsletter, ParentSquare and class mail, which each family already gets; read the parent's own school mail for those. A newer official notice beats this file.
+
+## Every week
+
+- Wednesdays: early release for all K-8. Regular dismissal (K-5) is 3:10pm Mon/Tue/Thu/Fri, 2:10pm Wed.
+- Minimum-day clock times are not in the district calendar. The only printed ones are for conference week (K-5 8:45am-1:25pm, Sep 20, 2026 principal newsletter). For other minimum days, check the teacher's newsletter; never guess a time.
+
+## First day of school
+
+- **Tue Aug 18, 2026**: First day of school [D]
+
+## No school
+
+- **Mon Sep 7, 2026**: Labor Day [D]
+- **Mon Oct 5, 2026**: Parent-teacher conferences (elementary) [D]
+- **Wed Nov 11, 2026**: Veterans Day [D]
+- **Mon Nov 23 – Fri Nov 27, 2026**: Thanksgiving recess [D]
+- **Mon Dec 21 – Fri Jan 8, 2027**: Winter recess (back Mon Jan 11) [D]
+- **Mon Jan 18, 2027**: Martin Luther King Jr. Day [D]
+- **Fri Feb 12, 2027**: Washington's Birthday [D]
+- **Mon Feb 15, 2027**: Presidents' Day [D]
+- **Mon Mar 29 – Fri Apr 2, 2027**: Spring recess [D]
+- **Mon May 31, 2027**: Memorial Day [D]
+
+## Minimum days (early dismissal)
+
+- **Tue Oct 6 – Fri Oct 9, 2026**: Conference week (minimum days) [D]
+- **Fri Dec 18, 2026**: Minimum day [D]
+- **Thu Jan 21, 2027**: Minimum day [D]
+- **Thu Jan 28, 2027**: Minimum day [D]
+- **Thu May 20, 2027**: Minimum day [D]
+- **Thu May 27, 2027**: Minimum day [D]
+- **Wed Jun 9, 2027**: Last day of school, minimum day [D]
+
+## PTO events (planned; the PTO newsletter has the latest)
+
+- **Fri Aug 14, 2026**: Soar and Explore (before school starts) [P]
+- **Fri Aug 21 – Wed Sep 30, 2026**: Cash for Kids fundraiser [P]
+- **Fri Sep 25 – Fri Oct 2, 2026**: Scholastic Book Fair [P]
+- **Wed Sep 30, 2026**: PTO meeting, 6:00pm [P]
+- **Wed Oct 7, 2026**: Walk & Bike to School day [P]
+- **Sat Oct 17, 2026**: Monster Bash [P]
+- **Wed Oct 28, 2026**: PTO meeting, 6:00pm [P]
+- **Mon Nov 2 – Fri Nov 6, 2026**: Ability Awareness Fair [P]
+- **Fri Nov 6, 2026**: Fun Run pep rally [P]
+- **Wed Nov 18, 2026**: PTO meeting, 6:00pm [P]
+- **Thu Nov 19, 2026**: SEES Fun Run [P]
+- **Thu Dec 10, 2026**: SEES Winter Festival [P]
+- **Wed Dec 16, 2026**: PTO meeting, 6:00pm [P]
+- **Wed Jan 27, 2027**: PTO meeting, 6:00pm [P]
+- **Mon Feb 1 – Fri Feb 5, 2027**: SEES food drive [P]
+- **Tue Feb 16 – Thu Feb 25, 2027**: Teacher Experience raffle sales [P]
+- **Wed Feb 24, 2027**: PTO meeting, 6:00pm [P]
+- **Fri Mar 12 – Sun Mar 14, 2027**: Students on Stage school play [P]
+- **Wed Mar 24, 2027**: PTO meeting, 6:00pm [P]
+- **Fri Apr 9 – Fri Apr 16, 2027**: Scholastic Book Fair (spring) [P]
+- **Sat Apr 24, 2027**: Parent Night Out [P]
+- **Wed Apr 28, 2027**: PTO meeting, 6:00pm [P]
+- **Mon May 3 – Fri May 7, 2027**: Teacher Appreciation Week [P]
+- **Sat May 15, 2027**: SEES spring event (details to come) [P]
+- **Thu May 27, 2027**: Open House [P]
+- **Wed Jun 2, 2027**: Last PTO meeting, 6:00pm [P]
+
+## Sources
+
+- [D] SMUSD board-approved 2026-27 calendar: https://drive.google.com/file/d/1Pr5AOBLv2RTcgx6xB5_fzvd_LFErsG62
+- [P] SEES PTO calendar: https://seespto.org/pages/calendar
+
+## Known errors in other sources (don't repeat them)
+
+- A September principal newsletter listed Labor Day as Aug 31. It is Mon Sep 7.
+- The PTO's redrawn district calendar image is missing 4 minimum days; this list has them.
+- PTO event pages on seespto.org (book fair, fun run, talent show, monster bash) still show past years' dates. Don't quote them.
+
+The first day, no-school days and minimum days as a calendar the parent can subscribe to once (the dates are fixed for the year, so there is nothing to keep in sync):
+- iPhone or Mac: webcal://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-year.ics
+- Google Calendar (Other calendars > From URL): https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-year.ics

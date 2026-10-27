@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
 """Build/check the single-file form of skill/ for hosts that can't load a skill folder."""
 import argparse
+import importlib.util
+import io
 import json
 from pathlib import Path
 import re
 import sys
+import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
+_spec = importlib.util.spec_from_file_location('build_dates', ROOT / 'tools/build_dates.py')
+dates = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(dates)
 OUTPUT = 'school-parent-kit.md'
+ZIP_OUTPUT = 'school-parent-skill.zip'
 VERSION_RE = re.compile(r'\d+\.\d+\.\d+(-draft\.\d+)?\Z')
 REF_RE = re.compile(r'`references/([a-z-]+)\.md`')
 
@@ -24,26 +31,33 @@ def split_frontmatter(text):
     return fields, body.lstrip('\n')
 
 
-def school_section(root, school):
-    """The school's public links, from schools/<school>/school.json, so the single file can reach the pack."""
-    pack = json.loads((root / f'schools/{school}/school.json').read_text())
-    files, cal = pack['files'], pack.get('public_calendar', {})
-    for key in ('facts', 'dates', 'menu', 'topics_index'):
+SCHOOL_GUIDE = 'your-school'  # generated from school.json; the only guide allowed to hold links
+
+
+def school_section(root):
+    """The 'your-school' guide: the school's public links from its school.json, so both the skill folder and the
+    single file can reach the school pack."""
+    pack = dates.pack(root)
+    files = pack['files']
+    for key in ('facts', 'dates', 'menu', 'topics_index', 'year_calendar_file'):
         if not files.get(key, '').startswith('https://'):
             raise ValueError(f'school.json needs an https link for files.{key}')
-    lines = [f'## Your school: {pack["school"]}', '',
+    lines = [f'# Your school: {pack["school"]}', '',
+             f'<!-- Generated from {pack.get("_folder", "schools/<school>")}/school.json by tools/build_skill.py; '
+             'edit that file, not this one. -->', '',
              f'{pack["district"]}, {pack["city"]}. Timezone {pack["timezone"]}. Maintained by '
              f'{pack["maintained_by"]}.', '',
              'This is the school pack. Open a file when a question needs it (public web addresses, no sign-in):',
              f'- School facts (contacts, hours, policies, programs): {files["facts"]}',
-             f'- School-wide dates for this year: {files["dates"]}',
+             f'- Year-long school dates (days off, minimum days, PTO plan), with sources: {files["dates"]}',
              f'- Breakfast and lunch menu, refreshed weekly: {files["menu"]}',
-             f'- Topic briefs (index; each brief cites its sources): {files["topics_index"]}']
-    if cal:
-        lines += ['', f'Public school calendar, "{cal["name"]}": for the parent to subscribe to themselves.',
-                  f'- iPhone/Mac: {cal["subscribe_apple"]}',
-                  f'- Google Calendar: {cal["subscribe_google"]}',
-                  f'- View in a browser: {cal["view"]}']
+             f'- Topic briefs (index; each brief cites its sources): {files["topics_index"]}',
+             '- This year\'s days off and minimum days as a calendar the parent subscribes to once (fixed dates, nothing to update), if you can\'t add '
+             'them to their calendar yourself:',
+             f'  - iPhone or Mac (tap to add): {files["year_calendar_apple"]}',
+             f'  - Google Calendar (Other calendars > From URL): {files["year_calendar_file"]}']
+    if not files.get('year_calendar_apple', '').startswith('webcal://'):
+        raise ValueError('school.json needs a webcal:// link for files.year_calendar_apple')
     senders = pack.get('suggested_school_senders')
     if senders:
         lines += ['', 'School mail usually comes from: ' + ', '.join(senders['names'] + senders['domains'])
@@ -51,7 +65,7 @@ def school_section(root, school):
     return '\n'.join(lines) + '\n'
 
 
-def render(root=ROOT, school='sees'):
+def render(root=ROOT):
     version = (root / 'skill/VERSION').read_text().strip()
     if not VERSION_RE.fullmatch(version):
         raise ValueError('Unsupported version')
@@ -63,22 +77,41 @@ def render(root=ROOT, school='sees'):
         raise ValueError('SKILL.md must end by naming skill/VERSION')
     # Every guide is listed in SKILL.md once, in reading order, and every listed guide exists.
     listed = REF_RE.findall(body)
-    present = sorted(p.stem for p in (root / 'skill/references').glob('*.md'))
+    present = sorted({p.stem for p in (root / 'skill/references').glob('*.md')} | {SCHOOL_GUIDE})
     if len(set(listed)) != len(listed) or sorted(listed) != present:
         raise ValueError('SKILL.md must list each reference guide exactly once')
+    if re.search(r'https?://', body):
+        raise ValueError('Behavior must not link out (school links belong in schools/): SKILL.md')
+    school = school_section(root)
     parts = [f'# School-parent kit {version}\n\n'
              'Single-file form of the skill folder: the main instructions, then each reference guide.\n',
-             REF_RE.sub(lambda m: f'the "{m.group(1)}" guide below', body).rstrip() + '\n',
-             '\n---\n\n' + school_section(root, school)]
+             REF_RE.sub(lambda m: f'the "{m.group(1)}" guide below', body).rstrip() + '\n']
     for name in listed:
-        guide = (root / f'skill/references/{name}.md').read_text()
+        guide = school if name == SCHOOL_GUIDE else (root / f'skill/references/{name}.md').read_text()
         if '\r' in guide or not guide.startswith('# '):
             raise ValueError(f'Untitled guide or CRLF: {name}')
-        if re.search(r'https?://', guide + body):
+        if name != SCHOOL_GUIDE and re.search(r'https?://', guide):
             raise ValueError(f'Behavior must not link out (school links belong in schools/): {name}')
         parts.append(f'\n---\n\n<!-- guide: {name} -->\n\n{guide.rstrip()}\n')
     parts.append(f'\n---\n\nEND OF SCHOOL-PARENT KIT {version}\n')
-    return '\n'.join(parts).encode('utf-8')
+    guides = {name: school if name == SCHOOL_GUIDE else (root / f'skill/references/{name}.md').read_text()
+              for name in listed}
+    return {f'dist/{OUTPUT}': '\n'.join(parts).encode('utf-8'),
+            f'skill/references/{SCHOOL_GUIDE}.md': school.encode('utf-8'),
+            f'dist/{ZIP_OUTPUT}': skill_zip(fields['name'], skill, guides)}
+
+
+def skill_zip(name, skill, guides):
+    """The skill folder as an uploadable zip (<name>/SKILL.md, <name>/references/*.md). Stored, not compressed, with
+    fixed timestamps, so the bytes are identical on every machine and CI can check the committed copy."""
+    buffer = io.BytesIO()
+    with zipfile.ZipFile(buffer, 'w', zipfile.ZIP_STORED) as archive:
+        files = [('SKILL.md', skill)] + [(f'references/{g}.md', text) for g, text in sorted(guides.items())]
+        for path, text in files:
+            info = zipfile.ZipInfo(f'{name}/{path}', date_time=(2026, 1, 1, 0, 0, 0))
+            info.external_attr = 0o644 << 16
+            archive.writestr(info, text.encode('utf-8'))
+    return buffer.getvalue()
 
 
 def main():
@@ -86,16 +119,16 @@ def main():
     parser.add_argument('--check', action='store_true', help='fail if the generated file is absent or stale')
     args = parser.parse_args()
     try:
-        data = render()
-        target = ROOT / 'dist' / OUTPUT
-        if args.check:
-            if not target.exists() or target.read_bytes() != data:
-                raise ValueError(f'dist/{OUTPUT} is stale; run tools/build_skill.py')
-            print(f'PASS: dist/{OUTPUT} matches skill/')
-        else:
-            target.parent.mkdir(exist_ok=True)
-            target.write_bytes(data)
-            print(f'Wrote dist/{OUTPUT} ({len(data.split())} words)')
+        for path, data in render().items():
+            target = ROOT / path
+            if args.check:
+                if not target.exists() or target.read_bytes() != data:
+                    raise ValueError(f'{path} is stale; run tools/build_skill.py')
+                print(f'PASS: {path} is current')
+            else:
+                target.parent.mkdir(exist_ok=True)
+                target.write_bytes(data)
+                print(f'Wrote {path} ({len(data)} bytes)')
     except (OSError, ValueError, KeyError) as error:
         print(f'FAIL: {error}', file=sys.stderr)
         sys.exit(1)

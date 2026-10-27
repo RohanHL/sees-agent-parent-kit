@@ -24,25 +24,62 @@ class SkillTests(unittest.TestCase):
         self.assertIn(old, text)
         file.write_text(text.replace(old, new, 1))
 
+    def single_file(self, root=None):
+        return build.render(root or self.root)[f'dist/{build.OUTPUT}'].decode()
+
     def test_reproducible_and_committed(self):
         self.assertEqual(build.render(self.root), build.render(self.root))
-        self.assertEqual((ROOT / 'dist' / build.OUTPUT).read_bytes(), build.render(ROOT))
+        for path, data in build.render(ROOT).items():
+            self.assertEqual((ROOT / path).read_bytes(), data, f'{path} is stale')
 
     def test_every_guide_included_once_and_end_marker(self):
-        text = build.render(self.root).decode()
+        text = self.single_file()
         for guide in (self.root / 'skill/references').glob('*.md'):
             self.assertEqual(text.count(f'<!-- guide: {guide.stem} -->'), 1)
         version = (self.root / 'skill/VERSION').read_text().strip()
         self.assertTrue(text.endswith(f'END OF SCHOOL-PARENT KIT {version}\n'))
         self.assertNotIn('`references/', text)
 
-    def test_single_file_reaches_the_school_pack(self):
-        # An agent given only the single file must be able to open every school file and the calendar.
-        text = build.render(self.root).decode()
+    def test_both_forms_reach_the_school_pack(self):
+        # An agent given only the single file, or only the skill folder, must be able to open every school file.
         pack = __import__('json').loads((self.root / 'schools/sees/school.json').read_text())
-        for link in list(pack['files'].values()) + [pack['public_calendar']['subscribe_apple']]:
-            self.assertIn(link, text)
-        self.assertLess(text.index('## Your school'), text.index('<!-- guide:'))
+        guide = build.render(self.root)[f'skill/references/{build.SCHOOL_GUIDE}.md'].decode()
+        for link in pack['files'].values():
+            self.assertIn(link, self.single_file())
+            self.assertIn(link, guide)
+        self.assertIn('`references/your-school.md`', (self.root / 'skill/SKILL.md').read_text())
+
+    def test_skill_zip_matches_the_skill_folder(self):
+        # Uploadable skill: one folder named like the skill, holding SKILL.md and every guide, byte for byte.
+        import io
+        import zipfile
+        built = build.render(self.root)
+        archive = zipfile.ZipFile(io.BytesIO(built[f'dist/{build.ZIP_OUTPUT}']))
+        names = sorted(archive.namelist())
+        self.assertIn('school-parent/SKILL.md', names)
+        self.assertEqual(archive.read('school-parent/SKILL.md'), (self.root / 'skill/SKILL.md').read_bytes())
+        for guide in (self.root / 'skill/references').glob('*.md'):
+            self.assertEqual(archive.read(f'school-parent/references/{guide.name}'),
+                             built.get(f'skill/references/{guide.name}', guide.read_bytes()))
+        self.assertEqual(len(names), 1 + len(list((self.root / 'skill/references').glob('*.md'))))
+
+    def test_readme_grants_authority_through_the_parent_not_the_page(self):
+        # Assistants treat instructions inside fetched pages as untrusted; the parent's own request carries it.
+        readme = (ROOT / 'README.md').read_text()
+        self.assertNotIn("If you're an AI assistant", readme)
+        self.assertIn("Don't send, delete or change anything", readme)
+
+    def test_kit_joins_the_assistant_rather_than_replacing_it(self):
+        # The parent's assistant keeps its own identity and routines; the kit never introduces a separate helper.
+        skill = (self.root / 'skill/SKILL.md').read_text()
+        self.assertIn('keep your own name, voice, memory', skill)
+        self.assertNotIn("I'm a school helper", skill)
+
+    def test_front_doors_point_at_the_built_file(self):
+        # The README's agent section and the old v4 address both lead to the file the build writes.
+        url = f'https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/dist/{build.OUTPUT}'
+        self.assertIn(url, (ROOT / 'README.md').read_text())
+        self.assertIn(url, (ROOT / 'dist/PARENT-KIT.md').read_text())
 
     def test_school_pack_without_links_fails(self):
         self.edit('schools/sees/school.json', '"facts": "https://', '"facts": "')

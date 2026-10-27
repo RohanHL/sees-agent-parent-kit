@@ -1,0 +1,22 @@
+name: new school year
+on:
+  schedule:
+    - cron: '0 16 1 8 *'  # Aug 1, 9am Pacific
+  workflow_dispatch:
+permissions:
+  issues: write
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open the yearly dates issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create -R "$GITHUB_REPOSITORY" --title "Update school dates for the new school year" --body \
+          "The district publishes its board-approved calendar each summer. In schools/sees/: replace dates.csv (first
+          day, no-school days, minimum days, last day, the PTO's year plan), and in school.json update school_year
+          (label, first_day, last_day, dates_from, dates_to), date_sources (the new calendar's link) and weekly_notes.
+          Then run python3 tools/build_dates.py and python3 tools/build_skill.py. Until this is done, the weekly menu
+          job fails from mid-August and the menu file says it can't publish. Anyone can do this with a pull request;
+          cite the source for every date."

@@ -1,7 +1,7 @@
 # Camps and after-school options (KOC Camp, ASES/Expanded Learning, other)
 
-KOC (Kids on Campus) is SMUSD's childcare program; everyday KOC care, prices and closures are in school/topics/koc.md.
-Fit Kids America classes at SEES are in school/fitkids-sees-classes.md.
+KOC (Kids on Campus) is SMUSD's childcare program; everyday KOC care, prices and closures are in topics/koc.md.
+Fit Kids America classes at SEES: see the Fit Kids section of school-facts.md, and fitkidsamerica.org for the current list.
 
 ## KOC Camp: when it runs in 2026-27 (KOC Parent Calendar)
 Source: KOC 2026-27 Parent Calendar https://files.smartsites.parentsquare.com/4153/koc_parent_calendar_-_2026-2027__4-10-26_1.pdf (Camp days in yellow; read 2026-09-21).

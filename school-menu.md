@@ -1,8 +1,7 @@
-# This week's breakfast and lunch menu
+# Breakfast and lunch menu
 
-Snapshot rendered 2026-10-27 by this repo's weekly menu job, from the SMUSD menu site.
-Covers 5 school days from Tue Oct 27, 2026. Menus change: this is a snapshot,
-not the source. Live menu: https://smusd.yumyummi.com/webapp/san-elijo-elementary/daily/lunch
+Snapshot rendered 2026-10-27 by this repo's weekly menu job, from the district menu site. Menus change: this is a snapshot, not the source. Covers Tue Oct 27 to Mon Nov 2, 2026.
+Live menu: https://smusd.yumyummi.com/webapp/san-elijo-elementary/daily/lunch
 
 ## Tue Oct 27, 2026
 
@@ -22,7 +21,7 @@ not the source. Live menu: https://smusd.yumyummi.com/webapp/san-elijo-elementar
 ## Fri Oct 30, 2026
 
 **Breakfast:** Homemade Cocoa Breakfast Bread (contains: Dairy, Eggs, Soy, Wheat); Strawberry Blueberry Banana Smoothie (contains: Dairy); Apple Juice; Banana (small less than 6`` long); Fresh Blueberries; Fat Free White Milk (contains: Dairy); Lactaid Milk (contains: Dairy); 1% White Milk (contains: Dairy).
-**Lunch:** Spicy Chicken 181 E/H (contains: Soybean Oil, Soy, Wheat); Crispy chicken Sandwich (114E) (contains: Soy, Wheat); Cavatappi, Three Cheese & Garlic Knot (610E) (contains: Dairy, Sesame Seeds, Soybean Oil, Eggs, Wheat); Salad; Carroteenies; sugar snap peas; Green Leaf Lettuce; Frozen Mixed Berries Cups; Frozen Peach Cup; Frozen strawberry Cups; Chocolate Milk Fat Free (contains: Dairy); 1% White Milk (contains: Dairy); Fat Free White Milk (contains: Dairy).
+**Lunch:** Spicy Chicken 181 E/H (contains: Soybean Oil, Soy, Wheat); Crispy chicken Sandwich (114E) (contains: Soy, Wheat); Cavatappi, Three Cheese & Garlic Knot (610E) (contains: Soybean Oil, Dairy, Sesame Seeds, Eggs, Wheat); Salad; Carroteenies; sugar snap peas; Green Leaf Lettuce; Frozen Mixed Berries Cups; Frozen Peach Cup; Frozen strawberry Cups; Chocolate Milk Fat Free (contains: Dairy); 1% White Milk (contains: Dairy); Fat Free White Milk (contains: Dairy).
 
 ## Mon Nov 2, 2026
 

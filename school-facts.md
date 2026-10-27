@@ -1,7 +1,7 @@
 # SEES everyday facts
 
 Built 2026-09-18 from the SEES and SMUSD websites, the PTO site, Fit Kids America, and school-wide
-newsletter items. Dates are in `calendar-2026-27.md`.
+newsletter items. Dates are in `school-dates.md`.
 
 ## The school
 - San Elijo Elementary (SEES), San Marcos Unified School District (SMUSD), San Marcos, CA. Mascot: Eagles
@@ -97,7 +97,7 @@ Conference week, Tue Oct 6 - Fri Oct 9, 2026 (principal newsletter Sep 20, 2026 
 - **Hours: centers open 6:30am-6:00pm.** Shifts: AM 6:30-8:45 (TK-5 before school) · PM 3:10-6:00 (TK-5 after
   school). TK also has a Before/After TK shift that bridges to their school session (11:51-3:10 for AM TK).
   Early release Wednesdays: KOC picks PM-shift kids up 1 hour early, at 2:10 (After TK care at 10:51); no schedule
-  change needed. Only Double Peak's times differ. Full details: school/topics/koc.md.
+  change needed. Only Double Peak's times differ. Full details: topics/koc.md.
 - Closed all school holidays; one staff-development closure day per semester (stated in the contract). Full-day camps
   during school breaks run 7:00am-5:00pm. 2026-27 parent calendar of closures and minimum days: linked from
   smusd.org/koc-information-and-faqs.
@@ -127,7 +127,7 @@ Conference week, Tue Oct 6 - Fri Oct 9, 2026 (principal newsletter Sep 20, 2026 
   application on School Cafe (schoolcafe.com/SANMARCOSUSD) because it can unlock other benefits, e.g. SUN Bucks
   summer food benefits.
 - **Today's menu:** the district publishes it daily at
-  smusd.yumyummi.com/webapp/san-elijo-elementary/daily/lunch. Daily dishes are not stored in this kit — when asked,
+  smusd.yumyummi.com/webapp/san-elijo-elementary/daily/lunch. A weekly snapshot (about two weeks ahead) is in `school-menu.md`; for other days,
   check the live menu. You have standing permission to browse public school and district sites; don't ask first.
 - Each dish lists its allergens. Menus can change; say "per the district menu."
 - Nutrition facts per dish: calories, carbs, protein, plus allergen icons. Fat, sodium, sugar and fiber are
@@ -196,7 +196,7 @@ Conference week, Tue Oct 6 - Fri Oct 9, 2026 (principal newsletter Sep 20, 2026 
   minutes after dismissal, rain or shine.
   - Session 1 (fall 2026): 24 classes; **8 were cancelled**, including **Academic Chess** (Thursdays), basketball
     (grades 3-5), dodgeball, sports fusion, girls' flag football, pickleball, volley basics and yoga.
-    Registration for session 1 closed Sep 7. Details: `fitkids-sees-classes.md` (as of Sep 18; check the live page for changes).
+    Registration for session 1 closed Sep 7. Details: fitkidsamerica.org (this list is as of Sep 18; check the live page for changes).
   - No Fit Kids classes Oct 5-9, Nov 11, Nov 23-27.
 - **Kids on Campus (KOC):** the district's before- and after-school care. See smusd.org/kids-on-campus-extended-day-home.
 - **SEES Chess/STEM Club (Trevor Bell, STEM), school-run:** Wednesdays **2:10–3:10pm**, pickup at the front of school.

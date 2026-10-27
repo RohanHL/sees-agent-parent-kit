@@ -1,0 +1,47 @@
+{
+  "_about": "Public school pack for one school. Data only: no behavior, no family information. Every fact file cites its original sources. Another school copies this folder and edits it; the tools read everything school-specific from here.",
+  "school": "San Elijo Elementary (SEES)",
+  "short_name": "SEES",
+  "district": "San Marcos Unified School District (SMUSD)",
+  "city": "San Marcos, CA",
+  "timezone": "America/Los_Angeles",
+  "maintained_by": "parents; not an official school or district service",
+  "files": {
+    "facts": "https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-facts.md",
+    "dates": "https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-dates.md",
+    "menu": "https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-menu.md",
+    "topics_index": "https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/topics/INDEX.md",
+    "year_calendar_apple": "webcal://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-year.ics",
+    "year_calendar_file": "https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-year.ics"
+  },
+  "school_year": {
+    "label": "2026-27",
+    "first_day": "2026-08-18",
+    "last_day": "2027-06-09",
+    "dates_from": "2026-08-01",
+    "dates_to": "2027-06-30"
+  },
+  "date_sources": {
+    "D": {"name": "SMUSD board-approved 2026-27 calendar", "url": "https://drive.google.com/file/d/1Pr5AOBLv2RTcgx6xB5_fzvd_LFErsG62"},
+    "P": {"name": "SEES PTO calendar", "url": "https://seespto.org/pages/calendar"}
+  },
+  "weekly_notes": [
+    "Wednesdays: early release for all K-8. Regular dismissal (K-5) is 3:10pm Mon/Tue/Thu/Fri, 2:10pm Wed.",
+    "Minimum-day clock times are not in the district calendar. The only printed ones are for conference week (K-5 8:45am-1:25pm, Sep 20, 2026 principal newsletter). For other minimum days, check the teacher's newsletter; never guess a time."
+  ],
+  "known_date_errors": [
+    "A September principal newsletter listed Labor Day as Aug 31. It is Mon Sep 7.",
+    "The PTO's redrawn district calendar image is missing 4 minimum days; this list has them.",
+    "PTO event pages on seespto.org (book fair, fun run, talent show, monster bash) still show past years' dates. Don't quote them."
+  ],
+  "menu_feed": {
+    "url": "https://smusd.yumyummi.com/webapp/load-ajax-school-menus/",
+    "school_id": "16345",
+    "live": "https://smusd.yumyummi.com/webapp/san-elijo-elementary/daily/lunch"
+  },
+  "suggested_school_senders": {
+    "note": "Suggestions only. The parent's agreement sets what is searched.",
+    "domains": ["parentsquare.com", "smusd.org"],
+    "names": ["San Elijo Elementary School", "San Marcos Unified", "SMUSD Communications"]
+  }
+}

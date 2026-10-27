@@ -18,6 +18,7 @@ jobs:
       - name: Refresh school-menu.md
         run: python3 tools/refresh_menu.py
       - name: Commit if changed
+        if: success() || failure()  # an out-of-date notice is written even when the refresh step fails
         run: |
           if git diff --quiet school-menu.md; then echo "No change"; exit 0; fi
           git config user.name "github-actions[bot]"

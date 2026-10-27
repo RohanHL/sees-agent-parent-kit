@@ -10,6 +10,8 @@ jobs:
           python-version: '3.12'
       - name: Kit build is current
         run: python3 tools/build_skill.py --check
+      - name: School dates built from dates.csv
+        run: python3 tools/build_dates.py --check
       - name: Kit tests
         run: python3 -m unittest discover -s tests
       - name: Archived v4 still builds
