@@ -1,0 +1,27 @@
+name: weekly menu
+on:
+  schedule:
+    - cron: '30 13 * * 1'  # Mondays 13:30 UTC (5:30 or 6:30am Pacific)
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Menu tests
+        run: python3 -m unittest tests.test_menu
+      - name: Refresh school-menu.md
+        run: python3 tools/refresh_menu.py
+      - name: Commit if changed
+        run: |
+          if git diff --quiet school-menu.md; then echo "No change"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add school-menu.md
+          git commit -m "Refresh school-menu.md ($(date -u +%F))"
+          git push

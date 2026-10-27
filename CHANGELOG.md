@@ -12,6 +12,9 @@
 - School data described in `schools/sees/school.json`; no route back to a maintainer (corrections are drafted by the
   parent's own assistant). v4 kept in `archive/v4/`.
 - History rewritten to remove family details from earlier examples.
+- `school-menu.md` is now refreshed by this repo every Monday (`.github/workflows/menu.yml`, `tools/refresh_menu.py`),
+  not by any one parent's assistant. Code only: weekend dates are never fetched, a meal is named only as the menu site
+  labels it, and a failed fetch leaves the old file in place and fails the run visibly.
 
 ## 2026-10-14 — Launch
 

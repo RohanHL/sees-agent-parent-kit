@@ -1,108 +1,30 @@
-# This week's lunch & breakfast menu
+# This week's breakfast and lunch menu
 
-Snapshot rendered 2026-10-26 (morning PT), read from the live SMUSD menu
-site (smusd.yumyummi.com). Covers the next 12 school days starting Tue
-Oct 27 — the menu is published about two and a half weeks out. Meals are
-free for every student. Menus change — this is a snapshot, not the source
-of truth. The live menu is at
-https://smusd.yumyummi.com/webapp/san-elijo-elementary/daily/lunch
-
-November menus are not yet published on the site (it still shows "SEES
-Lunch Oct."). The November days below are marked accordingly; check the
-live menu later in the week for November dates.
+Snapshot rendered 2026-10-27 by this repo's weekly menu job, from the SMUSD menu site.
+Covers 5 school days from Tue Oct 27, 2026. Menus change: this is a snapshot,
+not the source. Live menu: https://smusd.yumyummi.com/webapp/san-elijo-elementary/daily/lunch
 
 ## Tue Oct 27, 2026
 
-**Breakfast:** Breakfast Pizza; Fresh Croissant with Strawberry Jam.
-Fruit: Banana (small), Dried Cherries, Plum.
-
-**Lunch:** Cheesy Pull-Aparts; PlantBorn Soft Taco; PlantBorn Street
-Tacos; Carnitas Street Tacos (pork). Fruit/veg: Salad, Carroteenies, Pico
-De Gallo Salsa, Apricots, Applesauce, Cool Tropics Blue Raspberry, Cool
-Tropics Cherry Limeade, Cool Tropics Paradise Punch, Fresh Strawberries.
-Dessert: Rice Krispy Treat.
+**Breakfast:** Breakfast Pizza (contains: Dairy, Soy, Wheat); FRESH CROISSANT WITH STRAWBERRY JAM ( B69E) (contains: Dairy, Wheat); Banana (small less than 6`` long); Dried Cherries; Plum; 1% White Milk (contains: Dairy); Fat Free White Milk (contains: Dairy); Lactaid Milk (contains: Dairy).
+**Lunch:** Cheesy Pull-Aparts (contains: Dairy, Soy, Wheat); PlantBorn Soft Taco (contains: Dairy, Soy, Wheat); PlantBorn Street Tacos 706E (contains: Dairy); Carnitas Street Tacos (pork) (contains: Soy); Salad; Carroteenies; Pico De Gallo Salsa; Apricots; Applesauce; cool tropics blue raspberry; COOL TROPICS Cherry Limeade; Cool Tropics Paradise Punch; Fresh Strawberries; Chocolate Milk Fat Free (contains: Dairy); 1% White Milk (contains: Dairy); Rice Krispy treat (contains: Dairy, Soy).
 
 ## Wed Oct 28, 2026
 
-**Breakfast:** Banana Chunk Bar; Grilled Cheese Sandwich Triangle.
-Fruit: Orange Juice, Plum, Fresh Strawberries.
-
-**Lunch:** Cheese Quesadilla; Chef's Salad With Whole Grain Crackers;
-Chicken Taquito; Mandarin Orange Chicken With Whole Grain Brown Rice.
-Fruit/veg: Salad, Cherry Tomatoes, Edamame, Banana (small), Organic
-Crimson Gold Crab Apple, Dragon Fruit, Appleberry Juice.
+**Breakfast:** Banana Chunk Bar (B25E/B25H) (contains: Dairy, Eggs, Soy, Wheat); Grilled Cheese Sandwich Triangle B43E (contains: Sunflower oil, Dairy, Soy, Wheat); Orange Juice; Plum; Fresh Strawberries; 1% White Milk (contains: Dairy); Fat Free White Milk (contains: Dairy); Lactaid Milk (contains: Dairy).
+**Lunch:** CHEESE QUESADILLA (contains: Dairy, Soy, Wheat); Chef`s Salad With Whole Grain Crackers (contains: Dairy, Eggs, Soy, Wheat); Chicken Taquito 192 E (contains: Dairy, Soy); Mandarin Orange Chicken With Whole Grain Brown Rice 115E (contains: Eggs, Soy, Wheat); Salad; Cherry tomatoes; Edamame (contains: Soy); Banana (small less than 6`` long); Organic crimson gold crab apple; Dragon Fruit; Appleberry Juice; Chocolate Milk Fat Free (contains: Dairy); 1% White Milk (contains: Dairy); Fat Free White Milk (contains: Dairy).
 
 ## Thu Oct 29, 2026
 
-**Breakfast:** Chicken Biscuit; Concha Bread. Fruit: Apple Slices,
-Apricots.
-
-**Lunch:** Mini Corn Dogs; Spaghetti with Homemade Beef Meat Sauce;
-Spaghetti with PlantBorn Pasta Sauce; Garlic Knot. Fruit/veg: Salad,
-Assorted Pepper Rings, Blueberries (frozen), Fresh Sliced Cucumbers, Plum.
+**Breakfast:** Chicken Biscuit B14E (contains: Dairy, Eggs, Soy, Wheat); Concha Bread B12E B12H (contains: Eggs, Soy, Wheat); Apple Slices; Apricots; 1% White Milk (contains: Dairy); Fat Free White Milk (contains: Dairy); Lactaid Milk (contains: Dairy).
+**Lunch:** Mini Corn Dogs (contains: Eggs, Soy, Wheat); Spaghetti with Homemade Beef Meat Sauce (contains: Dairy, Soy, Wheat); Spaghetti with PlantBorn Pasta Sauce (708E) (contains: Eggs, Soy, Wheat); Garlic Knot (contains: Dairy, Eggs, Soy, Wheat); Salad; Assorted Pepper Rings; Blueberries, frozen; Fresh Sliced Cucumbers; Plum; Chocolate Milk Fat Free (contains: Dairy); 1% White Milk (contains: Dairy); Fat Free White Milk (contains: Dairy).
 
 ## Fri Oct 30, 2026
 
-**Breakfast:** Homemade Cocoa Breakfast Bread; Strawberry Blueberry
-Banana Smoothie. Fruit: Apple Juice, Banana (small), Fresh Blueberries.
-
-**Lunch:** Spicy Chicken; Crispy Chicken Sandwich; Cavatappi, Three
-Cheese & Garlic Knot. Fruit/veg: Salad, Carroteenies, Sugar Snap Peas,
-Green Leaf Lettuce, Frozen Mixed Berries Cups, Frozen Peach Cup, Frozen
-Strawberry Cups.
+**Breakfast:** Homemade Cocoa Breakfast Bread (contains: Dairy, Eggs, Soy, Wheat); Strawberry Blueberry Banana Smoothie (contains: Dairy); Apple Juice; Banana (small less than 6`` long); Fresh Blueberries; Fat Free White Milk (contains: Dairy); Lactaid Milk (contains: Dairy); 1% White Milk (contains: Dairy).
+**Lunch:** Spicy Chicken 181 E/H (contains: Soybean Oil, Soy, Wheat); Crispy chicken Sandwich (114E) (contains: Soy, Wheat); Cavatappi, Three Cheese & Garlic Knot (610E) (contains: Dairy, Sesame Seeds, Soybean Oil, Eggs, Wheat); Salad; Carroteenies; sugar snap peas; Green Leaf Lettuce; Frozen Mixed Berries Cups; Frozen Peach Cup; Frozen strawberry Cups; Chocolate Milk Fat Free (contains: Dairy); 1% White Milk (contains: Dairy); Fat Free White Milk (contains: Dairy).
 
 ## Mon Nov 2, 2026
 
-**Breakfast:** Not published yet — check the live menu later this week.
-
-**Lunch:** Main dishes not published yet — the site lists only the
-Monday fruit/veg rotation (Fresh Broccoli, Fresh Grapes, Fresh Whole
-Apple, Dried Cranberries, Mango Swirl Vegetable Juice, Whole Kernel Corn,
-Fresh Cantaloupe, Celery Sticks) and milks.
-
-## Tue Nov 3, 2026
-
-**Breakfast:** Not published yet — check the live menu later this week.
-
-**Lunch:** Not published yet — check the live menu later this week.
-
-## Wed Nov 4, 2026
-
-**Breakfast:** Not published yet — check the live menu later this week.
-
-**Lunch:** Not published yet — check the live menu later this week.
-
-## Thu Nov 5, 2026
-
-**Breakfast:** Not published yet — check the live menu later this week.
-
-**Lunch:** Not published yet — check the live menu later this week.
-
-## Fri Nov 6, 2026
-
-**Breakfast:** Not published yet — check the live menu later this week.
-
-**Lunch:** Not published yet — check the live menu later this week.
-
-## Mon Nov 9, 2026
-
-**Breakfast:** Not published yet — check the live menu later this week.
-
-**Lunch:** Not published yet — check the live menu later this week.
-
-## Tue Nov 10, 2026
-
-**Breakfast:** Not published yet — check the live menu later this week.
-
-**Lunch:** Not published yet — check the live menu later this week.
-
-## Wed Nov 11, 2026
-
-Veterans Day — no menu published (the site shows no dishes for this
-date).
-
-## Thu Nov 12, 2026
-
-**Breakfast:** Not published yet — check the live menu later this week.
-
-**Lunch:** Not published yet — check the live menu later this week.
+**Breakfast:** not posted.
+**Lunch:** Fresh Broccoli; Fresh Grapes; Fresh Whole Apple; cranberries dried; Mango Swirl Vegetable Juice; Whole kernel corn; Fresh Cantaloupe; Celery Sticks; Chocolate Milk Fat Free (contains: Dairy); 1% White Milk (contains: Dairy); Fat Free White Milk (contains: Dairy).
