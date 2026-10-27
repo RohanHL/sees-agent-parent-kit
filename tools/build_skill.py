@@ -53,11 +53,17 @@ def school_section(root):
              f'- Breakfast and lunch menu, refreshed weekly: {files["menu"]}',
              f'- Topic briefs (index; each brief cites its sources): {files["topics_index"]}',
              '- This year\'s days off and minimum days as a calendar the parent subscribes to once (fixed dates, nothing to update), if you can\'t add '
-             'them to their calendar yourself:',
-             f'  - iPhone or Mac (tap to add): {files["year_calendar_apple"]}',
-             f'  - Google Calendar (Other calendars > From URL): {files["year_calendar_file"]}']
+             'them to their calendar yourself. Give the one link for their calendar, as is; it opens their calendar '
+             'app\'s own add prompt, with no web page in between:',
+             f'  - iPhone or Mac (tap, then Subscribe): {files["year_calendar_apple"]}',
+             f'  - Google Calendar (tap, then Add): {files["year_calendar_google"]}',
+             f'  - Any other calendar app (add by URL): {files["year_calendar_file"]}']
     if not files.get('year_calendar_apple', '').startswith('webcal://'):
         raise ValueError('school.json needs a webcal:// link for files.year_calendar_apple')
+    if not files.get('year_calendar_google', '').startswith('https://calendar.google.com/calendar/r?cid='):
+        raise ValueError('school.json needs a Google add link for files.year_calendar_google')
+    if 'raw.githubusercontent.com' in files['year_calendar_apple'] + files['year_calendar_file']:
+        raise ValueError('Calendar links must be served as text/calendar (GitHub Pages), not raw GitHub (text/plain)')
     senders = pack.get('suggested_school_senders')
     if senders:
         lines += ['', 'School mail usually comes from: ' + ', '.join(senders['names'] + senders['domains'])

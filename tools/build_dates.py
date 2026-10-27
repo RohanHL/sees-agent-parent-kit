@@ -104,8 +104,9 @@ def markdown(rows, info):
     out += [f'- {error}' for error in info['known_date_errors']]
     out += ['', 'The first day, no-school days and minimum days as a calendar the parent can subscribe to once (the dates '
             'are fixed for the year, so there is nothing to keep in sync):',
-            f'- iPhone or Mac: {info["files"]["year_calendar_apple"]}',
-            f'- Google Calendar (Other calendars > From URL): {info["files"]["year_calendar_file"]}']
+            f'- iPhone or Mac (tap, then Subscribe): {info["files"]["year_calendar_apple"]}',
+            f'- Google Calendar (tap, then Add): {info["files"]["year_calendar_google"]}',
+            f'- Any other calendar app (add by URL): {info["files"]["year_calendar_file"]}']
     return '\n'.join(out) + '\n'
 
 

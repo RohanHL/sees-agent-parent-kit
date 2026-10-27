@@ -11,8 +11,9 @@
     "dates": "https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-dates.md",
     "menu": "https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-menu.md",
     "topics_index": "https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/topics/INDEX.md",
-    "year_calendar_apple": "webcal://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-year.ics",
-    "year_calendar_file": "https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-year.ics"
+    "year_calendar_apple": "webcal://rohanhl.github.io/sees-agent-parent-kit/school-year.ics",
+    "year_calendar_google": "https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Frohanhl.github.io%2Fsees-agent-parent-kit%2Fschool-year.ics",
+    "year_calendar_file": "https://rohanhl.github.io/sees-agent-parent-kit/school-year.ics"
   },
   "school_year": {
     "label": "2026-27",

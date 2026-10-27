@@ -77,5 +77,6 @@ Dates fixed for the whole school year, each with its source. Built from `schools
 - PTO event pages on seespto.org (book fair, fun run, talent show, monster bash) still show past years' dates. Don't quote them.
 
 The first day, no-school days and minimum days as a calendar the parent can subscribe to once (the dates are fixed for the year, so there is nothing to keep in sync):
-- iPhone or Mac: webcal://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-year.ics
-- Google Calendar (Other calendars > From URL): https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-year.ics
+- iPhone or Mac (tap, then Subscribe): webcal://rohanhl.github.io/sees-agent-parent-kit/school-year.ics
+- Google Calendar (tap, then Add): https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Frohanhl.github.io%2Fsees-agent-parent-kit%2Fschool-year.ics
+- Any other calendar app (add by URL): https://rohanhl.github.io/sees-agent-parent-kit/school-year.ics
