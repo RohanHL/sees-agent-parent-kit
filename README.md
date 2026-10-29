@@ -40,7 +40,7 @@ What works (memory, scheduled updates) depends on your assistant; see [hosts](ho
 
 | Folder | What it is |
 |---|---|
-| `skill/` | The kit: five principles with worked examples (`SKILL.md`) and guides it opens when needed |
+| `skill/` | The kit: a short add-on with guardrails (`SKILL.md`) and three guides it opens when needed |
 | `schools/sees/` | Which public school files and calendar to use; the files themselves (`school-*.md`, `topics/`) are at the repo root so existing links keep working |
 | `evals/` | Why every rule exists (`RULES.md`), test scenarios, and results |
 | `hosts/` | What's been checked on which assistant |

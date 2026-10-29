@@ -92,7 +92,7 @@ class SkillTests(unittest.TestCase):
             build.render(self.root)
 
     def test_missing_guide_fails(self):
-        (self.root / 'skill/references/upgrades.md').unlink()
+        (self.root / 'skill/references/reading-and-updates.md').unlink()
         with self.assertRaises((ValueError, OSError)):
             build.render(self.root)
 
@@ -102,7 +102,7 @@ class SkillTests(unittest.TestCase):
             build.render(self.root)
 
     def test_behavior_cannot_link_out(self):
-        self.edit('skill/references/upgrades.md', '# Loading', '# Loading https://example.com')
+        self.edit('skill/references/reading-and-updates.md', '# Reading', '# Reading https://example.com')
         with self.assertRaises(ValueError):
             build.render(self.root)
 

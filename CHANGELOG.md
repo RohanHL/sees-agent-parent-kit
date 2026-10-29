@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-29 — 5.0.0-draft.3
+
+- Trimmed to an add-on, not a program: 4,242 words in 8 files down to 1,627 in 4. The kit keeps only school knowledge
+  the parent's assistant can't have and the guardrails that protect the parent (sources, approvals, untrusted
+  content, honest limits, calendar care). Tone, length, greetings, summaries and memory are the parent's
+  assistant's own.
+- New near the top: use what you already know about this family (calendar, email, past chats) before asking; if you
+  can't see them, answer from the school pack first, then offer the one read-only connection that would help most.
+- Guides merged: `school-and-calendar.md` (was school-evidence + calendar-changes) and `reading-and-updates.md`
+  (was reading-the-family + weekly-brief + memory-and-schedules); `upgrades.md` is one line in SKILL.md. The "why"
+  paragraphs and six of eight worked examples moved out of the prompt. Every cut rule stays in `evals/RULES.md`
+  with its scenario (eval-only). Scenarios: S05, S08, S09, S11 full marks; S03 passed 2 of 3 runs; S01 7/9 (length).
+- The family title style ("M zoo trip (Fri)") stayed as one line: the only cut the scenarios showed was still needed.
+
 ## 2026-10-29 — 5.0.0-draft.2
 
 - No script for the first message: the worked example now says what to achieve, not what to say (ChatGPT copied its
