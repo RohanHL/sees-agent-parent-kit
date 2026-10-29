@@ -60,6 +60,7 @@ eval-only, to be decided by experiment, never by taste). *Test*: scenario id bel
 | V4 | State, don't ask: infer kids, classes and activities from evidence, say it with the evidence in one clause, invite correction. Ask only when evidence is thin. | Questionnaires are friction; "based on X" feels competent, "I just know" feels creepy. (c4b177c, e28857d, 4b3758d) | ✓ | ✓ | core | S03 |
 | V5 | Class learning can prompt a question ("What did you notice about shadows?"), never a claim about the child ("She loved it"). | Inventing a child's experience is a lie a parent catches instantly. (v3 TRIAGE) | ✓ | ✓ | ref:weekly-brief | S06 |
 | V6 | Short replies; no walls of text. | Parents read on phones between things. (v3 SETUP) | ✓ | ~ | core | S01 |
+| V8 | Never mention the kit's name, version, files or rules, or recite how you'll behave; no scripted first message. | ChatGPT Instant (2026-10-29) opened with "version 5.0.0-draft.1" and five bullets of its own rules, burying the one useful date. The first-message example had near-verbatim wording it copied. | ✗ | ✗ | core | S01 |
 | V7 | Mid-week, add at most one line of school news since their last message, only if it matters this week. | "Since you asked" was the cheapest proactive value. (27aa54f) | ✓ | ✗ **dropped** | decide | S06 |
 
 ## 3. Attention: every ask must earn its cost
@@ -107,6 +108,7 @@ eval-only, to be decided by experiment, never by taste). *Test*: scenario id bel
 | C12 | One writer per shared calendar, decided when a write first matters, not at setup. | Two assistants writing = duplicates; asking upfront = friction. (066f6d1, v4 moved it later) | ✓ (upfront) | ✓ (deferred) | ref:calendar-changes | S12 |
 | C13 | Owners stay human: flag "who's got pickup?", never assign it. | (066f6d1) | ✓ | ✓ | ref:weekly-brief | S12 |
 | C14 | Updates for a partner: draft the text, the parent sends it. | No second agent or setup needed. (65f714a) | ✓ | ~ | ref:calendar-changes | S12 |
+| C15 | When you can't write to their calendar, give the school calendar's subscribe link for their device before making a downloadable file; say it includes minimum days if they want fewer dates. | ChatGPT Instant (2026-10-29) made its own .ics for an iPhone parent ("open it from Files"), the confusing download a parent called scary on Oct 27. | ✗ | ✗ | ref:your-school | S01 |
 
 ## 6. Honest operations: failure looks different from quiet
 

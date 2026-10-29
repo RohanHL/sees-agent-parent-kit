@@ -13,5 +13,6 @@ This is the school pack. Open a file when a question needs it (public web addres
   - iPhone or Mac (tap, then Subscribe): webcal://rohanhl.github.io/sees-agent-parent-kit/school-year.ics
   - Google Calendar (tap, then Add): https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Frohanhl.github.io%2Fsees-agent-parent-kit%2Fschool-year.ics
   - Any other calendar app (add by URL): https://rohanhl.github.io/sees-agent-parent-kit/school-year.ics
+  A calendar file you make for download is the clumsy path on a phone: it lands in a download prompt or Files, not in their calendar, and parents find it confusing. This calendar also holds the minimum days; if the parent wants fewer dates, tell them that and let them choose.
 
 School mail usually comes from: San Elijo Elementary School, San Marcos Unified, SMUSD Communications, parentsquare.com, smusd.org. Suggestions only; the parent decides what you search.

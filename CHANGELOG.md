@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-29 — 5.0.0-draft.2
+
+- No script for the first message: the worked example now says what to achieve, not what to say (ChatGPT copied its
+  wording almost verbatim). The kit's name, version, files and rules are never mentioned to the parent (V8).
+- Calendar: when the assistant can't write to the parent's calendar, the school calendar's subscribe link comes
+  before a downloadable file, which lands in Files on a phone (C15).
+- README request ends with a real question ("what should I know about school in the next couple of weeks?") and
+  states the limits in two short sentences. A request that is only instructions got an acknowledgment that read the
+  rules back; with a question, ChatGPT Instant's first reply was the next two weeks, sourced and correct.
+- Found in a ChatGPT Instant first-minute test, 2026-10-29: all facts correct, but the opening listed its own rules
+  and version, and the iPhone calendar ended in a file download.
+
 ## 2026-10-27 — 5.0.0-draft.1
 
 - Rebuilt around five principles (fit their system; infer, don't interrogate; every claim has a source and every gap

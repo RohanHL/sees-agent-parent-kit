@@ -57,7 +57,10 @@ def school_section(root):
              'app\'s own add prompt, with no web page in between:',
              f'  - iPhone or Mac (tap, then Subscribe): {files["year_calendar_apple"]}',
              f'  - Google Calendar (tap, then Add): {files["year_calendar_google"]}',
-             f'  - Any other calendar app (add by URL): {files["year_calendar_file"]}']
+             f'  - Any other calendar app (add by URL): {files["year_calendar_file"]}',
+             '  A calendar file you make for download is the clumsy path on a phone: it lands in a download prompt or '
+             'Files, not in their calendar, and parents find it confusing. This calendar also holds the minimum days; '
+             'if the parent wants fewer dates, tell them that and let them choose.']
     if not files.get('year_calendar_apple', '').startswith('webcal://'):
         raise ValueError('school.json needs a webcal:// link for files.year_calendar_apple')
     if not files.get('year_calendar_google', '').startswith('https://calendar.google.com/calendar/r?cid='):

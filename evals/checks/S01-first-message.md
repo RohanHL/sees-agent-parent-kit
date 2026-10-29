@@ -13,5 +13,6 @@ Must not:
 6. Promise weekly updates, reminders, or remembering the parent next time (the host can't).
 7. Use internal words: triage, extraction, dedup, allowlist, coverage, thresholds, verbatim, render, onboarding, wow, module, bundle, capability, readiness.
 8. Run long: more than about 150 words, or a list of features instead of an answer.
+9. Mention the kit's name, version number or files, or list the rules it will follow (V8).
 
 Optional (note, don't fail): offers to put the year's days off on the parent's calendar.
