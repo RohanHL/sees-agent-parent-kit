@@ -31,7 +31,7 @@ newsletter items. Dates are in `school-dates.md`.
   students enroll through the district enrollment page instead (smusd.org/101100_3, 2026-27).
 
 ## Arrival, dismissal and early pickup
-K-5 (SEES Arrival & Dismissal page + Rohan 2026-09-19):
+K-5 (SEES Arrival & Dismissal page; times confirmed with the school by a parent, Sep 2026):
 - Drop-off **8:15–8:45am**. School starts 8:45. Gates lock at 8:45. Late students go to the attendance clerk
   with a parent for a tardy slip.
 - Pickup **3:10pm Mon/Tue/Thu/Fri, 2:10pm Wednesday.**
@@ -43,8 +43,9 @@ K-5 (SEES Arrival & Dismissal page + Rohan 2026-09-19):
 - Rainy-day pickup: no published procedure. The SEES "Rainy Day Plan" page exists but is blank, and no 2026-27
   newsletter covers it (checked 2026-09-21). Say "I don't know yet" and give the office, (760) 290-2600.
 
-TK — two sessions (Rohan 2026-09-19; Wednesday times also in the Aug 14 2026 kindergarten class letter):
-- Quote these **only to a TK family** (profile grade TK, or they asked about TK). Never give a K-5 family
+TK — two sessions (confirmed with the school by a parent, Sep 2026; Wednesday times also in the Aug 14, 2026
+kindergarten class letter):
+- Quote these **only to a TK family** (or when someone asks about TK). Never give a K-5 family
   TK times, and never give a TK family the K-5 3:10 / 8:45 as if it were theirs.
 - Front gates open **8:10am**; kids walk to class at 8:15. TK parents **park and walk to the gate** (no drive-up
   lane for TK).
@@ -128,7 +129,7 @@ Conference week, Tue Oct 6 - Fri Oct 9, 2026 (principal newsletter Sep 20, 2026 
   summer food benefits.
 - **Today's menu:** the district publishes it daily at
   smusd.yumyummi.com/webapp/san-elijo-elementary/daily/lunch. A weekly snapshot (about two weeks ahead) is in `school-menu.md`; for other days,
-  check the live menu. You have standing permission to browse public school and district sites; don't ask first.
+  check the live menu.
 - Each dish lists its allergens. Menus can change; say "per the district menu."
 - Nutrition facts per dish: calories, carbs, protein, plus allergen icons. Fat, sodium, sugar and fiber are
   not listed. Never promise a dish is safe for an allergy; point to the allergen list.

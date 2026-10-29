@@ -81,7 +81,7 @@ KOC bills monthly by the number of school weeks in the month: Aug/Jun 2 weeks, N
 
 ## Camp (KOC FAQ page)
 - KOC Camp: Thanksgiving, Winter, Spring and Summer; full-day, 7:00 am to 5:00 pm; $50.00 per full day (2026-27 rates sheet).
-- Camp sign-up is separate, on EZ ChildTrack, opening about one month before each break. Whole weeks only.
+- Camp sign-up is separate, on EZ ChildTrack, opening about one month before each break. Whole weeks only: you sign up for a camp week as a whole, and a short holiday week costs only its days ($50 a day, so the 3-day Thanksgiving camp, Nov 23-25, is $150 plus any field trip).
 - Camp runs at fewer sites than the school year. More: https://smusd.org/135299_3
 
 ## KOC closed or different days, 2026-27 (KOC Parent Calendar + Fee Information)
@@ -103,7 +103,9 @@ Source: https://docs.google.com/document/d/1dQ1L8M_R0ZhVmdBuqj-Tn_EqsUVOgTGxDUnN
 - San Elijo KOC AM Care: 6:30-8:45, grades TK-5.
 - San Elijo KOC Before TK Care: 8:15-11:51, TK. After TK Care: 11:51-3:10, TK.
 - San Elijo KOC PM Care: 3:10-6:00, grades TK-5.
-- 2026-27 TK is half-day, 8:15-11:51 and 11:51-3:27 (kindergarten 8:45-3:10).
+- 2026-27 TK is half-day, 8:15-11:51 and 11:51-3:27 (kindergarten 8:45-3:10). These are KOC's planning times.
+  For school drop-off and pickup use the school's own TK times in `school-facts.md` (AM TK 8:15-11:50,
+  PM TK 11:50-3:25).
 - Every KOC shift needs at least 8 students to be staffed; as of 7/6/26 all shifts had met that minimum.
 
 ## TK and KOC (TK schedule options 2026-27; TK FAQs; Spring 2026 TK presentation)

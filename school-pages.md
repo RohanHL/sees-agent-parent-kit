@@ -1,7 +1,7 @@
 # School map: San Elijo Elementary (SEES)
 
 Where to look for anything the school facts, dates, menu and topic briefs don't cover. Three parts: which school
-system does what, school-wide documents and forms (83), and every page on the school, district and PTO websites
+system does what, school-wide documents and forms (80), and every page on the school, district and PTO websites
 (231, checked live 2026-10-29). Find the likely place here, open it, and answer from what it says now; pages
 and documents change. Parent-made, not an official school or district index. Nothing here is about one class or
 family: the parent's own school mail covers that.
@@ -37,12 +37,12 @@ tell them where to go; never sign in for them.
 
 ## Documents and forms
 
-School-wide documents and forms (83), each linked from a public school, district or PTO page. Open the
+School-wide documents and forms (80), each linked from a public school, district or PTO page. Open the
 document for the details. Forms are for the parent: give them the link and say what it's for; never fill in
 or submit one for them. Nothing here is about one class or family; their own school mail covers that.
 
 ### Calendars
-- SMUSD 2026-27 school calendar (district, board approved): https://drive.google.com/file/d/17TR4f80J_e28Uhnrtea5ATRixZABXQ5A/view
+- SMUSD 2026-27 school calendar (board approved, revised; the source of the school dates): https://drive.google.com/file/d/1Pr5AOBLv2RTcgx6xB5_fzvd_LFErsG62/view
 - Kids on Campus parent calendar 2026-27: https://files.smartsites.parentsquare.com/4153/koc_parent_calendar_-_2026-2027__4-10-26_1.pdf
 - 2026-27 registration dates and process (district announcement): https://files.smartsites.parentsquare.com/4153/dates_announced_2026-2027_koc_registration_english.pdf
 
@@ -115,7 +115,7 @@ or submit one for them. Nothing here is about one class or family; their own sch
 - PTO budgets, 2025-26 (folder) (older school year: don't quote its dates): https://drive.google.com/drive/folders/1NQEwGP1aj-WeoGDAZKRZP8XEFmszEh4T
 
 ### Safety, bullying and wellbeing
-- Report a safety concern (district) (form): https://docs.google.com/forms/d/e/1FAIpQLSfp2msBhFuGOCl-HJPWdzjVT-m5gnm4Y2gYfor4W5YCBSq62w/formrestricted
+- Report a safety concern (district page; its form may need a district sign-in): https://www.smusd.org/report-a-safety-concern
 - Bullying complaint form (district) (form): https://files.smartsites.parentsquare.com/4153/smusd_complaint_form_for_bullying.pdf
 - Bullying complaint form, Spanish (district) (form): https://files.smartsites.parentsquare.com/4153/smusd_complaint_form_sp.pdf
 - Bullying board policy 5131.2: https://files.smartsites.parentsquare.com/4153/bp_5131_2_-bullying_1.pdf
@@ -130,11 +130,8 @@ or submit one for them. Nothing here is about one class or family; their own sch
 - Community resources guide, Spanish (district): https://files.smartsites.parentsquare.com/4153/smusd_community_resources_31720_spalpw.docx
 
 ### English learners
-- ELPAC parent guide, English: https://drive.google.com/file/d/1hqKMvOIjbzjyH8Aj8nD5vpPJKbDKuzME/view
-- ELPAC parent guide, Spanish: https://drive.google.com/file/d/1cnA5HHBt0P6i-MqAtq9AhQv2HXJsGBwc/view
 - ELPAC testing presentation (SEES): https://docs.google.com/presentation/d/1uMnkMLnQ5QuasKmyIrcfJqWd0zIOfiHFZhPp3aLKyjE/edit
 - English Language Development standards brochure: https://files.smartsites.parentsquare.com/4394/cde_eld_standards_brochure_english_-a.pdf
-- English Learner Roadmap (district): https://docs.google.com/document/d/e
 - SMUSD English Learner Master Plan 2021: https://docs.google.com/document/d/1n4Ug4MgKxWrrhpL8pQwC1hoyha8OQEKM2yZWuhlfggM/edit
 
 ### Policies and reports

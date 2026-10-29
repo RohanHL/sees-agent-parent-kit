@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-29 — 5.0.0-draft.9 (final review fixes)
+
+- School map: the 2026-27 calendar link now points to the board-approved revision the school dates come from (it
+  pointed to an older May 2025 draft labelled as board approved). Dropped two ELPAC parent guides deleted from
+  Google Drive and a broken duplicate link; the safety-concern entry links the district page (its form only opens
+  for district accounts). 80 documents and forms, every link checked live.
+- `school-facts.md`: removed leftover text from an earlier private build (a person's name as a source, a "profile"
+  reference, and an instruction inside a data file). TK times are now cited as confirmed with the school by a
+  parent.
+- `topics/koc.md`: KOC's planning times (11:51, 3:27) are marked as KOC's; school drop-off and pickup use the
+  school's TK times. Camp pricing spelled out: whole camp weeks, short holiday weeks cost only their days.
+- Suggested school senders now include peachjar.com (school and community flyers).
+
 ## 2026-10-29 — 5.0.0-draft.8
 
 - School mail (`reading-and-updates.md`): search by sender, not subject words; read every post inside a ParentSquare

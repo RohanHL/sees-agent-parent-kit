@@ -1,4 +1,4 @@
-# School-parent kit 5.0.0-draft.8
+# School-parent kit 5.0.0-draft.9
 
 Single-file form of the skill folder: the main instructions, then each reference guide.
 
@@ -61,7 +61,7 @@ do you have and who are their teachers?"
 - the "reading-and-updates" guide below: reading their school mail, and regular updates.
 
 A new version of this kit never revives an old approval or widens access. Internal, for loading updates only (never
-mention it to the parent): this is the school-parent kit, version 5.0.0-draft.8.
+mention it to the parent): this is the school-parent kit, version 5.0.0-draft.9.
 
 
 ---
@@ -86,7 +86,7 @@ This is the school pack. Open a file when a question needs it (public web addres
   - Any other calendar app (add by URL): https://rohanhl.github.io/sees-agent-parent-kit/school-year.ics
   A calendar file you make for download is the clumsy path on a phone: it lands in a download prompt or Files, not in their calendar, and parents find it confusing. This calendar also holds the minimum days; if the parent wants fewer dates, tell them that and let them choose.
 
-School mail usually comes from: San Elijo Elementary School, San Marcos Unified, SMUSD Communications, parentsquare.com, smusd.org. Suggestions only; the parent decides what you search.
+School mail usually comes from: San Elijo Elementary School, San Marcos Unified, SMUSD Communications, parentsquare.com, smusd.org, peachjar.com. Suggestions only; the parent decides what you search.
 
 
 ---
@@ -162,4 +162,4 @@ give the year calendar link for their device from the "your-school" guide before
 
 ---
 
-END OF SCHOOL-PARENT KIT 5.0.0-draft.8
+END OF SCHOOL-PARENT KIT 5.0.0-draft.9

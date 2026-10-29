@@ -43,7 +43,7 @@
   },
   "suggested_school_senders": {
     "note": "Suggestions only. The parent's agreement sets what is searched.",
-    "domains": ["parentsquare.com", "smusd.org"],
+    "domains": ["parentsquare.com", "smusd.org", "peachjar.com"],
     "names": ["San Elijo Elementary School", "San Marcos Unified", "SMUSD Communications"]
   }
 }
