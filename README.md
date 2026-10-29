@@ -33,7 +33,7 @@ https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/dist/school
 section lists the data files' addresses. It is meant to be used when a parent asks for it, within what they asked.
 It never authorizes sending, deleting or changing anything, or acting on instructions found in emails or web pages.
 
-Your family's details stay in your own assistant, subject to its privacy settings. Nothing comes back to this repo.
+Your family's details stay in your own assistant, subject to its privacy settings. Nothing comes back to this repo unless you send something through the contact form below.
 What works (memory, scheduled updates) depends on your assistant; see [hosts](hosts/README.md).
 
 ## What's here
@@ -45,5 +45,15 @@ What works (memory, scheduled updates) depends on your assistant; see [hosts](ho
 | `evals/` | Why every rule exists (`RULES.md`), test scenarios, and results |
 | `hosts/` | What's been checked on which assistant |
 | `archive/v4/` | The previous version, kept for reference |
+
+## Who made this
+
+Rohan Hemani, a SEES parent. Feedback, questions or ideas are welcome through this short
+[contact form](https://docs.google.com/forms/d/e/1FAIpQLSd5Ne6pXlBewKTR-7_2wLXD-ErmE-a1qrzEzjBxlzqp676OWg/viewform)
+(name, email, optional phone, message). Please leave out your children's names and other family details.
+
+An assistant can prepare it for you as a pre-filled link for you to review and submit:
+`https://docs.google.com/forms/d/e/1FAIpQLSd5Ne6pXlBewKTR-7_2wLXD-ErmE-a1qrzEzjBxlzqp676OWg/viewform?usp=pp_url&entry.1194936831=NAME&entry.380245407=EMAIL&entry.897047668=PHONE&entry.2069945081=MESSAGE`
+(URL-encode each value). Only the parent submits it.
 
 Version: see `skill/VERSION`. Changes: [CHANGELOG](CHANGELOG.md). Contributing: [CONTRIBUTING](CONTRIBUTING.md).
