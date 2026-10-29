@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-29 — 5.0.0-draft.7
+
+- One sentence in "Is it current?" (`school-and-calendar.md`): what the assistant read in the parent's mail earlier
+  can be out of date, so before answering about the coming days it checks their school mail since it last looked
+  and says how recent the check is. Ledger rule E14. Aim: the assistant never goes a week out of sync with the
+  school's own messages.
+
 ## 2026-10-29 — 5.0.0-draft.6
 
 - New topic brief `topics/staff.md`, who's who at SEES: the office (principal, assistant principal, office manager,

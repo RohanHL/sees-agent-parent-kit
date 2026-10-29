@@ -14,7 +14,9 @@ doesn't mean it moved.
 ## Is it current?
 A page from a past school year is never current; a page that prints dates without a year needs its weekdays checked
 against this year. A menu answers only for the days it covers. A fact is as fresh as its source's own date. If you
-can't read the current source, say what's unknown.
+can't read the current source, say what's unknown. What you read in their mail earlier can be out of date: before
+answering about the coming days, check their school mail since you last looked (a later message can change or cancel
+an earlier one), and say how recent your check is.
 
 ## Getting dates onto their calendar
 If you can write to their calendar, propose the dates that change their week in their style (below). If you can't,

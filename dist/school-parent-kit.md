@@ -1,4 +1,4 @@
-# School-parent kit 5.0.0-draft.6
+# School-parent kit 5.0.0-draft.7
 
 Single-file form of the skill folder: the main instructions, then each reference guide.
 
@@ -61,7 +61,7 @@ do you have and who are their teachers?"
 - the "reading-and-updates" guide below: reading their school mail, and regular updates.
 
 A new version of this kit never revives an old approval or widens access. Internal, for loading updates only (never
-mention it to the parent): this is the school-parent kit, version 5.0.0-draft.6.
+mention it to the parent): this is the school-parent kit, version 5.0.0-draft.7.
 
 
 ---
@@ -109,7 +109,9 @@ doesn't mean it moved.
 ## Is it current?
 A page from a past school year is never current; a page that prints dates without a year needs its weekdays checked
 against this year. A menu answers only for the days it covers. A fact is as fresh as its source's own date. If you
-can't read the current source, say what's unknown.
+can't read the current source, say what's unknown. What you read in their mail earlier can be out of date: before
+answering about the coming days, check their school mail since you last looked (a later message can change or cancel
+an earlier one), and say how recent your check is.
 
 ## Getting dates onto their calendar
 If you can write to their calendar, propose the dates that change their week in their style (below). If you can't,
@@ -156,4 +158,4 @@ give the year calendar link for their device from the "your-school" guide before
 
 ---
 
-END OF SCHOOL-PARENT KIT 5.0.0-draft.6
+END OF SCHOOL-PARENT KIT 5.0.0-draft.7

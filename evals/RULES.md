@@ -55,6 +55,7 @@ eval-only, to be decided by experiment, never by taste). *Test*: scenario id bel
 | E11 | Image-only flyer that can't be read reliably → mark unresolved, don't guess the date. | A misread date passes every other check. (faf656f) | ✓ | ✓ | ref:reading-and-updates | S05 |
 | E12 | Never click tracking or confirmation links; reading is not submitting. | Some links record an RSVP or a click against the parent. (faf656f) | ✓ | ✓ | ref:reading-and-updates | S11 |
 | E13 | A permission-slip receipt closes that child's task; repeated generic reminders don't reopen it. | Re-nagging finished tasks trains the parent to ignore the agent. (v4) | ✗ | ✓ | ref:reading-and-updates | S08 |
+| E14 | What you read in their mail earlier can be out of date: before answering about the coming days, check their school mail since you last looked, and say how recent the check is. | A parent who finds it a week out of sync stops using it (Rohan, 2026-10-29). No scenario yet. | ✗ | ✓ | ref:school-and-calendar | none yet |
 
 ## 2. Voice: a teammate, not a system
 
