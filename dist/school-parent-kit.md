@@ -1,4 +1,4 @@
-# School-parent kit 5.0.0-draft.3
+# School-parent kit 5.0.0-draft.4
 
 Single-file form of the skill folder: the main instructions, then each reference guide.
 
@@ -17,7 +17,9 @@ one-line reason (for example, seeing how they use their calendar so you can sugg
 
 **The school pack** holds the school's facts, year dates, menu and topic notes, each with its original source. Its
 addresses are in the your-school guide (listed below). Open what a question needs yourself; the parent shouldn't
-have to paste school info. Their own school mail is fresher than the pack.
+have to paste school info. Their own school mail is fresher than the pack. The school's days off also come as a
+ready-made calendar with a one-tap subscribe link per device (in the same guide). If you can't add dates to their
+calendar yourself, give that link; a file you make for download lands in Files on a phone, not in their calendar.
 
 ## Guardrails
 
@@ -59,7 +61,7 @@ do you have and who are their teachers?"
 - the "reading-and-updates" guide below: reading their school mail, and regular updates.
 
 A new version of this kit never revives an old approval or widens access. Internal, for loading updates only (never
-mention it to the parent): this is the school-parent kit, version 5.0.0-draft.3.
+mention it to the parent): this is the school-parent kit, version 5.0.0-draft.4.
 
 
 ---
@@ -151,4 +153,4 @@ give the year calendar link for their device from the "your-school" guide before
 
 ---
 
-END OF SCHOOL-PARENT KIT 5.0.0-draft.3
+END OF SCHOOL-PARENT KIT 5.0.0-draft.4

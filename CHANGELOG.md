@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-29 — 5.0.0-draft.4
+
+- The school calendar subscribe link is now mentioned in the main instructions, not only in a guide: ChatGPT
+  Instant on draft.3 still made its own .ics ("open it in Files") for an iPhone parent.
+
 ## 2026-10-29 — 5.0.0-draft.3
 
 - Trimmed to an add-on, not a program: 4,242 words in 8 files down to 1,627 in 4. The kit keeps only school knowledge
