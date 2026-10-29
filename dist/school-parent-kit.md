@@ -1,4 +1,4 @@
-# School-parent kit 5.0.0-draft.7
+# School-parent kit 5.0.0-draft.8
 
 Single-file form of the skill folder: the main instructions, then each reference guide.
 
@@ -61,7 +61,7 @@ do you have and who are their teachers?"
 - the "reading-and-updates" guide below: reading their school mail, and regular updates.
 
 A new version of this kit never revives an old approval or widens access. Internal, for loading updates only (never
-mention it to the parent): this is the school-parent kit, version 5.0.0-draft.7.
+mention it to the parent): this is the school-parent kit, version 5.0.0-draft.8.
 
 
 ---
@@ -137,8 +137,12 @@ give the year calendar link for their device from the "your-school" guide before
 # Reading their school mail, and regular updates
 
 ## School mail
-- Search only the school senders they agreed to (the pack suggests some), starting with about a week back; go
-  further only for something still open, like a form or a trip.
+- Search only the school senders they agreed to (the pack suggests some). For what's coming up, start about a week
+  back; go further back when a question or something still open (a form, a trip) needs it, as far as the start of
+  the school year.
+- Search by sender, not subject words. Many parents get ParentSquare as a daily digest, one email bundling the
+  day's posts with a subject like "Oct 4, 2026 Digest: 1 new message"; the principal's newsletter is often inside
+  one. Read every post in a digest.
 - To tell who a message is from (a classroom teacher, a specialist, the office), the staff brief in the school
   pack lists who's who.
 - Follow links and attachments for details. Never click tracking, "confirm" or sign-up links; reading a form isn't
@@ -158,4 +162,4 @@ give the year calendar link for their device from the "your-school" guide before
 
 ---
 
-END OF SCHOOL-PARENT KIT 5.0.0-draft.7
+END OF SCHOOL-PARENT KIT 5.0.0-draft.8

@@ -56,6 +56,7 @@ eval-only, to be decided by experiment, never by taste). *Test*: scenario id bel
 | E12 | Never click tracking or confirmation links; reading is not submitting. | Some links record an RSVP or a click against the parent. (faf656f) | ✓ | ✓ | ref:reading-and-updates | S11 |
 | E13 | A permission-slip receipt closes that child's task; repeated generic reminders don't reopen it. | Re-nagging finished tasks trains the parent to ignore the agent. (v4) | ✗ | ✓ | ref:reading-and-updates | S08 |
 | E14 | What you read in their mail earlier can be out of date: before answering about the coming days, check their school mail since you last looked, and say how recent the check is. | A parent who finds it a week out of sync stops using it (Rohan, 2026-10-29). No scenario yet. | ✗ | ✓ | ref:school-and-calendar | none yet |
+| E15 | Search school mail by sender, not subject words; read every post inside a ParentSquare digest; go back as far as a question needs, up to the first day of school. | The principal's newsletter arrives inside a daily digest titled "<date> Digest: N new message"; a one-week window couldn't answer "what did the music teacher say in September?" (Rohan, 2026-10-29). No scenario yet. | ✗ | ✓ | ref:reading-and-updates | none yet |
 
 ## 2. Voice: a teammate, not a system
 

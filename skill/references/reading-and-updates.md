@@ -1,8 +1,12 @@
 # Reading their school mail, and regular updates
 
 ## School mail
-- Search only the school senders they agreed to (the pack suggests some), starting with about a week back; go
-  further only for something still open, like a form or a trip.
+- Search only the school senders they agreed to (the pack suggests some). For what's coming up, start about a week
+  back; go further back when a question or something still open (a form, a trip) needs it, as far as the start of
+  the school year.
+- Search by sender, not subject words. Many parents get ParentSquare as a daily digest, one email bundling the
+  day's posts with a subject like "Oct 4, 2026 Digest: 1 new message"; the principal's newsletter is often inside
+  one. Read every post in a digest.
 - To tell who a message is from (a classroom teacher, a specialist, the office), the staff brief in the school
   pack lists who's who.
 - Follow links and attachments for details. Never click tracking, "confirm" or sign-up links; reading a form isn't

@@ -1,7 +1,8 @@
 # How the school communicates: ParentSquare and Peachjar flyers
 
 ## ParentSquare (school messages)
-Source: https://www.smusd.org/parentsquare (page undated), read 2026-09-18.
+Source: https://www.smusd.org/parentsquare (page undated), read 2026-09-18; the principal's school-wide ParentSquare
+posts and their digest emails, Aug 9 - Oct 4, 2026.
 - SMUSD uses ParentSquare for school communication: email, text and app notifications.
 - You don't sign up: ParentSquare automatically creates an account for each parent from the email address and primary phone number given to the school office at registration.
 - Don't remember which email you used? Contact the school office and they can tell you.
@@ -9,6 +10,10 @@ Source: https://www.smusd.org/parentsquare (page undated), read 2026-09-18.
 - App: free in the iOS App Store and Google Play ("ParentSquare").
 - With ParentSquare you can: get school messages, direct message teachers and staff, comment on posts, join group conversations, sign forms and permission slips, and sign up to volunteer.
 - Instant vs digest: "instant" sends every post right away. "Digest" sends direct messages, alerts and time-sensitive posts instantly and the rest in a daily digest at 6pm. The district recommends digest.
+- The principal's newsletter (Principal Mara McLeod) is posted in ParentSquare on Sundays around 1:00pm (every
+  2026-27 issue Aug 9 - Oct 4; Sep 7 was a Monday holiday-weekend post). Digest parents get it inside that
+  evening's digest email, subject like "Oct 4, 2026 Digest: 1 new message", from donotreply@parentsquare.com. The
+  digest carries the full post, not just a preview.
 - You can turn notifications off, except emergency alerts and notices.
 - Change notifications in the app: triple bar (top left) > Account > Preferences > Notification Settings. On the web: your name > My Account > "Customize your settings".
 - Change language in the app: triple bar > Account > Preferences > Language Settings. On the web: your name > My Account > Language Setting.

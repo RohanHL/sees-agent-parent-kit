@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-29 — 5.0.0-draft.8
+
+- School mail (`reading-and-updates.md`): search by sender, not subject words; read every post inside a ParentSquare
+  digest (the principal's newsletter usually arrives inside one); for what's coming up start a week back, but go
+  back as far as a question needs, up to the start of the school year. Ledger rule E15.
+- `topics/general-communication.md`: when the principal's newsletter is posted (Sundays around 1pm) and how it
+  arrives for digest parents (the 6pm "<date> Digest: N new message" email, full post inside).
+
 ## 2026-10-29 — 5.0.0-draft.7
 
 - One sentence in "Is it current?" (`school-and-calendar.md`): what the assistant read in the parent's mail earlier
