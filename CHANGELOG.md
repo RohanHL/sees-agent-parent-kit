@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-29 — 5.0.0-draft.5
+
+- New `school-pages.md`, a map of where to look for anything the facts, dates, menu and topic briefs don't cover:
+  which school system does what (ParentSquare, ParentVUE, Peachjar, Droplet, EZ ChildTrack, SchoolCafe and others),
+  83 school-wide documents and forms, and 231 pages on the school, district, PTO and Fit Kids websites (checked
+  live 2026-10-29), each marked with the newest school year it mentions. Only items linked from a public school,
+  district or PTO page are included; nothing about one class or family. Staff-only items, past years' sign-ups and
+  junk links were left out. The your-school guide lists it with the other school files.
+
 ## 2026-10-29 — 5.0.0-draft.4
 
 - The school calendar subscribe link is now mentioned in the main instructions, not only in a guide: ChatGPT

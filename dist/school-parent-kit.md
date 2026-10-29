@@ -1,4 +1,4 @@
-# School-parent kit 5.0.0-draft.4
+# School-parent kit 5.0.0-draft.5
 
 Single-file form of the skill folder: the main instructions, then each reference guide.
 
@@ -61,7 +61,7 @@ do you have and who are their teachers?"
 - the "reading-and-updates" guide below: reading their school mail, and regular updates.
 
 A new version of this kit never revives an old approval or widens access. Internal, for loading updates only (never
-mention it to the parent): this is the school-parent kit, version 5.0.0-draft.4.
+mention it to the parent): this is the school-parent kit, version 5.0.0-draft.5.
 
 
 ---
@@ -79,6 +79,7 @@ This is the school pack. Open a file when a question needs it (public web addres
 - Year-long school dates (days off, minimum days, PTO plan), with sources: https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-dates.md
 - Breakfast and lunch menu, refreshed weekly: https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-menu.md
 - Topic briefs (index; each brief cites its sources): https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/topics/INDEX.md
+- School map, for anything the files above don't cover: which school system does what, school-wide documents and forms, and every page on the school, district and PTO websites (find the place, then open it live; pages note their school year): https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-pages.md
 - This year's days off and minimum days as a calendar the parent subscribes to once (fixed dates, nothing to update), if you can't add them to their calendar yourself. Give the one link for their calendar, as is; it opens their calendar app's own add prompt, with no web page in between:
   - iPhone or Mac (tap, then Subscribe): webcal://rohanhl.github.io/sees-agent-parent-kit/school-year.ics
   - Google Calendar (tap, then Add): https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Frohanhl.github.io%2Fsees-agent-parent-kit%2Fschool-year.ics
@@ -153,4 +154,4 @@ give the year calendar link for their device from the "your-school" guide before
 
 ---
 
-END OF SCHOOL-PARENT KIT 5.0.0-draft.4
+END OF SCHOOL-PARENT KIT 5.0.0-draft.5

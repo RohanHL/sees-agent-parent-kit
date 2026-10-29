@@ -39,7 +39,7 @@ def school_section(root):
     single file can reach the school pack."""
     pack = dates.pack(root)
     files = pack['files']
-    for key in ('facts', 'dates', 'menu', 'topics_index', 'year_calendar_file'):
+    for key in ('facts', 'dates', 'menu', 'topics_index', 'pages', 'year_calendar_file'):
         if not files.get(key, '').startswith('https://'):
             raise ValueError(f'school.json needs an https link for files.{key}')
     lines = [f'# Your school: {pack["school"]}', '',
@@ -52,6 +52,9 @@ def school_section(root):
              f'- Year-long school dates (days off, minimum days, PTO plan), with sources: {files["dates"]}',
              f'- Breakfast and lunch menu, refreshed weekly: {files["menu"]}',
              f'- Topic briefs (index; each brief cites its sources): {files["topics_index"]}',
+             f'- School map, for anything the files above don\'t cover: which school system does what, school-wide '
+             f'documents and forms, and every page on the school, district and PTO websites (find the place, then '
+             f'open it live; pages note their school year): {files["pages"]}',
              '- This year\'s days off and minimum days as a calendar the parent subscribes to once (fixed dates, nothing to update), if you can\'t add '
              'them to their calendar yourself. Give the one link for their calendar, as is; it opens their calendar '
              'app\'s own add prompt, with no web page in between:',

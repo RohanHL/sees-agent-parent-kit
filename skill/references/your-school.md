@@ -9,6 +9,7 @@ This is the school pack. Open a file when a question needs it (public web addres
 - Year-long school dates (days off, minimum days, PTO plan), with sources: https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-dates.md
 - Breakfast and lunch menu, refreshed weekly: https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-menu.md
 - Topic briefs (index; each brief cites its sources): https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/topics/INDEX.md
+- School map, for anything the files above don't cover: which school system does what, school-wide documents and forms, and every page on the school, district and PTO websites (find the place, then open it live; pages note their school year): https://raw.githubusercontent.com/RohanHL/sees-agent-parent-kit/main/school-pages.md
 - This year's days off and minimum days as a calendar the parent subscribes to once (fixed dates, nothing to update), if you can't add them to their calendar yourself. Give the one link for their calendar, as is; it opens their calendar app's own add prompt, with no web page in between:
   - iPhone or Mac (tap, then Subscribe): webcal://rohanhl.github.io/sees-agent-parent-kit/school-year.ics
   - Google Calendar (tap, then Add): https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Frohanhl.github.io%2Fsees-agent-parent-kit%2Fschool-year.ics
