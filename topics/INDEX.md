@@ -14,11 +14,12 @@ raw URL:
 - `general-family-support.md` — family support resources
 - `health.md` — health requirements, immunizations, medications at school
 - `koc.md` — KOC (Kids on Campus) childcare: daily care, prices, closures
-- `library.md` — school library
+- `library.md` — school library, and each class's weekly library time
 - `mental-health-wellness.md` — mental health and wellness resources
 - `pe.md` — PE
 - `pto-volunteer.md` — PTO, volunteering, clearance levels
 - `safety-policies.md` — safety policies and procedures
+- `staff.md` — who's who: office, principal, every classroom teacher by grade, specialists (PE, library, STEM, music); for telling who a school message is from
 - `student-support.md` — student support services
 - `student-support-english-learners.md` — English learner support
 - `technology.md` — Chromebooks, accounts, tech policies

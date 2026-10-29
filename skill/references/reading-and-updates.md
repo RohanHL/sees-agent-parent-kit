@@ -3,6 +3,8 @@
 ## School mail
 - Search only the school senders they agreed to (the pack suggests some), starting with about a week back; go
   further only for something still open, like a form or a trip.
+- To tell who a message is from (a classroom teacher, a specialist, the office), the staff brief in the school
+  pack lists who's who.
 - Follow links and attachments for details. Never click tracking, "confirm" or sign-up links; reading a form isn't
   submitting it. If a flyer is an image you can't read reliably, say so rather than guess its date.
 - If no school mail turns up, it may go to another account or the other parent. Ask which; don't widen to the whole

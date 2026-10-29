@@ -12,6 +12,8 @@ Which system does what, so you can point the parent to the right place. Details,
 brief named on each line (topic briefs index, listed in the your-school guide). These are the parent's own accounts:
 tell them where to go; never sign in for them.
 
+- **Who's who**: the office, principal, every classroom teacher by grade, and the specialists (PE, library, STEM,
+  music), for telling who a school message is from. Brief: `staff.md`.
 - **ParentSquare**: school messages by email, text and app, including the principal's newsletter (usually weekly);
   messaging teachers and staff; signing forms and permission slips; volunteer sign-ups. Accounts are created from
   the contact details given at registration. Emails come from donotreply@parentsquare.com. Brief:

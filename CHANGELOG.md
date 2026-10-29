@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-29 — 5.0.0-draft.6
+
+- New topic brief `topics/staff.md`, who's who at SEES: the office (principal, assistant principal, office manager,
+  attendance clerk, health aide), every classroom teacher by grade (the librarian's 2026-27 schedule, which was
+  already in the library brief but hard to find), and the specialists (PE, library, STEM, music). Each part names its
+  public source, and only published email addresses are listed. Support staff with no published name are marked so.
+  It lets an assistant tell who a school message is from when sorting school mail.
+- Pointers to it from the topic index, the school map ("Who's who") and the school-mail guide.
+
 ## 2026-10-29 — 5.0.0-draft.5
 
 - New `school-pages.md`, a map of where to look for anything the facts, dates, menu and topic briefs don't cover:
