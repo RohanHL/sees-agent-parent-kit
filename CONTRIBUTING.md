@@ -1,9 +1,9 @@
 # Contributing
 
 ## A wrong school fact
-Ask your assistant to draft a correction: what's wrong, what's right, and the source (a newsletter, the school or
-district site). Leave out anything about your family. Open an issue or pull request with it, or keep using the right
-fact in your own assistant. Corrections need a source.
+Send it through the contact form in the [README](README.md#who-made-this) (your assistant can pre-fill it), or open
+an issue or pull request if you use GitHub. Say what's wrong, what's right, and the source (a newsletter, the school
+or district site). Leave out anything about your family. Corrections need a source.
 
 ## A behavior lesson
 When an assistant using this kit gets something wrong:
