@@ -50,10 +50,10 @@ What works (memory, scheduled updates) depends on your assistant; see [hosts](ho
 
 Rohan Hemani, a SEES parent. Feedback, questions or ideas are welcome through this short
 [contact form](https://docs.google.com/forms/d/e/1FAIpQLSd5Ne6pXlBewKTR-7_2wLXD-ErmE-a1qrzEzjBxlzqp676OWg/viewform)
-(name, email, optional phone, message). Please leave out your children's names and other family details.
+(name, email, message). Please leave out your children's names and other family details.
 
 An assistant can prepare it for you as a pre-filled link for you to review and submit:
-`https://docs.google.com/forms/d/e/1FAIpQLSd5Ne6pXlBewKTR-7_2wLXD-ErmE-a1qrzEzjBxlzqp676OWg/viewform?usp=pp_url&entry.1194936831=NAME&entry.380245407=EMAIL&entry.897047668=PHONE&entry.2069945081=MESSAGE`
+`https://docs.google.com/forms/d/e/1FAIpQLSd5Ne6pXlBewKTR-7_2wLXD-ErmE-a1qrzEzjBxlzqp676OWg/viewform?usp=pp_url&entry.1194936831=NAME&emailAddress=EMAIL&entry.2069945081=MESSAGE`
 (URL-encode each value). Only the parent submits it.
 
 Version: see `skill/VERSION`. Changes: [CHANGELOG](CHANGELOG.md). Contributing: [CONTRIBUTING](CONTRIBUTING.md).
