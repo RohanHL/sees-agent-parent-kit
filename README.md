@@ -48,7 +48,7 @@ What works (memory, scheduled updates) depends on your assistant; see [hosts](ho
 
 ## Who made this
 
-Rohan Hemani, a SEES parent. Feedback, questions or ideas are welcome through this short
+Rohan H, a SEES parent. Feedback, questions or ideas are welcome through this short
 [contact form](https://docs.google.com/forms/d/e/1FAIpQLSd5Ne6pXlBewKTR-7_2wLXD-ErmE-a1qrzEzjBxlzqp676OWg/viewform)
 (name, email, message). Please leave out your children's names and other family details.
 
