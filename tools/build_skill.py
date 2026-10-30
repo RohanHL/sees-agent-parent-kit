@@ -70,6 +70,14 @@ def school_section(root):
         raise ValueError('school.json needs a Google add link for files.year_calendar_google')
     if 'raw.githubusercontent.com' in files['year_calendar_apple'] + files['year_calendar_file']:
         raise ValueError('Calendar links must be served as text/calendar (GitHub Pages), not raw GitHub (text/plain)')
+    form = pack.get('contact_form')
+    if form:
+        if not (form.get('url', '').startswith('https://') and form.get('prefill', '').startswith('https://')):
+            raise ValueError('school.json contact_form needs https url and prefill links')
+        lines += ['', 'Only if the parent wants to send feedback, a question or an idea to the parent who keeps this '
+                  f'pack: give them the contact form, {form["url"]}. You may hand them a pre-filled link '
+                  f'({form["prefill"]}, each value URL-encoded); they review it and submit it themselves. Leave '
+                  'out their children\'s names and other family details.']
     senders = pack.get('suggested_school_senders')
     if senders:
         lines += ['', 'School mail usually comes from: ' + ', '.join(senders['names'] + senders['domains'])

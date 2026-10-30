@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-29 — 5.0.0-draft.10
+
+- A contact form for the parent who keeps this pack (name, email, message), listed in `school.json` and the
+  your-school guide. The assistant gives it only when a parent wants to send feedback, may pre-fill it, and the
+  parent submits it. Also in the README ("Who made this").
+
 ## 2026-10-29 — 5.0.0-draft.9 (final review fixes)
 
 - School map: the 2026-27 calendar link now points to the board-approved revision the school dates come from (it

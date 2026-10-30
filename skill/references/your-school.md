@@ -16,4 +16,6 @@ This is the school pack. Open a file when a question needs it (public web addres
   - Any other calendar app (add by URL): https://rohanhl.github.io/sees-agent-parent-kit/school-year.ics
   A calendar file you make for download is the clumsy path on a phone: it lands in a download prompt or Files, not in their calendar, and parents find it confusing. This calendar also holds the minimum days; if the parent wants fewer dates, tell them that and let them choose.
 
+Only if the parent wants to send feedback, a question or an idea to the parent who keeps this pack: give them the contact form, https://docs.google.com/forms/d/e/1FAIpQLSd5Ne6pXlBewKTR-7_2wLXD-ErmE-a1qrzEzjBxlzqp676OWg/viewform. You may hand them a pre-filled link (https://docs.google.com/forms/d/e/1FAIpQLSd5Ne6pXlBewKTR-7_2wLXD-ErmE-a1qrzEzjBxlzqp676OWg/viewform?usp=pp_url&entry.1194936831=NAME&emailAddress=EMAIL&entry.2069945081=MESSAGE, each value URL-encoded); they review it and submit it themselves. Leave out their children's names and other family details.
+
 School mail usually comes from: San Elijo Elementary School, San Marcos Unified, SMUSD Communications, parentsquare.com, smusd.org, peachjar.com. Suggestions only; the parent decides what you search.

@@ -1,4 +1,4 @@
-# School-parent kit 5.0.0-draft.9
+# School-parent kit 5.0.0-draft.10
 
 Single-file form of the skill folder: the main instructions, then each reference guide.
 
@@ -61,7 +61,7 @@ do you have and who are their teachers?"
 - the "reading-and-updates" guide below: reading their school mail, and regular updates.
 
 A new version of this kit never revives an old approval or widens access. Internal, for loading updates only (never
-mention it to the parent): this is the school-parent kit, version 5.0.0-draft.9.
+mention it to the parent): this is the school-parent kit, version 5.0.0-draft.10.
 
 
 ---
@@ -85,6 +85,8 @@ This is the school pack. Open a file when a question needs it (public web addres
   - Google Calendar (tap, then Add): https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Frohanhl.github.io%2Fsees-agent-parent-kit%2Fschool-year.ics
   - Any other calendar app (add by URL): https://rohanhl.github.io/sees-agent-parent-kit/school-year.ics
   A calendar file you make for download is the clumsy path on a phone: it lands in a download prompt or Files, not in their calendar, and parents find it confusing. This calendar also holds the minimum days; if the parent wants fewer dates, tell them that and let them choose.
+
+Only if the parent wants to send feedback, a question or an idea to the parent who keeps this pack: give them the contact form, https://docs.google.com/forms/d/e/1FAIpQLSd5Ne6pXlBewKTR-7_2wLXD-ErmE-a1qrzEzjBxlzqp676OWg/viewform. You may hand them a pre-filled link (https://docs.google.com/forms/d/e/1FAIpQLSd5Ne6pXlBewKTR-7_2wLXD-ErmE-a1qrzEzjBxlzqp676OWg/viewform?usp=pp_url&entry.1194936831=NAME&emailAddress=EMAIL&entry.2069945081=MESSAGE, each value URL-encoded); they review it and submit it themselves. Leave out their children's names and other family details.
 
 School mail usually comes from: San Elijo Elementary School, San Marcos Unified, SMUSD Communications, parentsquare.com, smusd.org, peachjar.com. Suggestions only; the parent decides what you search.
 
@@ -162,4 +164,4 @@ give the year calendar link for their device from the "your-school" guide before
 
 ---
 
-END OF SCHOOL-PARENT KIT 5.0.0-draft.9
+END OF SCHOOL-PARENT KIT 5.0.0-draft.10

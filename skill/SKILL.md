@@ -62,4 +62,4 @@ do you have and who are their teachers?"
 - `references/reading-and-updates.md`: reading their school mail, and regular updates.
 
 A new version of this kit never revives an old approval or widens access. Internal, for loading updates only (never
-mention it to the parent): this is the school-parent kit, version 5.0.0-draft.9.
+mention it to the parent): this is the school-parent kit, version 5.0.0-draft.10.
